@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BenchBase">
+    <defName>MWP_CraftingTable</defName>
+    <label>MWP Gun Attachment Table</label>
+    <description>A Table designed to add attachments onto MWP guns.</description>
+    <thingClass>Building_WorkTable</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Production/MWBench/Gunsmith</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3.5,1.5)</drawSize>
+    </graphicData>
+
+    <size>(3,1)</size>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>true</useHitPoints>
+    <passability>PassThroughOnly</passability>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+
+    <statBases>
+      <WorkToBuild>4000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-2</Cleanliness>
+      <WorkTableWorkSpeedFactor>1.0</WorkTableWorkSpeedFactor>
+    </statBases>
+
+    <designationCategory>Production</designationCategory>
+
+    <costList>
+      <Steel>150</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+
+    <researchPrerequisites>
+      <li>GOG_Research_Industrialisation</li>
+    </researchPrerequisites>
+
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+
+    <recipes/>
+
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+
+    <constructEffect>ConstructMetal</constructEffect>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
+</Defs>

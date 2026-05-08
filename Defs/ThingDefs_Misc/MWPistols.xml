@@ -1,0 +1,3654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+                                                                                       <!-- MWII 2022 -->
+  
+                                                                           <!-- P220, P890 -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_P890_PST</defName>
+    <label>P890 (P220)</label>
+    <description>A streamlined handgun designed for straightforward handling and precise shot placement. Chambered for a heavier cartridge, it delivers strong stopping power with a steady, deliberate firing rhythm while maintaining a relatively slim profile.</description>
+    <graphicData>
+      <texPath>Things/Weapons/P890</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_P890</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>22500</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_PicRails</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>15</Steel>
+    <Chemfuel>15</Chemfuel>
+    <ComponentIndustrial>4</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_45ACP_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>28</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_P890</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>4</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>130</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_P890</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPLE</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>
+  <!-- P890 INF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_P890_INF_PST</defName>
+    <label>P890 INF (P220)</label>
+    <description>A streamlined handgun designed for straightforward handling and precise shot placement. Chambered for a heavier cartridge, it delivers strong stopping power with a steady, deliberate firing rhythm while maintaining a relatively slim profile. INF stands for Infantry. This variant represents the standardise weapon used by a soldier. It's good in build and good at medium to long range.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/P890 INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_P890</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_PicRails</li>
+    <li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_P890_PST>1</MWII_Gun_P890_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_45ACP_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>30</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_P890</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>4</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>130</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_P890</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPLE</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>
+  <!-- P890  SF -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_P890_SF_PST</defName>
+    <label>P890 SF (P220)</label>
+    <description>A streamlined handgun designed for straightforward handling and precise shot placement. Chambered for a heavier cartridge, it delivers strong stopping power with a steady, deliberate firing rhythm while maintaining a relatively slim profile. SF stands for Special Forces. This variant is equipped with a suppressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/P890 SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_P890</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_PicRails</li>
+    <li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_P890_PST>1</MWII_Gun_P890_PST>
+    <ComponentIndustrial>2</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_45ACP_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>30</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_P890_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>4</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>130</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_P890</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUSAStealth</li>
+    <li>MWPLEStealth</li>
+    <li>MWPCIVStealth</li>
+    </weaponTags>
+
+  </ThingDef>
+  <!-- P890  SNP -->
+		 <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_P890_SNP_PST</defName>
+    <label>P890 SNP (P220)</label>
+    <description>A streamlined handgun designed for straightforward handling and precise shot placement. Chambered for a heavier cartridge, it delivers strong stopping power with a steady, deliberate firing rhythm while maintaining a relatively slim profile.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SNP/P890 SNP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_P890</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SNP</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.1</AccuracyTouch>
+      <AccuracyShort>0.1</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.7</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_PicRails</li>
+    <li>GOG_Research_VariScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_P890_PST>1</MWII_Gun_P890_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_45ACP_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>36</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_P890</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+          <equippedStatOffsets>
+  <MoveSpeed>-0.05</MoveSpeed>
+</equippedStatOffsets>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>4</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>130</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_P890</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPLE</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>										  
+ 
+  
+                                                                           <!-- Desert Eagle, 50 GS  -->
+															  
+	<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_50GS_PST</defName>
+    <label>.50 GS (Desert Eagle)</label>
+    <description>Built around a gas-operated system rarely seen in handguns, this design delivers extreme power at the cost of weight and recoil. Its heavy frame helps manage the force, but each shot remains deliberate, favoring impact over speed.</description>
+    <graphicData>
+      <texPath>Things/Weapons/50GS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_50GS</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>28500</WorkToMake>
+      <Mass>1.8</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_ModWep</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>30</Steel>
+    <ComponentIndustrial>5</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_50AE_Bullet</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>30</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_50GS</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>7</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>130</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_50GS</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPISL</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>														  
+															  
+  <!-- 50 GS INF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_50GS_INF_PST</defName>
+    <label>.50 GS INF (Desert Eagle)</label>
+    <description>Built around a gas-operated system rarely seen in handguns, this design delivers extreme power at the cost of weight and recoil. Its heavy frame helps manage the force, but each shot remains deliberate, favoring impact over speed.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/50GS INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_50GS</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>1.8</Mass>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.8</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_ModWep</li>
+    <li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_50GS_PST>1</MWII_Gun_50GS_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_50AE_Bullet</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>35</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_50GS</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>7</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>130</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_50GS</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPISL</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	
+
+  
+  <!-- 50 GS  SF -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_50GS_SF_PST</defName>
+    <label>.50 GS SF (Desert Eagle)</label>
+    <description>Built around a gas-operated system rarely seen in handguns, this design delivers extreme power at the cost of weight and recoil. Its heavy frame helps manage the force, but each shot remains deliberate, favoring impact over speed. SF stands for Special Forces. This variant is equipped with a suppressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/50GS SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_50GS</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.9</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_ModWep</li>
+    <li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_50GS_PST>1</MWII_Gun_50GS_PST>
+    <ComponentIndustrial>2</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_50AE_Bullet</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>32</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_50GS_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>7</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>130</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_50GS</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUSAStealth</li>
+    <li>MWPISLStealth</li>
+    <li>MWPNEUTRALStealth</li>
+    <li>MWPCIVStealth</li>
+    <li>MWPINSURGENTStealth</li>
+    </weaponTags>
+
+  </ThingDef>														  
+  <!-- 50 GS  SNP -->
+    <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_50GS_SNP_PST</defName>
+    <label>.50 GS SNP (Desert Eagle)</label>
+    <description>Built around a gas-operated system rarely seen in handguns, this design delivers extreme power at the cost of weight and recoil. Its heavy frame helps manage the force, but each shot remains deliberate, favoring impact over speed.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SNP/50GS SNP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_50GS</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SNP</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.8</Mass>
+      <AccuracyTouch>0.1</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.9</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_ModWep</li>
+    <li>GOG_Research_VariScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_50GS_PST>1</MWII_Gun_50GS_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_50AE_Bullet</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>38</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_50GS</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>7</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>130</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_50GS</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPISL</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	
+													  
+ 
+
+
+                                                                             <!-- Glock 17, X12  -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_X12_PST</defName>
+    <label>X12 (Glock 17)</label>
+    <description>A streamlined handgun designed for straightforward handling and precise shot placement. Chambered for a heavier cartridge, it delivers strong stopping power with a steady, deliberate firing rhythm while maintaining a relatively slim profile.</description>
+    <graphicData>
+      <texPath>Things/Weapons/X12</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_X12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>21000</WorkToMake>
+      <Mass>1.1</Mass>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_Polymer</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>5</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <Chemfuel>20</Chemfuel>
+    <ComponentIndustrial>4</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>28</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_X12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+          <equippedStatOffsets>
+  <MoveSpeed>-0.05</MoveSpeed>
+</equippedStatOffsets>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.37,0.072)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>80</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_X12</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUK</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPLE</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>															  
+															  
+															  
+  <!-- X12 INF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_X12_INF_PST</defName>
+    <label>X12 INF (Glock 17)</label>
+    <description>A streamlined handgun designed for straightforward handling and precise shot placement. Chambered for a heavier cartridge, it delivers strong stopping power with a steady, deliberate firing rhythm while maintaining a relatively slim profile. INF stands for Infantry. This variant represents the standardise weapon used by a soldier. It's good in build and good at medium to long range.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/X12 INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_X12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>1.1</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_Polymer</li>
+  <li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_X12_PST>1</MWII_Gun_X12_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>33</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_X12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+          <equippedStatOffsets>
+  <MoveSpeed>-0.05</MoveSpeed>
+</equippedStatOffsets>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.37,0.072)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>80</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_X12</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUK</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPLE</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>		
+  
+  <!-- X12  SF -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_X12_SF_PST</defName>
+    <label>X12 SF (Glock 17)</label>
+    <description>A streamlined handgun designed for straightforward handling and precise shot placement. Chambered for a heavier cartridge, it delivers strong stopping power with a steady, deliberate firing rhythm while maintaining a relatively slim profile. SF stands for Special Forces. This variant is equipped with a suppressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/X12 SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_X12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_Polymer</li>
+  <li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_X12_PST>1</MWII_Gun_X12_PST>
+    <ComponentIndustrial>4</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_X12_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>80</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_X12</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUKStealth</li>
+    <li>MWPNEUTRALStealth</li>
+    <li>MWPLEStealth</li>
+    <li>MWPCIVStealth</li>
+    </weaponTags>
+
+  </ThingDef>	
+  <!-- X12  SNP -->
+			<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_X12_SNP_PST</defName>
+    <label>X12 SNP (Glock 17)</label>
+    <description>A streamlined handgun designed for straightforward handling and precise shot placement. Chambered for a heavier cartridge, it delivers strong stopping power with a steady, deliberate firing rhythm while maintaining a relatively slim profile.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SNP/X12 SNP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_X12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SNP</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.1</Mass>
+      <AccuracyTouch>0.1</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.8</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_Polymer</li>
+  <li>GOG_Research_VariScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_X12_PST>1</MWII_Gun_X12_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_45ACP_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>36</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_X12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+          <equippedStatOffsets>
+  <MoveSpeed>-0.05</MoveSpeed>
+</equippedStatOffsets>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.37,0.072)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>80</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_X12</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUK</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPLE</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>													  
+ 
+                                                                               <!-- S&W 300 Magnum, Basilisk  -->
+	<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Basilisk_PST</defName>
+    <label>Basilisk (300 Magnum)</label>
+    <description>A high-power cartridge designed for long-range performance, delivering strong velocity and energy over extended distances. Its increased recoil reflects its capability, favoring precision and impact where range and penetration are critical.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Basilisk</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Basilisk</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>26000</WorkToMake>
+      <Mass>1.6</Mass>
+      <AccuracyTouch>0.4</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.7</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_ModWep</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>25</Steel>
+    <ComponentIndustrial>4</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_300Magnum_Bullet</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>30</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Basilisk</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>40</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Basilisk</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>Revolver</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+    </ThingDef>														  
+															  
+															  
+  <!-- Basilisk INF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Basilisk_INF_PST</defName>
+    <label>Basilisk INF (300 Magnum)</label>
+    <description>A high-power cartridge designed for long-range performance, delivering strong velocity and energy over extended distances. Its increased recoil reflects its capability, favoring precision and impact where range and penetration are critical.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/Basilisk INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Basilisk</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>1.6</Mass>
+      <AccuracyTouch>0.35</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.8</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_ModWep</li>
+  <li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_Basilisk_PST>1</MWII_Gun_Basilisk_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_300Magnum_Bullet</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>35</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Basilisk</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>40</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Basilisk</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>Revolver</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+    </ThingDef>				
+  <!-- Basilisk   SNP -->
+
+   <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Basilisk_SNP_PST</defName>
+    <label>Basilisk SNP (300 Magnum)</label>
+    <description>A high-power cartridge designed for long-range performance, delivering strong velocity and energy over extended distances. Its increased recoil reflects its capability, favoring precision and impact where range and penetration are critical.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SNP/Basilisk SNP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Basilisk</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SNP</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.6</Mass>
+      <AccuracyTouch>0.1</AccuracyTouch>
+      <AccuracyShort>0.3</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.9</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_ModWep</li>
+  <li>GOG_Research_VariScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_Basilisk_PST>1</MWII_Gun_Basilisk_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_300Magnum_Bullet</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>38</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Basilisk</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>40</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Basilisk</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>Revolver</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+    </ThingDef>	
+
+
+                                                                               <!-- Glock 18, X13 Auto  -->
+															  
+		<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_X13Auto_PST</defName>
+    <label>X13 Auto (Glock 18)</label>
+    <description>A fully automatic handgun built for extreme rate of fire in a compact form. Its lightweight frame allows rapid bursts at close range, emphasizing volume and speed over precision.</description>
+    <graphicData>
+      <texPath>Things/Weapons/X13 Auto</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_X12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>22500</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_Polymer</li>
+  <li>GOG_Research_AutoPistol</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>20</Steel>
+    <Chemfuel>20</Chemfuel>
+    <ComponentIndustrial>5</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>25</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_X12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+          <equippedStatOffsets>
+  <MoveSpeed>-0.05</MoveSpeed>
+</equippedStatOffsets>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.37,0.072)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>120</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_X12Mag24</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>AutoPistol</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPINSURGENT</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>														  
+															  
+  <!-- X13 Auto INF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_X13Auto_INF_PST</defName>
+    <label>X13 Auto INF (Glock 18)</label>
+    <description>A fully automatic handgun built for extreme rate of fire in a compact form. Its lightweight frame allows rapid bursts at close range, emphasizing volume and speed over precision. INF stands for Infantry. This variant represents the standardise weapon used by a soldier. It's good in build and good at medium to long range.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/X13 Auto INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_X12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_Polymer</li>
+  <li>GOG_Research_AutoPistol</li>
+  <li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_X13Auto_PST>1</MWII_Gun_X13Auto_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>30</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_X12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.37,0.072)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>120</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_X12Mag24</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>AutoPistol</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPINSURGENT</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>		
+  
+  <!-- X13 Auto  SF -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_X13Auto_SF_PST</defName>
+    <label>X13 Auto SF (Glock 18)</label>
+    <description>A fully automatic handgun built for extreme rate of fire in a compact form. Its lightweight frame allows rapid bursts at close range, emphasizing volume and speed over precision. SF stands for Special Forces. This variant is equipped with a suppressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/X13 Auto SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_X12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.3</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_Polymer</li>
+  <li>GOG_Research_AutoPistol</li>
+  <li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_X13Auto_PST>1</MWII_Gun_X13Auto_PST>
+    <ComponentIndustrial>2</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>28</range>
+        <burstShotCount>6</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_X12_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>140</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_X12Mag24</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>AutoPistol</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPINSURGENTStealth</li>
+    <li>MWPCIVStealth</li>
+    </weaponTags>
+
+  </ThingDef>		
+  <!-- X13 Auto SNP -->
+	<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_X13Auto_SNP_PST</defName>
+    <label>X13 Auto SNP (Glock 18)</label>
+    <description>A fully automatic handgun built for extreme rate of fire in a compact form. Its lightweight frame allows rapid bursts at close range, emphasizing volume and speed over precision.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SNP/X13 Auto SNP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_X12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SNP</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.2</Mass>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.8</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_Polymer</li>
+  <li>GOG_Research_AutoPistol</li>
+  <li>GOG_Research_VariScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_X13Auto_PST>1</MWII_Gun_X13Auto_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>33</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_X12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+          <equippedStatOffsets>
+  <MoveSpeed>-0.05</MoveSpeed>
+</equippedStatOffsets>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.37,0.072)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>120</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_X12</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>AutoPistol</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPINSURGENT</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>		
+
+                                                                               <!-- G18 Roni, X13 Impact  -->
+															  
+		<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_X13Impact_PST</defName>
+    <label>X13 Impact (Glock 18 Roni)</label>
+    <description>Housed within a stabilizing conversion kit, this configuration transforms the platform into a compact carbine-style system. Added support points and improved handling make its high rate of fire more controllable, extending its effectiveness beyond typical handgun range.</description>
+    <graphicData>
+      <texPath>Things/Weapons/X13 Impact</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_X13Impact</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>23500</WorkToMake>
+      <Mass>1.3</Mass>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_PicRails</li>
+  <li>GOG_Research_AutoPistol</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>25</Steel>
+    <Chemfuel>25</Chemfuel>
+    <ComponentIndustrial>7</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>29</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_X12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.446,0.052)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>7</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>120</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_X12Mag33</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>AutoPistol</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPINSURGENT</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>																  
+															  
+  <!-- X13 Impact INF -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_X13Impact_INF_PST</defName>
+    <label>X13 Impact INF (Glock 18 Roni)</label>
+    <description>Housed within a stabilizing conversion kit, this configuration transforms the platform into a compact carbine-style system. Added support points and improved handling make its high rate of fire more controllable, extending its effectiveness beyond typical handgun range.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/X13 Impact INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_X13Impact</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>1.3</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_PicRails</li>
+  <li>GOG_Research_AutoPistol</li>
+  <li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_X13Impact_PST>1</MWII_Gun_X13Impact_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>34</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_X12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+          <equippedStatOffsets>
+  <MoveSpeed>-0.05</MoveSpeed>
+</equippedStatOffsets>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.446,0.052)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>7</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>120</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_X12Mag33</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>AutoPistol</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPINSURGENT</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>			
+  
+  <!-- X13 Impact  SF -->
+	<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_X13Impact_SF_PST</defName>
+    <label>X13 Impact SF (Glock 18 Roni)</label>
+    <description>Housed within a stabilizing conversion kit, this configuration transforms the platform into a compact carbine-style system. Added support points and improved handling make its high rate of fire more controllable, extending its effectiveness beyond typical handgun range. SF stands for Special Forces. This variant is equipped with a suppressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/X13 Impact SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_X13Impact</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>23500</WorkToMake>
+      <Mass>1.3</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_PicRails</li>
+  <li>GOG_Research_AutoPistol</li>
+  <li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_X13Impact_PST>1</MWII_Gun_X13Impact_PST>
+    <ComponentIndustrial>2</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>31</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_X12_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>7</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>140</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_X12Mag33</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>AutoPistol</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPINSURGENTStealth</li>
+    <li>MWPCIVStealth</li>
+    </weaponTags>
+    </ThingDef>
+  <!-- X13 Impact  SNP -->
+    	<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_X13Impact_SNP_PST</defName>
+    <label>X13 Impact SNP (Glock 18 Roni)</label>
+    <description>Housed within a stabilizing conversion kit, this configuration transforms the platform into a compact carbine-style system. Added support points and improved handling make its high rate of fire more controllable, extending its effectiveness beyond typical handgun range.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SNP/X13 Impact SNP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_X13Impact</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SNP</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.3</Mass>
+      <AccuracyTouch>0.2</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.9</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_PicRails</li>
+  <li>GOG_Research_AutoPistol</li>
+  <li>GOG_Research_VariScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_X13Impact_PST>1</MWII_Gun_X13Impact_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>37</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_X12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+              <equippedStatOffsets>
+  <MoveSpeed>-0.05</MoveSpeed>
+</equippedStatOffsets>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.446,0.052)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>80</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_X12Mag24</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>AutoPistol</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPINSURGENT</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+    </ThingDef>
+
+
+                                                                               <!--  Deagle Auto Mod, GS Magna  -->
+		<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_50GSMagna_PST</defName>
+    <label>.50 GS Magna (Deagle Auto Mod)</label>
+    <description>Modified for automatic fire, this configuration pushes the platform beyond its original design limits. The heavy frame helps absorb some of the force, but its extreme recoil and power make it difficult to control, favoring raw output over precision.</description>
+    <graphicData>
+      <texPath>Things/Weapons/50GS Magna</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_50GS</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>29500</WorkToMake>
+      <Mass>1.9</Mass>
+      <AccuracyTouch>0.5</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.3</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_ModWep</li>
+  <li>GOG_Research_AutoPistol</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>10</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_50GS_PST>1</MWII_Gun_50GS_PST>
+    <ComponentIndustrial>3</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_50AE_Bullet</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>30</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_50GS</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>2</burstsBeforeCooldown>
+<ticksBetweenBursts>30</ticksBetweenBursts>
+<cooldownTicks>130</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_50GS</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>															  
+															  
+															  
+  <!-- GS Magna INF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_50GSMagna_INF_PST</defName>
+    <label>.50 GS Magna INF (Deagle Auto Mod)</label>
+    <description>Modified for automatic fire, this configuration pushes the platform beyond its original design limits. The heavy frame helps absorb some of the force, but its extreme recoil and power make it difficult to control, favoring raw output over precision. INF stands for Infantry. This variant represents the standardise weapon used by a soldier. It's good in build and good at medium to long range.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/50GS Magna INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_50GS</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>1.9</Mass>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_ModWep</li>
+  <li>GOG_Research_AutoPistol</li>
+  <li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>10</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_50GSMagna_PST>1</MWII_Gun_50GSMagna_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_50AE_Bullet</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>35</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_50GS</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>2</burstsBeforeCooldown>
+<ticksBetweenBursts>30</ticksBetweenBursts>
+<cooldownTicks>130</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_50GS</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>				
+  
+  <!-- GS Magna  SF -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_50GSMagna_SF_PST</defName>
+    <label>.50 GS Magna SF (Deagle Auto Mod)</label>
+    <description>Modified for automatic fire, this configuration pushes the platform beyond its original design limits. The heavy frame helps absorb some of the force, but its extreme recoil and power make it difficult to control, favoring raw output over precision. SF stands for Special Forces. This variant is equipped with a suppressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/50GS Magna SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_50GS</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>2.0</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.25</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_ModWep</li>
+  <li>GOG_Research_AutoPistol</li>
+  <li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>10</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_50GSMagna_PST>1</MWII_Gun_50GSMagna_PST>
+    <ComponentIndustrial>3</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_50AE_Bullet</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>32</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_50GS_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>2</burstsBeforeCooldown>
+<ticksBetweenBursts>30</ticksBetweenBursts>
+<cooldownTicks>130</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_50GS</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPCIVStealth</li>
+    <li>MWPINSURGENTStealth</li>
+    </weaponTags>
+
+  </ThingDef>				
+  <!-- GS Magna  SNP -->
+   <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_50GSMagna_SNP_PST</defName>
+    <label>.50 GS Magna SNP (Deagle Auto Mod)</label>
+    <description>Modified for automatic fire, this configuration pushes the platform beyond its original design limits. The heavy frame helps absorb some of the force, but its extreme recoil and power make it difficult to control, favoring raw output over precision.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SNP/50GS Magna SNP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_50GS</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SNP</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.9</Mass>
+      <AccuracyTouch>0.1</AccuracyTouch>
+      <AccuracyShort>0.3</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.7</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_ModWep</li>
+  <li>GOG_Research_AutoPistol</li>
+  <li>GOG_Research_VariScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>10</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_50GSMagna_PST>1</MWII_Gun_50GSMagna_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_50AE_Bullet</defaultProjectile>
+        <warmupTime>0.8</warmupTime>
+        <range>38</range>
+        <burstShotCount>2</burstShotCount>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_50GS</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>2</burstsBeforeCooldown>
+<ticksBetweenBursts>30</ticksBetweenBursts>
+<cooldownTicks>130</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_50GS</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>				
+
+                                                                               <!-- TEC-9, FTAC Siege  -->
+															  
+	<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_FTACSiege_PST</defName>
+    <label>FTAC Siege (TEC-9)</label>
+    <description>A simple automatic weapon built around a blowback system with a tubular receiver. Its high rate of fire and large magazine capacity favor sustained bursts at close range, though its basic design makes control more difficult during continuous fire.</description>
+    <graphicData>
+      <texPath>Things/Weapons/FTAC Siege</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_FTACSiege</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>1.4</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+  <li>GOG_Research_AutoPistol</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>30</Steel>
+    <ComponentIndustrial>5</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>25</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_FTACSiege</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>7</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_FTACSiege</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>AutoPistol</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPINSURGENT</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>															  
+															  
+  <!-- FTAC Siege INF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_FTACSiege_INF_PST</defName>
+    <label>FTAC Siege INF (TEC-9)</label>
+    <description>A simple automatic weapon built around a blowback system with a tubular receiver. Its high rate of fire and large magazine capacity favor sustained bursts at close range, though its basic design makes control more difficult during continuous fire.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/FTAC Siege INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_FTACSiege</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>1.4</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+  <li>GOG_Research_AutoPistol</li>
+  <li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_FTACSiege_PST>1</MWII_Gun_FTACSiege_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>30</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_FTACSiege</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>7</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_FTACSiege</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>AutoPistol</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPINSURGENT</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>		
+  
+  <!-- FTAC Siege  SF -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_FTACSiege_SF_PST</defName>
+    <label>FTAC Siege SF (TEC-9)</label>
+    <description>A simple automatic weapon built around a blowback system with a tubular receiver. Its high rate of fire and large magazine capacity favor sustained bursts at close range, though its basic design makes control more difficult during continuous fire. SF stands for Special Forces. This variant is equipped with a supressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficent.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/FTAC Siege SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_FTACSiege</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.6</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+  <li>GOG_Research_AutoPistol</li>
+  <li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_FTACSiege_PST>1</MWII_Gun_FTACSiege_PST>
+    <ComponentIndustrial>2</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>27</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_FTACSiege_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>7</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_FTACSiege</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>AutoPistol</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPINSURGENTStealth</li>
+    <li>MWPCIVStealth</li>
+    </weaponTags>
+
+  </ThingDef>			
+  <!-- FTAC Siege  SNP -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_FTACSiege_SNP_PST</defName>
+    <label>FTAC Siege SNP (TEC-9)</label>
+    <description>A simple automatic weapon built around a blowback system with a tubular receiver. Its high rate of fire and large magazine capacity favor sustained bursts at close range, though its basic design makes control more difficult during continuous fire.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SNP/FTAC Siege SNP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_FTACSiege</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SNP</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.4</Mass>
+      <AccuracyTouch>0.2</AccuracyTouch>
+      <AccuracyShort>0.3</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.7</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+  <li>GOG_Research_AutoPistol</li>
+  <li>GOG_Research_VariScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_FTACSiege_PST>1</MWII_Gun_FTACSiege_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>25</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_FTACSiege</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>7</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_FTACSiege</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>AutoPistol</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPINSURGENT</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>			  
+
+
+                                                                                 <!-- Staccato P, 9MM Daemon  -->
+															  
+	<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_9MMDaemon_PST</defName>
+    <label>9MM Daemon (Staccato P)</label>
+    <description>A precision-focused handgun built on a refined frame with a crisp trigger and strong recoil control. Its design favors fast, accurate shooting, allowing confident shot placement during rapid engagements.</description>
+    <graphicData>
+      <texPath>Things/Weapons/9MM Daemon</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_9MMDaemon</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>23500</WorkToMake>
+      <Mass>1.3</Mass>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_Modernisation</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>25</Steel>
+    <ComponentIndustrial>5</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>28</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_9MMDaemon</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>120</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_9MMDaemon</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPLE</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>																  
+															  
+  <!-- 9MM Daemon INF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_9MMDaemon_INF_PST</defName>
+    <label>9MM Daemon INF (Staccato P)</label>
+    <description>A precision-focused handgun built on a refined frame with a crisp trigger and strong recoil control. Its design favors fast, accurate shooting, allowing confident shot placement during rapid engagements. INF stands for Infantry. This variant represents the standardise weapon used by a soldier. It's good in build and good at medium to long range.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/9MM Daemon INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_9MMDaemon</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>1.3</Mass>
+      <AccuracyTouch>0.55</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_Modernisation</li>
+  <li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_9MMDaemon_PST>1</MWII_Gun_9MMDaemon_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>43</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_9MMDaemon</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>120</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_9MMDaemon</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPLE</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>		
+  <!-- 9MM Daemon  SF -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_9MMDaemon_SF_PST</defName>
+    <label>9MM Daemon SF (Staccato P)</label>
+    <description>A precision-focused handgun built on a refined frame with a crisp trigger and strong recoil control. Its design favors fast, accurate shooting, allowing confident shot placement during rapid engagements. SF stands for Special Forces. This variant is equipped with a suppressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/9MM Daemon SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_9MMDaemon</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.4</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_Modernisation</li>
+  <li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_9MMDaemon_PST>1</MWII_Gun_9MMDaemon_PST>
+    <ComponentIndustrial>2</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>30</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_9MMDaemon</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>120</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_9MMDaemon</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUSAStealth</li>
+    <li>MWPLEStealth</li>
+    <li>MWPCIVStealth</li>
+    </weaponTags>
+
+  </ThingDef>		
+  <!-- 9MM Daemon  SNP -->
+   <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_9MMDaemon_SNP_PST</defName>
+    <label>9MM Daemon SNP (Staccato P)</label>
+    <description>A precision-focused handgun built on a refined frame with a crisp trigger and strong recoil control. Its design favors fast, accurate shooting, allowing confident shot placement during rapid engagements.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SNP/9MM Daemon SNP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_9MMDaemon</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_PST_SNP</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>1.3</Mass>
+      <AccuracyTouch>0.2</AccuracyTouch>
+      <AccuracyShort>0.3</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.8</AccuracyLong>
+      <RangedWeapon_Cooldown>0.8</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+	<li>GOG_Research_Modernisation</li>
+  <li>GOG_Research_VariScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_9MMDaemon_PST>1</MWII_Gun_9MMDaemon_PST>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_9mm_Bullet</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>36</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_9MMDaemon</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshTwo</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+                    <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>20</ticksBetweenBursts>
+<cooldownTicks>120</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_9MMDaemon</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPPST</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPLE</li>
+    <li>MWPCIV</li>
+    </weaponTags>
+
+  </ThingDef>		
+ 
+  </Defs>

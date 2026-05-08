@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	  
+	  <ThingCategoryDef>
+        <defName>MWP_ThingCategory_MW</defName>
+        <label>MW Pack</label>
+        <parent>Weapons</parent>
+      </ThingCategoryDef>
+
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_AR</defName>
+        <label>Assault Rifles</label>
+        <parent>MWP_ThingCategory_MW</parent>
+      </ThingCategoryDef>
+
+	  <ThingCategoryDef>
+        <defName>MWP_ThingCategory_BR</defName>
+        <label>Battle Rifles</label>
+        <parent>MWP_ThingCategory_MW</parent>
+      </ThingCategoryDef>
+
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SMG</defName>
+        <label>Sub Machine Guns</label>
+        <parent>MWP_ThingCategory_MW</parent>
+      </ThingCategoryDef>
+
+ <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SG</defName>
+        <label>Shotguns</label>
+        <parent>MWP_ThingCategory_MW</parent>
+      </ThingCategoryDef>
+
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_LMG</defName>
+        <label>Light Machine Guns</label>
+        <parent>MWP_ThingCategory_MW</parent>
+      </ThingCategoryDef>
+
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_DMR</defName>
+        <label>Marksman Rifles</label>
+        <parent>MWP_ThingCategory_MW</parent>
+      </ThingCategoryDef>
+
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SR</defName>
+        <label>Sniper Rifles</label>
+        <parent>MWP_ThingCategory_MW</parent>
+      </ThingCategoryDef>
+
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_Pistols</defName>
+        <label>Pistols</label>
+        <parent>MWP_ThingCategory_MW</parent>
+      </ThingCategoryDef>
+
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_LCH</defName>
+        <label>Launchers</label>
+        <parent>MWP_ThingCategory_MW</parent>
+      </ThingCategoryDef>
+
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SPL</defName>
+        <label>Special Weapons</label>
+        <parent>MWP_ThingCategory_MW</parent>
+      </ThingCategoryDef>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_AR_STK</defName>
+        <label>Stock</label>
+        <parent>MWP_ThingCategory_AR</parent>
+      </ThingCategoryDef>
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_AR_INF</defName>
+        <label>Infantry</label>
+        <parent>MWP_ThingCategory_AR</parent>
+      </ThingCategoryDef>
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_AR_CQC</defName>
+        <label>Close Quaters Combat</label>
+        <parent>MWP_ThingCategory_AR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_AR_SF</defName>
+        <label>Special Forces</label>
+        <parent>MWP_ThingCategory_AR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_AR_THM</defName>
+        <label>Thermal</label>
+        <parent>MWP_ThingCategory_AR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_AR_GL</defName>
+        <label>Grenade Launcher</label>
+        <parent>MWP_ThingCategory_AR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_AR_UBS</defName>
+        <label>Underbarrel Shotgun</label>
+        <parent>MWP_ThingCategory_AR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_AR_IAR</defName>
+        <label>Infantry Auto Rifle</label>
+        <parent>MWP_ThingCategory_AR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_AR_GLD</defName>
+        <label>Gold</label>
+        <parent>MWP_ThingCategory_AR</parent>
+      </ThingCategoryDef>
+            <ThingCategoryDef>
+        <defName>MWP_ThingCategory_AR_SNP</defName>
+        <label>Sniper</label>
+        <parent>MWP_ThingCategory_AR</parent>
+      </ThingCategoryDef>
+  <ThingCategoryDef>
+        <defName>MWP_ThingCategory_AR_SPL</defName>
+        <label>Special</label>
+        <parent>MWP_ThingCategory_AR</parent>
+      </ThingCategoryDef>
+
+
+
+
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_BR_STK</defName>
+        <label>Stock</label>
+        <parent>MWP_ThingCategory_BR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_BR_INF</defName>
+        <label>Infantry</label>
+        <parent>MWP_ThingCategory_BR</parent>
+      </ThingCategoryDef>
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_BR_CQC</defName>
+        <label>Close Quaters Combat</label>
+        <parent>MWP_ThingCategory_BR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_BR_SF</defName>
+        <label>Special Forces</label>
+        <parent>MWP_ThingCategory_BR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_BR_THM</defName>
+        <label>Thermal</label>
+        <parent>MWP_ThingCategory_BR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_BR_UB</defName>
+        <label>Underbarrels</label>
+        <parent>MWP_ThingCategory_BR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_BR_IAR</defName>
+        <label>Infantry Auto Rifle</label>
+        <parent>MWP_ThingCategory_BR</parent>
+      </ThingCategoryDef>
+        <ThingCategoryDef>
+        <defName>MWP_ThingCategory_BR_GLD</defName>
+        <label>Gold</label>
+        <parent>MWP_ThingCategory_BR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_BR_SNP</defName>
+        <label>Sniper</label>
+        <parent>MWP_ThingCategory_BR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_BR_SPL</defName>
+        <label>Special</label>
+        <parent>MWP_ThingCategory_BR</parent>
+      </ThingCategoryDef>
+
+
+
+
+
+
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_SMG_STK</defName>
+        <label>Stock</label>
+        <parent>MWP_ThingCategory_SMG</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SMG_INF</defName>
+        <label>Infantry</label>
+        <parent>MWP_ThingCategory_SMG</parent>
+      </ThingCategoryDef>
+        <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SMG_CQC</defName>
+        <label>Close Quaters Combat</label>
+        <parent>MWP_ThingCategory_SMG</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SMG_SF</defName>
+        <label>Special Forces</label>
+        <parent>MWP_ThingCategory_SMG</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SMG_THM</defName>
+        <label>Thermal</label>
+        <parent>MWP_ThingCategory_SMG</parent>
+      </ThingCategoryDef>
+       <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SMG_IAR</defName>
+        <label>Infantry Auto Rifle</label>
+        <parent>MWP_ThingCategory_SMG</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SMG_GLD</defName>
+        <label>Gold</label>
+        <parent>MWP_ThingCategory_SMG</parent>
+      </ThingCategoryDef>
+
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_SG_STK</defName>
+        <label>Stock</label>
+        <parent>MWP_ThingCategory_SG</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SG_INF</defName>
+        <label>Infantry</label>
+        <parent>MWP_ThingCategory_SG</parent>
+      </ThingCategoryDef>
+        <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SG_CQC</defName>
+        <label>Close Quaters Combat</label>
+        <parent>MWP_ThingCategory_SG</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SG_SF</defName>
+        <label>Special Forces</label>
+        <parent>MWP_ThingCategory_SG</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SG_THM</defName>
+        <label>Thermal</label>
+        <parent>MWP_ThingCategory_SG</parent>
+      </ThingCategoryDef>
+       <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SG_DBR</defName>
+        <label>Dragon Breath</label>
+        <parent>MWP_ThingCategory_SG</parent>
+      </ThingCategoryDef>
+            <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SG_SLG</defName>
+        <label>Slug</label>
+        <parent>MWP_ThingCategory_SG</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SG_GLD</defName>
+        <label>Gold</label>
+        <parent>MWP_ThingCategory_SG</parent>
+      </ThingCategoryDef>
+               <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SG_SPL</defName>
+        <label>Special</label>
+        <parent>MWP_ThingCategory_SG</parent>
+      </ThingCategoryDef>
+
+
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_LMG_STK</defName>
+        <label>Stock</label>
+        <parent>MWP_ThingCategory_LMG</parent>
+      </ThingCategoryDef>
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_LMG_INF</defName>
+        <label>Infantry</label>
+        <parent>MWP_ThingCategory_LMG</parent>
+      </ThingCategoryDef>
+        <ThingCategoryDef>
+        <defName>MWP_ThingCategory_LMG_CQC</defName>
+        <label>Close Quaters Combat</label>
+        <parent>MWP_ThingCategory_LMG</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_LMG_SF</defName>
+        <label>Special Forces</label>
+        <parent>MWP_ThingCategory_LMG</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_LMG_THM</defName>
+        <label>Thermal</label>
+        <parent>MWP_ThingCategory_LMG</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_LMG_GLD</defName>
+        <label>Gold</label>
+        <parent>MWP_ThingCategory_LMG</parent>
+      </ThingCategoryDef>
+            <ThingCategoryDef>
+        <defName>MWP_ThingCategory_LMG_EXT</defName>
+        <label>Extended Mag</label>
+        <parent>MWP_ThingCategory_LMG</parent>
+      </ThingCategoryDef>
+            <ThingCategoryDef>
+        <defName>MWP_ThingCategory_LMG_SNP</defName>
+        <label>Sniper</label>
+        <parent>MWP_ThingCategory_LMG</parent>
+      </ThingCategoryDef>
+            <ThingCategoryDef>
+        <defName>MWP_ThingCategory_LMG_SPL</defName>
+        <label>Special</label>
+        <parent>MWP_ThingCategory_LMG</parent>
+      </ThingCategoryDef>
+
+
+
+
+
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_DMR_STK</defName>
+        <label>Stock</label>
+        <parent>MWP_ThingCategory_DMR</parent>
+      </ThingCategoryDef>
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_DMR_INF</defName>
+        <label>Infantry</label>
+        <parent>MWP_ThingCategory_DMR</parent>
+      </ThingCategoryDef>
+        <ThingCategoryDef>
+        <defName>MWP_ThingCategory_DMR_CQC</defName>
+        <label>Close Quaters Combat</label>
+        <parent>MWP_ThingCategory_DMR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_DMR_SF</defName>
+        <label>Special Forces</label>
+        <parent>MWP_ThingCategory_DMR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_DMR_THM</defName>
+        <label>Thermal</label>
+        <parent>MWP_ThingCategory_DMR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_DMR_GLD</defName>
+        <label>Gold</label>
+        <parent>MWP_ThingCategory_DMR</parent>
+      </ThingCategoryDef>
+  <ThingCategoryDef>
+        <defName>MWP_ThingCategory_DMR_SNP</defName>
+        <label>Sniper</label>
+        <parent>MWP_ThingCategory_DMR</parent>
+      </ThingCategoryDef>
+        <ThingCategoryDef>
+        <defName>MWP_ThingCategory_DMR_RF</defName>
+        <label>Range Finders</label>
+        <parent>MWP_ThingCategory_DMR</parent>
+      </ThingCategoryDef>
+             <ThingCategoryDef>
+        <defName>MWP_ThingCategory_DMR_SPL</defName>
+        <label>Special</label>
+        <parent>MWP_ThingCategory_DMR</parent>
+      </ThingCategoryDef>
+
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_SR_STK</defName>
+        <label>Stock</label>
+        <parent>MWP_ThingCategory_SR</parent>
+      </ThingCategoryDef>
+           <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SR_INF</defName>
+        <label>Infantry</label>
+        <parent>MWP_ThingCategory_SR</parent>
+      </ThingCategoryDef>
+        <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SR_CQC</defName>
+        <label>Close Quaters Combat</label>
+        <parent>MWP_ThingCategory_SR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SR_SF</defName>
+        <label>Special Forces</label>
+        <parent>MWP_ThingCategory_SR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SR_THM</defName>
+        <label>Thermal</label>
+        <parent>MWP_ThingCategory_SR</parent>
+      </ThingCategoryDef>
+           <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SR_SNP</defName>
+        <label>Sniper</label>
+        <parent>MWP_ThingCategory_SR</parent>
+      </ThingCategoryDef>
+     <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SR_GLD</defName>
+        <label>Gold</label>
+        <parent>MWP_ThingCategory_SR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_SR_RF</defName>
+        <label>Range Finder</label>
+        <parent>MWP_ThingCategory_SR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+              <defName>MWP_ThingCategory_SR_EXT</defName>
+        <label>Extended Mag</label>
+        <parent>MWP_ThingCategory_SR</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+              <defName>MWP_ThingCategory_SR_SPL</defName>
+        <label>Special</label>
+        <parent>MWP_ThingCategory_SR</parent>
+      </ThingCategoryDef>
+
+
+
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_PST_STK</defName>
+        <label>Stock</label>
+        <parent>MWP_ThingCategory_Pistols</parent>
+      </ThingCategoryDef>
+<ThingCategoryDef>
+        <defName>MWP_ThingCategory_PST_INF</defName>
+        <label>Infantry</label>
+        <parent>MWP_ThingCategory_Pistols</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_PST_SF</defName>
+        <label>Special Forces</label>
+        <parent>MWP_ThingCategory_Pistols</parent>
+      </ThingCategoryDef>
+      <ThingCategoryDef>
+        <defName>MWP_ThingCategory_PST_SNP</defName>
+        <label>Sniper</label>
+        <parent>MWP_ThingCategory_Pistols</parent>
+      </ThingCategoryDef>
+
+
+
+</Defs>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>GOG Modern Warfare Pack</name>
+  <author>CloakerM8</author>
+
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+
+  <packageId>cloakerm8.GOGMWP</packageId>
+
+  <modDependencies>
+    <li>
+      <packageId>cloakerm8.GOGF</packageId>
+      <displayName>Game of Guns</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+
+  <description>
+A mod pack designed to add every gun from the Modern Warfare series by Infinity Ward. Mainly based around the relaunch but also contains weapons from the original trilogy. Contains 240 separate guns each with variants. Roughly around 1500+ assets total so have some kind of bloat control method.
+  </description>
+</ModMetaData>

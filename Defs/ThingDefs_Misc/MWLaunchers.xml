@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+                                                                                       <!-- MWII 2022 -->
+<!-- RPG-7 -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_RPG7_LCH</defName>
+    <label>RPG-7</label>
+    <description>A reusable launcher that fires unguided rockets, relying on operator aim rather than onboard guidance. Its simple construction and variety of warheads allow it to engage armored targets and fortified positions with direct, high-impact strikes.</description>
+    <graphicData>
+      <texPath>Things/Weapons/RPG7</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.17</drawSize>
+    </graphicData>
+	<equippedStatOffsets>
+     <MoveSpeed>-0.3</MoveSpeed>
+	</equippedStatOffsets>
+    <soundInteract>MWP_Interact_PILA</soundInteract>
+	<techLevel>Industrial</techLevel>
+<thingCategories>
+    <li>MWP_ThingCategory_LCH</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>3.8</Mass>
+      <AccuracyTouch>0.2</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+  <researchPrerequisite>GOG_Research_ATSystems</researchPrerequisite>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>55</Steel>
+    <WoodLog>40</WoodLog>
+    <ComponentIndustrial>4</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+	<verbClass>Verb_LaunchProjectile</verbClass>
+	<hasStandardCommand>true</hasStandardCommand>
+	<defaultProjectile>RPG_Rocket</defaultProjectile>
+	<forcedMissRadius>2.9</forcedMissRadius>
+	<warmupTime>4.25</warmupTime>
+	<range>32</range>
+	<soundCast>MWP_Shot_RPG7</soundCast>
+	<soundCastTail>GunTail_Heavy</soundCastTail>
+	<targetParams>
+	<canTargetLocations>true</canTargetLocations>
+	</targetParams>
+	<muzzleFlashScale>14</muzzleFlashScale>
+	  </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>GunSingleUse</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWP</li>
+      <li>MWPRUS</li>
+      <li>MWPUKR</li>
+      <li>MWPCHA</li>
+      <li>MWPNEUTRAL</li>
+      <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>
+
+<!-- Strela (M3E1) -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_StrelaP_LCH</defName>
+    <label>Strela-P (M3E1)</label>
+    <description>A lightweight recoilless weapon system designed for versatility, capable of firing a wide range of munitions for different targets. Its reusable design and adaptable ammunition types allow it to engage armor, structures, and area targets with flexible, mission-driven use.</description>
+    <graphicData>
+      <texPath>Things/Weapons/StrelaP</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.04</drawSize>
+    </graphicData>
+	<equippedStatOffsets>
+     <MoveSpeed>-0.35</MoveSpeed>
+	</equippedStatOffsets>
+    <soundInteract>MWP_Interact_StrelaP</soundInteract>
+	<techLevel>Industrial</techLevel>
+<thingCategories>
+    <li>MWP_ThingCategory_LCH</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>38500</WorkToMake>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.2</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>7.2</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+  <researchPrerequisite>GOG_Research_ModRecoilSys</researchPrerequisite>
+  <skillRequirements>
+    <Crafting>9</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>60</Steel>
+    <Chemfuel>20</Chemfuel>
+    <ComponentIndustrial>6</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+	<verbClass>Verb_LaunchProjectile</verbClass>
+	<hasStandardCommand>true</hasStandardCommand>
+	<defaultProjectile>Strela_Shell</defaultProjectile>
+	<forcedMissRadius>2.9</forcedMissRadius>
+	<warmupTime>4.25</warmupTime>
+	<range>35</range>
+	<soundCast>MWP_Shot_StrelaP</soundCast>
+	<soundCastTail>GunTail_Heavy</soundCastTail>
+	<targetParams>
+	<canTargetLocations>true</canTargetLocations>
+	</targetParams>
+	<muzzleFlashScale>14</muzzleFlashScale>
+	  </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+	  <li>MWP</li>
+      <li>MWPUSA</li>
+      <li>MWPNATO</li>
+      <li>MWPUK</li>
+      <li>MWPDEU</li>
+      <li>MWPFRA</li>
+      <li>MWPAUS</li>
+      <li>MWPISL</li>
+      <li>MWPUKR</li>
+    </weaponTags>
+
+  </ThingDef>
+  
+  <!-- PILA (SA-25) -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_PILA_LCH</defName>
+    <label>PILA (SA-25)</label>
+    <description>Penetrating Infantry Launcher Armament (PILA). A shoulder-fired missile system designed to engage aerial targets using advanced tracking and guidance. Its portable design allows operators to quickly respond to airborne threats, delivering precise strikes against fast-moving targets with minimal setup time.</description>
+    <graphicData>
+      <texPath>Things/Weapons/PILA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.088</drawSize>
+    </graphicData>
+	<equippedStatOffsets>
+     <MoveSpeed>-0.5</MoveSpeed>
+	</equippedStatOffsets>
+    <soundInteract>MWP_Interact_PILA</soundInteract>
+	<techLevel>Industrial</techLevel>
+<thingCategories>
+    <li>MWP_ThingCategory_LCH</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>32000</WorkToMake>
+      <Mass>4.5</Mass>
+      <AccuracyTouch>0.2</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>1.0</AccuracyMedium>
+      <AccuracyLong>1.0</AccuracyLong>
+      <RangedWeapon_Cooldown>6.4</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+  <researchPrerequisite>GOG_Research_FireForget</researchPrerequisite>
+  <skillRequirements>
+    <Crafting>9</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>65</Steel>
+    <ComponentIndustrial>8</ComponentIndustrial>
+	<Chemfuel>35</Chemfuel>
+  </costList>
+
+    <verbs>
+      <li>
+	<verbClass>Verb_LaunchProjectile</verbClass>
+	<hasStandardCommand>true</hasStandardCommand>
+	<defaultProjectile>PILA_Missile</defaultProjectile>
+	<forcedMissRadius>2.9</forcedMissRadius>
+	<warmupTime>4.25</warmupTime>
+	<range>42</range>
+	<soundCast>MWP_Shot_PILA</soundCast>
+	<soundCastTail>GunTail_Heavy</soundCastTail>
+	<targetParams>
+	<canTargetLocations>true</canTargetLocations>
+	</targetParams>
+	<muzzleFlashScale>14</muzzleFlashScale>
+	  </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>GunSingleUse</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWP</li>
+      <li>MWPRUS</li>
+      <li>MWPUKR</li>
+      <li>MWPCHA</li>
+      <li>MWPNEUTRAL</li>
+      <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>
+  
+  <!-- JOKR -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_JOKR_LCH</defName>
+    <label>JOKR (FGM-148 Javelin)</label>
+    <description>A fire-and-forget anti-armor system that locks onto targets before launch and guides itself after firing. Its top-attack profile allows it to strike armored vehicles at their weakest point, enabling operators to engage and relocate without maintaining line of sight.</description>
+    <graphicData>
+      <texPath>Things/Weapons/JOKR</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+	<equippedStatOffsets>
+     <MoveSpeed>-0.6</MoveSpeed>
+	</equippedStatOffsets>
+    <soundInteract>MWP_Interact_JOKR</soundInteract>
+	<techLevel>Industrial</techLevel>
+<thingCategories>
+    <li>MWP_ThingCategory_LCH</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>45000</WorkToMake>
+      <Mass>6.2</Mass>
+      <AccuracyTouch>0.2</AccuracyTouch>
+      <AccuracyShort>0.4</AccuracyShort>
+      <AccuracyMedium>1.0</AccuracyMedium>
+      <AccuracyLong>1.0</AccuracyLong>
+      <RangedWeapon_Cooldown>6.4</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+  <researchPrerequisite>GOG_Research_FireForget</researchPrerequisite>
+  <skillRequirements>
+    <Crafting>10</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>70</Steel>
+    <Chemfuel>45</Chemfuel>
+    <ComponentIndustrial>9</ComponentIndustrial>
+	
+  </costList>
+
+    <verbs>
+      <li>
+	<verbClass>Verb_LaunchProjectile</verbClass>
+	<hasStandardCommand>true</hasStandardCommand>
+	<defaultProjectile>JOKR_Missile</defaultProjectile>
+	<forcedMissRadius>2.9</forcedMissRadius>
+	<warmupTime>6.25</warmupTime>
+	<range>45</range>
+	<soundAiming>MWP_Aim_JOKR</soundAiming>
+	<soundCast></soundCast>
+	<soundCastTail>GunTail_Heavy</soundCastTail>
+	<targetParams>
+	<canTargetLocations>true</canTargetLocations>
+	</targetParams>
+	<muzzleFlashScale>14</muzzleFlashScale>
+	  </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>GunSingleUse</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWP</li>
+      <li>MWPUSA</li>
+      <li>MWPNATO</li>
+      <li>MWPUK</li>
+      <li>MWPDEU</li>
+      <li>MWPFRA</li>
+      <li>MWPAUS</li>
+      <li>MWPISL</li>
+      <li>MWPUKR</li>
+    </weaponTags>
+
+  </ThingDef>
+
+  </Defs>

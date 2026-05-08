@@ -1,0 +1,4680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+                                                                             <!-- MWII 2022 -->
+  
+                                                                      <!-- Browning Citori, Lockwood 300 -->
+ 		<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Lockwood300_SG</defName>
+    <label>Lockwood 300 (Browning Citori)</label>
+    <description>A double-barrel shotgun with a vertically stacked configuration and a break-action system. Its design provides reliable operation and precise shot placement, supporting consistent performance for close-range engagements.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Lockwood 300</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Lockwood300</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>41000</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>5</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>35</Steel>
+    <WoodLog>40</WoodLog>
+    <ComponentIndustrial>5</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>20</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>2</burstsBeforeCooldown>
+<ticksBetweenBursts>30</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Lockwood300</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	
+
+<!-- Lockwood 300 INF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Lockwood300_INF_SG</defName>
+    <label>Lockwood 300 INF (Browning Citori)</label>
+    <description>A double-barrel shotgun with a vertically stacked configuration and a break-action system. Its design provides reliable operation and precise shot placement, supporting consistent performance for close-range engagements.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/Lockwood 300 INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Lockwood300</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_Lockwood300_M_SG>1</MWII_Gun_Lockwood300_M_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>25</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>2</burstsBeforeCooldown>
+<ticksBetweenBursts>30</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Lockwood300</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	
+  <!-- Lockwood 300  CQC -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Lockwood300_CQC_SG</defName>
+    <label>Lockwood 300 CQC (Browning Citori)</label>
+    <description>A double-barrel shotgun with a vertically stacked configuration and a break-action system. Its design provides reliable operation and precise shot placement, supporting consistent performance for close-range engagements.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/CQC/Lockwood 300 CQC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Lockwood300</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_CQC</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>3</Steel>
+    <MWII_Gun_Lockwood300_M_SG>1</MWII_Gun_Lockwood300_M_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>22</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>2</burstsBeforeCooldown>
+<ticksBetweenBursts>30</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Lockwood300</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	
+  <!-- Lockwood 300  SF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Lockwood300_SF_SG</defName>
+    <label>Lockwood 300 SF (Browning Citori)</label>
+    <description>A double-barrel shotgun with a vertically stacked configuration and a break-action system. Its design provides reliable operation and precise shot placement, supporting consistent performance for close-range engagements. SF stands for Special Forces. This variant is equipped with a suppressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/Lockwood 300 SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Lockwood300</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>42000</WorkToMake>
+      <Mass>4.3</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_Lockwood300_M_SG>1</MWII_Gun_Lockwood300_M_SG>
+    <ComponentIndustrial>2</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>22</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Lockwood300_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>2</burstsBeforeCooldown>
+<ticksBetweenBursts>30</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Lockwood300</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPCIVStealth</li>
+    <li>MWPINSURGENTStealth</li>
+    </weaponTags>
+
+  </ThingDef>	
+  <!-- Lockwood 300  THM -->
+	<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Lockwood300_THM_SG</defName>
+    <label>Lockwood 300 THM (Browning Citori)</label>
+    <description>A double-barrel shotgun with a vertically stacked configuration and a break-action system. Its design provides reliable operation and precise shot placement, supporting consistent performance for close-range engagements. THM stands for Thermals. This variant is equipped with a Thermal Scope. Being able to see your target lit up like a Christmas Tree makes target acquisition easier. However, when the target gets closer it becomes harder to see.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/THM/Lockwood 300 THM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Lockwood300</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_THM</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>4.3</Mass>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_THMScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_Lockwood300_M_SG>1</MWII_Gun_Lockwood300_M_SG>
+    <ComponentIndustrial>3</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>23</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>2</burstsBeforeCooldown>
+<ticksBetweenBursts>30</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Lockwood300</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	
+  <!-- Lockwood 300  DBR -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Lockwood300_DBR_SG</defName>
+    <label>Lockwood 300 DBR (Browning Citori)</label>
+    <description>A double-barrel shotgun with a vertically stacked configuration and a break-action system. Its design provides reliable operation and precise shot placement, supporting consistent performance for close-range engagements. DBR Stands for Dragon Breathe Rounds. This variant is equipped with Dragon Breathe Shotgun Rounds that burn anything skin that it touches with very little fire residue. Sacrifices damage in return.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/DBR/Lockwood 300 DBR</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Lockwood300</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_DBR</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>4.3</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_DBR</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>15</Steel>
+    <MWII_Gun_Lockwood300_M_SG>1</MWII_Gun_Lockwood300_M_SG>
+    <Chemfuel>30</Chemfuel>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_DB_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>22</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>2</burstsBeforeCooldown>
+<ticksBetweenBursts>30</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Lockwood300</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	
+  <!-- Lockwood 300  SLG -->
+                  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Lockwood300_SLG_SG</defName>
+    <label>Lockwood 300 SLG (Browning Citori)</label>
+    <description>A double-barrel shotgun with a vertically stacked configuration and a break-action system. Its design provides reliable operation and precise shot placement, supporting consistent performance for close-range engagements. SLG stands for Slugs. Slug Rounds are a powerful damage shell that turns your Shotgun into a Sniper. Remove the CQC power and spread of Buckshot and get better range with a single shell.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SLG/Lockwood 300 SLG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Lockwood300</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SLG</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>8</Steel>
+    <MWII_Gun_Lockwood300_SG>1</MWII_Gun_Lockwood300_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Slug_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>25</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>2</burstsBeforeCooldown>
+<ticksBetweenBursts>30</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Lockwood300</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	    
+    <!-- Lockwood 300 M -->
+  
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Lockwood300_M_SG</defName>
+    <label>Lockwood 300 M (Browning Citori)</label>
+    <description>A double-barrel shotgun with a vertically stacked configuration and a break-action system. Its design provides reliable operation and precise shot placement, supporting consistent performance for close-range engagements. Special Variant. The modern age has come and plastic has become an easy commodity. This variant replaces the wood cost for Chemfuel and is needed for some variants.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SPL/Lockwood 300 M</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Lockwood300</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SPL</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>41000</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>50</Steel>
+    <Chemfuel>10</Chemfuel>
+    <ComponentIndustrial>5</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>20</range>
+        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>2</burstsBeforeCooldown>
+<ticksBetweenBursts>30</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Lockwood300</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	
+  
+                                                                           <!-- Benelli M4, Expedite 12  --> 
+ <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Expedite12_SG</defName>
+    <label>Expedite 12 (Benelli M4 Super 90)</label>
+    <description>A semi-automatic shotgun built around a gas-operated system designed for consistent cycling under varied conditions. Its robust construction and controlled recoil characteristics support reliable performance in close-range engagements and sustained use.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Expedite 12</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Expedite12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>44500</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>30</Steel>
+    <Chemfuel>20</Chemfuel>
+    <ComponentIndustrial>7</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>10</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Expedite12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>40</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Expedite12</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPUK</li>
+    <li>MWPNATO</li>
+    </weaponTags>
+
+  </ThingDef>												  
+															  
+  <!-- Expedite 12 INF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Expedite12_INF_SG</defName>
+    <label>Expedite 12 INF (Benelli M4 Super 90)</label>
+    <description>A semi-automatic shotgun built around a gas-operated system designed for consistent cycling under varied conditions. Its robust construction and controlled recoil characteristics support reliable performance in close-range engagements and sustained use. INF stands for Infantry. This variant represents the standardise weapon used by a soldier. It's good in build and good at medium to long range.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/Expedite 12 INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Expedite12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_Expedite12_SG>1</MWII_Gun_Expedite12_SG> 
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>15</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Expedite12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>40</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Expedite12</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPUK</li>
+    <li>MWPNATO</li>
+    </weaponTags>
+
+  </ThingDef>			
+  <!-- Expedite 12  CQC -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Expedite12_CQC_SG</defName>
+    <label>Expedite 12 CQC (Benelli M4 Super 90)</label>
+    <description>A semi-automatic shotgun built around a gas-operated system designed for consistent cycling under varied conditions. Its robust construction and controlled recoil characteristics support reliable performance in close-range engagements and sustained use. CQC stands for Close Quaters Combat. This variant is designed for upclose encounters like room clearing and urban warfare. Sacrifices long range for better short range accuracy.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/CQC/Expedite 12 CQC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Expedite12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_CQC</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>3</Steel>
+    <MWII_Gun_Expedite12_SG>1</MWII_Gun_Expedite12_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>12</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Expedite12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>40</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Expedite12</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPUK</li>
+    <li>MWPNATO</li>
+    </weaponTags>
+
+  </ThingDef>		
+  
+  <!-- Expedite 12  SF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Expedite12_SF_SG</defName>
+    <label>Expedite 12 SF (Benelli M4 Super 90)</label>
+    <description>A semi-automatic shotgun built around a gas-operated system designed for consistent cycling under varied conditions. Its robust construction and controlled recoil characteristics support reliable performance in close-range engagements and sustained use. SF stands for Special Forces. This variant is equipped with a suppressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/Expedite 12 SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.14</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Expedite12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>4.3</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_Expedite12_SG>1</MWII_Gun_Expedite12_SG>
+    <ComponentIndustrial>2</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>12</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Expedite12_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>40</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Expedite12</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSAStealth</li>
+    <li>MWPUKStealth</li>
+    <li>MWPNATOStealth</li>
+    </weaponTags>
+
+  </ThingDef>			
+
+  <!-- Expedite 12  THM -->
+
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Expedite12_THM_SG</defName>
+    <label>Expedite 12 THM (Benelli M4 Super 90)</label>
+    <description>A semi-automatic shotgun built around a gas-operated system designed for consistent cycling under varied conditions. Its robust construction and controlled recoil characteristics support reliable performance in close-range engagements and sustained use. THM stands for Thermals. This variant is equipped with a Thermal Scope. Being able to see your target lit up like a Christmas Tree makes target acquisition easier. However, when the target gets closer it becomes harder to see.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/THM/Expedite 12 THM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Expedite12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_THM</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>4.3</Mass>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+   <MWII_Gun_Expedite12_SG>1</MWII_Gun_Expedite12_SG>
+    <ComponentIndustrial>3</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>10</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Expedite12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>40</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Expedite12</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPUK</li>
+    <li>MWPNATO</li>
+    </weaponTags>
+
+  </ThingDef>			
+
+  <!-- Expedite 12  DBR -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Expedite12_DBR_SG</defName>
+    <label>Expedite 12 DBR (Benelli M4 Super 90)</label>
+    <description>A semi-automatic shotgun built around a gas-operated system designed for consistent cycling under varied conditions. Its robust construction and controlled recoil characteristics support reliable performance in close-range engagements and sustained use. DBR Stands for Dragon Breathe Rounds. This variant is equipped with Dragon Breathe Shotgun Rounds that burn anything skin that it touches with very little fire residue. Sacrifices damage in return.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/DBR/Expedite 12 DBR</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Expedite12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_DBR</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_DBR</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>15</Steel>
+    <MWII_Gun_Expedite12_SG>1</MWII_Gun_Expedite12_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+    <Chemfuel>30</Chemfuel>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_DB_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>10</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Expedite12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>40</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Expedite12</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPUK</li>
+    <li>MWPNATO</li>
+    </weaponTags>
+
+  </ThingDef>	
+
+
+  <!-- Expedite 12  SLG -->
+
+ <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Expedite12_SLG_SG</defName>
+    <label>Expedite 12 SLG (Benelli M4 Super 90)</label>
+    <description>A semi-automatic shotgun built around a gas-operated system designed for consistent cycling under varied conditions. Its robust construction and controlled recoil characteristics support reliable performance in close-range engagements and sustained use. SLG stands for Slugs. Slug Rounds are a powerful damage shell that turns your Shotgun into a Sniper. Remove the CQC power and spread of Buckshot and get better range with a single shell.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SLG/Expedite 12 SLG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Expedite12</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SLG</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>4.2</Mass>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_ACOGs</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>8</Steel>
+    <MWII_Gun_Expedite12_SG>1</MWII_Gun_Expedite12_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>15</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Expedite12</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>40</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Expedite12</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPUK</li>
+    <li>MWPNATO</li>
+    </weaponTags>
+
+  </ThingDef>			
+                                                                             <!-- Mossberg 590, Bryson 800  --> 
+                                                                         
+	<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson800_SG</defName>
+    <label>Bryson 800 (Mossberg 590)</label>
+    <description>A pump-action shotgun built with a durable, straightforward design for consistent operation. Its manual cycling system ensures reliability across varied conditions, supporting dependable performance in close-range engagements.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Bryson 800</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.055</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>42500</WorkToMake>
+      <Mass>4.4</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>50</Steel>
+    <ComponentIndustrial>6</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>15</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson800</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPCIV</li>
+    <li>MWPLE</li>
+    </weaponTags>
+
+  </ThingDef>														  
+															  
+  <!-- Bryson 800 INF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson800_INF_SG</defName>
+    <label>Bryson 800 INF (Mossberg 590)</label>
+    <description>A pump-action shotgun built with a durable, straightforward design for consistent operation. Its manual cycling system ensures reliability across varied conditions, supporting dependable performance in close-range engagements.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/Bryson 800 INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.01</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>4.4</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_Bryson800_SG>1</MWII_Gun_Bryson800_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>15</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson800</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPCIV</li>
+    <li>MWPLE</li>
+    </weaponTags>
+
+  </ThingDef>		
+
+   <!-- Bryson 800 CQC -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson800_CQC_SG</defName>
+    <label>Bryson 800 CQC (Mossberg 590)</label>
+    <description>A pump-action shotgun built with a durable, straightforward design for consistent operation. Its manual cycling system ensures reliability across varied conditions, supporting dependable performance in close-range engagements. CQC stands for Close Quaters Combat. This variant is designed for upclose encounters like room clearing and urban warfare. Sacrifices long range for better short range accuracy.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/CQC/Bryson 800 CQC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_CQC</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>4.4</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>3</Steel>
+    <MWII_Gun_Bryson800_SG>1</MWII_Gun_Bryson800_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>17</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson800</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSAStealth</li>
+    <li>MWPCIVStealth</li>
+    <li>MWPLEStealth</li>
+    </weaponTags>
+
+  </ThingDef>		
+  <!-- Bryson 800  SF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson800_SF_SG</defName>
+    <label>Bryson 800 SF (Mossberg 590)</label>
+    <description>A pump-action shotgun built with a durable, straightforward design for consistent operation. Its manual cycling system ensures reliability across varied conditions, supporting dependable performance in close-range engagements. SF stands for Special Forces. This variant is equipped with a suppressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/Bryson 800 SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>4.5</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>7</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_Bryson800_SG>1</MWII_Gun_Bryson800_SG>
+    <ComponentIndustrial>2</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>17</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson800</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSAStealth</li>
+    <li>MWPCIVStealth</li>
+    <li>MWPLEStealth</li>
+    </weaponTags>
+
+  </ThingDef>		
+
+ <!-- Bryson 800 THM -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson800_THM_SG</defName>
+    <label>Bryson 800 THM (Mossberg 590)</label>
+    <description>A pump-action shotgun built with a durable, straightforward design for consistent operation. Its manual cycling system ensures reliability across varied conditions, supporting dependable performance in close-range engagements. THM stands for Thermals. This variant is equipped with a Thermal Scope. Being able to see your target lit up like a Christmas Tree makes target acquisition easier. However, when the target gets closer it becomes harder to see.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/THM/Bryson 800 THM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_THM</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>2500</WorkToMake>
+      <Mass>4.5</Mass>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_THMScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_Bryson800_SG>1</MWII_Gun_Bryson800_SG>
+    <ComponentIndustrial>3</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>18</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson800</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPCIV</li>
+    <li>MWPLE</li>
+    </weaponTags>
+
+  </ThingDef>		
+
+    <!-- Bryson 800 DBR -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson800_DBR_SG</defName>
+    <label>Bryson 800 DBR (Mossberg 590)</label>
+    <description>A pump-action shotgun built with a durable, straightforward design for consistent operation. Its manual cycling system ensures reliability across varied conditions, supporting dependable performance in close-range engagements. DBR Stands for Dragon Breathe Rounds. This variant is equipped with Dragon Breathe Shotgun Rounds that burn anything skin that it touches with very little fire residue. Sacrifices damage in return.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/DBR/Bryson 800 DBR</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.083</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_DBR</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>4.5</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_DBR</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>15</Steel>
+    <MWII_Gun_Bryson800_SG>1</MWII_Gun_Bryson800_SG>
+    <Chemfuel>30</Chemfuel>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_DB_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>17</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>6</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson800</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPCIV</li>
+    <li>MWPLE</li>
+    </weaponTags>
+
+  </ThingDef>		
+
+
+    <!-- Bryson 800 SLG -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson800_SLG</defName>
+    <label>Bryson 800 SLG (Mossberg 590)</label>
+    <description>A pump-action shotgun built with a durable, straightforward design for consistent operation. Its manual cycling system ensures reliability across varied conditions, supporting dependable performance in close-range engagements. SLG stands for Slugs. Slug Rounds are a powerful damage shell that turns your Shotgun into a Sniper. Remove the CQC power and spread of Buckshot and get better range with a single shell.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SLG/Bryson 800 SLG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SLG</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>4.4</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_ACOGs</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>8</Steel>
+    <MWII_Gun_Bryson800_SG>1</MWII_Gun_Bryson800_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Slug_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>18</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>5</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>430</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson800Tube5</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPCIV</li>
+    <li>MWPLE</li>
+    </weaponTags>
+
+  </ThingDef>		
+
+ <!-- Bryson 800 Serbu -->
+
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson800_Serbu_SG</defName>
+    <label>Bryson 800 Serbu (Super Shorty)</label>
+    <description>A pump-action shotgun built with a durable, straightforward design for consistent operation. Its manual cycling system ensures reliability across varied conditions, supporting dependable performance in close-range engagements. Special Variant. The Serbu is an extremely shorten version of the Shotgun turning it into a compact secondary. Sacrifices range and ammo for compactness and CQC.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SPL/Bryson 800 Serbu</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SPL</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>30000</WorkToMake>
+      <Mass>3.0</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.3</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_ChokeBarrels</li>
+<li>GOG_Research_Polymer</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>6</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>30</Steel>
+    <ComponentIndustrial>6</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.2</warmupTime>
+        <range>10</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>3</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>310</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson800Serbu</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPCIV</li>
+    <li>MWPLE</li>
+    </weaponTags>
+
+  </ThingDef>				
+  
+                                                                            <!-- Bryson 890, M590 Tactical  --> 
+                                                                         
+
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson890_SG</defName>
+    <label>Bryson 890 (Mossberg 590 Mod)</label>
+    <description>A modified pump-action shotgun adapted to use detachable box magazines for increased ammunition capacity and faster reloading. Its manual cycling system maintains reliability while the updated feeding method improves sustained use in close-range engagements.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Bryson 890</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>43500</WorkToMake>
+      <Mass>4.4</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>55</Steel>
+    <ComponentIndustrial>7</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>15</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson890</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPCIV</li>
+    <li>MWPLE</li>
+    </weaponTags>
+
+  </ThingDef>															  
+															  
+  <!-- Bryson 890 INF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson890_INF_SG</defName>
+    <label>Bryson 890 INF (Mossberg 590 Mod)</label>
+    <description>A modified pump-action shotgun adapted to use detachable box magazines for increased ammunition capacity and faster reloading. Its manual cycling system maintains reliability while the updated feeding method improves sustained use in close-range engagements. INF stands for Infantry. This variant represents the standardise weapon used by a soldier. It's good in build and good at medium to long range.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/Bryson 890 INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>4.4</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.6</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_Bryson890_SG>1</MWII_Gun_Bryson890_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>20</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson890</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPCIV</li>
+    <li>MWPLE</li>
+    </weaponTags>
+
+  </ThingDef>			
+  <!-- Bryson 890  CQC -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson890_CQC_SG</defName>
+    <label>Bryson 890 CQC (Mossberg 590 Mod)</label>
+    <description>A modified pump-action shotgun adapted to use detachable box magazines for increased ammunition capacity and faster reloading. Its manual cycling system maintains reliability while the updated feeding method improves sustained use in close-range engagements.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/CQC/Bryson 890 CQC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_CQC</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>4.4</Mass>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>3</Steel>
+    <MWII_Gun_Bryson890_SG>1</MWII_Gun_Bryson890_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>17</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson890</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPCIV</li>
+    <li>MWPLE</li>
+    </weaponTags>
+
+  </ThingDef>		
+  <!-- Bryson 890  SF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson890_SF_SG</defName>
+    <label>Bryson 890 SF (Mossberg 590 Mod)</label>
+    <description>A modified pump-action shotgun adapted to use detachable box magazines for increased ammunition capacity and faster reloading. Its manual cycling system maintains reliability while the updated feeding method improves sustained use in close-range engagements. SF stands for Special Forces. This variant is equipped with a suppressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/Bryson 890 SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.063</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>4.5</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_Bryson890_SG>1</MWII_Gun_Bryson890_SG>
+    <ComponentIndustrial>2</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>17</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson890</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSAStealth</li>
+    <li>MWPCIVStealth</li>
+    <li>MWPLEStealth</li>
+    </weaponTags>
+
+  </ThingDef>		
+  <!-- Bryson 890  THM -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson890_THM_SG</defName>
+    <label>Bryson 890 THM (Mossberg 590 Mod)</label>
+    <description>A modified pump-action shotgun adapted to use detachable box magazines for increased ammunition capacity and faster reloading. Its manual cycling system maintains reliability while the updated feeding method improves sustained use in close-range engagements. THM stands for Thermals. This variant is equipped with a Thermal Scope. Being able to see your target lit up like a Christmas Tree makes target acquisition easier. However, when the target gets closer it becomes harder to see.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/THM/Bryson 890 THM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_THM</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>2500</WorkToMake>
+      <Mass>4.5</Mass>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_THMScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_Bryson890_SG>1</MWII_Gun_Bryson890_SG>
+    <ComponentIndustrial>3</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>18</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson890</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPCIV</li>
+    <li>MWPLE</li>
+    </weaponTags>
+
+  </ThingDef>			
+
+  <!-- Bryson 890  DBR -->
+   <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson890_DBR_SG</defName>
+    <label>Bryson 890 DBR (Mossberg 590 Mod)</label>
+    <description>A modified pump-action shotgun adapted to use detachable box magazines for increased ammunition capacity and faster reloading. Its manual cycling system maintains reliability while the updated feeding method improves sustained use in close-range engagements. DBR Stands for Dragon Breathe Rounds. This variant is equipped with Dragon Breathe Shotgun Rounds that burn anything skin that it touches with very little fire residue. Sacrifices damage in return.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/DBR/Bryson 890 DBR</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_DBR</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>4.5</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_DBR</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>15</Steel>
+    <MWII_Gun_Bryson890_SG>1</MWII_Gun_Bryson890_SG>
+    <Chemfuel>30</Chemfuel>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_DB_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>17</range>
+        <burstShotCount>5</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson890</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPCIV</li>
+    <li>MWPLE</li>
+    </weaponTags>
+
+  </ThingDef>					
+  
+   <!-- Bryson 890  SLG -->
+    
+   <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_Bryson890_SLG_SG</defName>
+    <label>Bryson 890 SLG (Mossberg 590 Mod)</label>
+    <description>A modified pump-action shotgun adapted to use detachable box magazines for increased ammunition capacity and faster reloading. Its manual cycling system maintains reliability while the updated feeding method improves sustained use in close-range engagements. SLG stands for Slugs. Slug Rounds are a powerful damage shell that turns your Shotgun into a Sniper. Remove the CQC power and spread of Buckshot and get better range with a single shell.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SLG/Bryson 890 SLG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_Bryson800</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SLG</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>4.4</Mass>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.1</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_ACOGs</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>8</Steel>
+    <MWII_Gun_Bryson890_SG>1</MWII_Gun_Bryson890_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Slug_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>20</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>80</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_Bryson890</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPUSA</li>
+    <li>MWPCIV</li>
+    <li>MWPLE</li>
+    </weaponTags>
+
+  </ThingDef>			
+
+
+                                                                             <!-- Vepr-12, KV Broadside  --> 
+                                                                         
+	<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_KVBroadside_SG</defName>
+    <label>KV Broadside (Vepr-12)</label>
+    <description>A magazine-fed shotgun built on a reinforced rifle-style platform, designed for durability and consistent operation. Its robust construction and gas-operated system support reliable cycling and controlled performance in close-range engagements.</description>
+    <graphicData>
+      <texPath>Things/Weapons/KV Broadside</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_KVBroadside</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>45500</WorkToMake>
+      <Mass>5.1</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>45</Steel>
+    <Chemfuel>10</Chemfuel>
+    <ComponentIndustrial>7</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>10</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_KVBroadside</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>250</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_KVBroadside</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPRUS</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>														  
+															  
+  <!-- KV Broadside INF -->
+
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_KVBroadside_INF_SG</defName>
+    <label>KV Broadside INF (Vepr-12)</label>
+    <description>A magazine-fed shotgun built on a reinforced rifle-style platform, designed for durability and consistent operation. Its robust construction and gas-operated system support reliable cycling and controlled performance in close-range engagements.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/KV Broadside INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_KVBroadside</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>5.1</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_KVBroadside_SG>1</MWII_Gun_KVBroadside_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>15</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_KVBroadside</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>250</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_KVBroadside</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPRUS</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>					
+  <!-- KV Broadside  CQC -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_KVBroadside_CQC_SG</defName>
+    <label>KV Broadside CQC (Vepr-12)</label>
+    <description>A magazine-fed shotgun built on a reinforced rifle-style platform, designed for durability and consistent operation. Its robust construction and gas-operated system support reliable cycling and controlled performance in close-range engagements. CQC stands for Close Quaters Combat. This variant is designed for upclose encounters like room clearing and urban warfare. Sacrifices long range for better short range accuracy.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/CQC/KV Broadside CQC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_KVBroadside</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_CQC</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>5.1</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>45</Steel>
+    <Chemfuel>10</Chemfuel>
+    <ComponentIndustrial>7</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>12</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_KVBroadside</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>250</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_KVBroadside</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPRUS</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>				
+  <!-- KV Broadside  SF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_KVBroadside_SF_SG</defName>
+    <label>KV Broadside SF (Vepr-12)</label>
+    <description>A magazine-fed shotgun built on a reinforced rifle-style platform, designed for durability and consistent operation. Its robust construction and gas-operated system support reliable cycling and controlled performance in close-range engagements. SF stands for Special Forces. This variant is equipped with a supressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/KV Broadside SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_KVBroadside</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>5.2</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_KVBroadside_SG>1</MWII_Gun_KVBroadside_SG>
+    <ComponentIndustrial>2</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>12</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_KVBroadside_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>250</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_KVBroadside</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPRUS</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>														  
+  <!-- KV Broadside  THM -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_KVBroadside_THM_SG</defName>
+    <label>KV Broadside THM (Vepr-12)</label>
+    <description>A magazine-fed shotgun built on a reinforced rifle-style platform, designed for durability and consistent operation. Its robust construction and gas-operated system support reliable cycling and controlled performance in close-range engagements. THM stands for Thermals. This variant is equipped with a Thermal Scope. Being able to see your target lit up like a Christmas Tree makes target acquisition easier. However, when the target gets closer it becomes harder to see.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/THM/KV Broadside THM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_KVBroadside</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_THM</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>2500</WorkToMake>
+      <Mass>5.2</Mass>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_THMScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_KVBroadside_SG>1</MWII_Gun_KVBroadside_SG>
+    <ComponentIndustrial>3</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>13</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_KVBroadside</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>250</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_KVBroadside</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPRUS</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>														  
+  <!-- KV Broadside  DBR -->
+   <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_KVBroadside_DBR_SG</defName>
+    <label>KV Broadside DBR (Vepr-12)</label>
+    <description>A magazine-fed shotgun built on a reinforced rifle-style platform, designed for durability and consistent operation. Its robust construction and gas-operated system support reliable cycling and controlled performance in close-range engagements. DBR Stands for Dragon Breathe Rounds. This variant is equipped with Dragon Breathe Shotgun Rounds that burn anything skin that it touches with very little fire residue. Sacrifices damage in return.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/DBR/KV Broadside DBR</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_KVBroadside</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_DBR</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>5.2</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_DBR</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>15</Steel>
+    <Chemfuel>30</Chemfuel>
+    <MWII_Gun_KVBroadside_SG>1</MWII_Gun_KVBroadside_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_DB_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>12</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_KVBroadside</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>250</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_KVBroadside</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPRUS</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>														  
+
+  <!-- KV Broadside  SLG -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_KVBroadside_SLG_SG</defName>
+    <label>KV Broadside SLG (Vepr-12)</label>
+    <description>A magazine-fed shotgun built on a reinforced rifle-style platform, designed for durability and consistent operation. Its robust construction and gas-operated system support reliable cycling and controlled performance in close-range engagements. SLG stands for Slugs. Slug Rounds are a powerful damage shell that turns your Shotgun into a Sniper. Remove the CQC power and spread of Buckshot and get better range with a single shell.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SLG/KV Broadside SLG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_KVBroadside</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SLG</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>5.1</Mass>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.1</AccuracyMedium>
+      <AccuracyLong>0.7</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_ACOGs</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>8</Steel>
+    <MWII_Gun_KVBroadside_SG>1</MWII_Gun_KVBroadside_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Slug_Bullet</defaultProjectile>
+        <warmupTime>0.4</warmupTime>
+        <range>15</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_KVBroadside</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>8</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>250</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_KVBroadside</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPRUS</li>
+    <li>MWPNEUTRAL</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>														  
+  
+                                                                             <!-- TS12, MX Guardian --> 
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_MXGuardian_SG</defName>
+    <label>MX Guardian (TS-12)</label>
+    <description>A semi-automatic shotgun configured with a detachable magazine system, replacing traditional tube-fed designs for faster reloading and increased flexibility. Its layout supports sustained close-range engagement while maintaining balanced handling and reliable operation.</description>
+    <graphicData>
+      <texPath>Things/Weapons/MX Guardian</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_MXGuardian</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_STK</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>47500</WorkToMake>
+      <Mass>5.3</Mass>
+      <AccuracyTouch>0.8</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.2</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>40</Steel>
+    <Chemfuel>20</Chemfuel>
+    <ComponentIndustrial>8</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>10</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_MXGuardian</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>15</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_MXGuardian</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPISL</li>
+    <li>MWCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	                                                                       
+														  
+															  
+  <!-- MX Guardian INF -->
+   <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_MXGuardian_INF_SG</defName>
+    <label>MX Guardian INF (TS-12)</label>
+    <description>A semi-automatic shotgun configured with a detachable magazine system, replacing traditional tube-fed designs for faster reloading and increased flexibility. Its layout supports sustained close-range engagement while maintaining balanced handling and reliable operation. INF stands for Infantry. This variant represents the standardise weapon used by a soldier. It's good in build and good at medium to long range.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/INF/MX Guardian INF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_MXGuardian</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_INF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>5.3</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.7</AccuracyShort>
+      <AccuracyMedium>0.5</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>TableMachining</li>
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>5</Steel>
+    <MWII_Gun_MXGuardian_SG>1</MWII_Gun_MXGuardian_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>15</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_MXGuardian</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>15</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_MXGuardian</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPISL</li>
+    <li>MWCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	   
+  <!-- MX Guardian  CQC -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_MXGuardian_CQC_SG</defName>
+    <label>MX Guardian CQC (TS-12)</label>
+    <description>A semi-automatic shotgun configured with a detachable magazine system, replacing traditional tube-fed designs for faster reloading and increased flexibility. Its layout supports sustained close-range engagement while maintaining balanced handling and reliable operation. CQC stands for Close Quaters Combat. This variant is designed for upclose encounters like room clearing and urban warfare. Sacrifices long range for better short range accuracy.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/CQC/MX Guardian CQC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_MXGuardian</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_CQC</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <Mass>5.3</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.4</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_Holographics</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>3</Steel>
+    <MWII_Gun_MXGuardian_SG>1</MWII_Gun_MXGuardian_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>12</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_MXGuardian</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>15</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_MXGuardian</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPISL</li>
+    <li>MWCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	   
+  <!--  MX Guardian  SF -->
+  <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_MXGuardian_SF_SG</defName>
+    <label>MX Guardian SF (TS-12)</label>
+    <description>A semi-automatic shotgun configured with a detachable magazine system, replacing traditional tube-fed designs for faster reloading and increased flexibility. Its layout supports sustained close-range engagement while maintaining balanced handling and reliable operation. SF stands for Special Forces. This variant is equipped with a suppressor and more quality teched gear. Perfect for anyone who needs to be stealthy and efficient.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SF/MX Guardian SF</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_MXGuardian</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SF</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>5.4</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.8</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_QuickSup</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_MXGuardian_SG>1</MWII_Gun_MXGuardian_SG>
+    <ComponentIndustrial>8</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>12</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_MXGuardian_Sup</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>15</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_MXGuardian</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPISL</li>
+    <li>MWCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	   
+  <!-- MX Guardian  THM -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_MXGuardian_THM_SG</defName>
+    <label>MX Guardian THM (TS-12)</label>
+    <description>A semi-automatic shotgun configured with a detachable magazine system, replacing traditional tube-fed designs for faster reloading and increased flexibility. Its layout supports sustained close-range engagement while maintaining balanced handling and reliable operation. THM stands for Thermals. This variant is equipped with a Thermal Scope. Being able to see your target lit up like a Christmas Tree makes target acquisition easier. However, when the target gets closer it becomes harder to see.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/THM/MX Guardian THM</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_MXGuardian</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_THM</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>2500</WorkToMake>
+      <Mass>5.4</Mass>
+      <AccuracyTouch>0.3</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.7</AccuracyMedium>
+      <AccuracyLong>0.3</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_THMScopes</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>10</Steel>
+    <MWII_Gun_MXGuardian_SG>1</MWII_Gun_MXGuardian_SG>
+    <ComponentIndustrial>3</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Gauge_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>13</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_MXGuardian</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>15</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_MXGuardian</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPISL</li>
+    <li>MWCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	         
+  <!-- MX Guardian  DBR -->
+<ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_MXGuardian_DBR_SG</defName>
+    <label>MX Guardian DBR (TS-12)</label>
+    <description>A semi-automatic shotgun configured with a detachable magazine system, replacing traditional tube-fed designs for faster reloading and increased flexibility. Its layout supports sustained close-range engagement while maintaining balanced handling and reliable operation. DBR Stands for Dragon Breathe Rounds. This variant is equipped with Dragon Breathe Shotgun Rounds that burn anything skin that it touches with very little fire residue. Sacrifices damage in return.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/DBR/MX Guardian DBR</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_MXGuardian</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_DBR</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1500</WorkToMake>
+      <Mass>5.4</Mass>
+      <AccuracyTouch>0.9</AccuracyTouch>
+      <AccuracyShort>0.9</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.1</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_DBR</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>15</Steel>
+    <MWII_Gun_MXGuardian_SG>1</MWII_Gun_MXGuardian_SG>
+    <Chemfuel>30</Chemfuel>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_DB_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>12</range>
+        <burstShotCount>3</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_MXGuardian</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>15</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_MXGuardian</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPISL</li>
+    <li>MWCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	         
+  <!-- MX Guardian  SLG -->
+   <ThingDef ParentName="GOGWeaponGun">
+    <defName>MWII_Gun_MXGuardian_SLG_SG</defName>
+    <label>MX Guardian SLG (TS-12)</label>
+    <description>A semi-automatic shotgun configured with a detachable magazine system, replacing traditional tube-fed designs for faster reloading and increased flexibility. Its layout supports sustained close-range engagement while maintaining balanced handling and reliable operation. SLG stands for Slugs. Slug Rounds are a powerful damage shell that turns your Shotgun into a Sniper. Remove the CQC power and spread of Buckshot and get better range with a single shell.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Variants/SLG/MX Guardian SLG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <soundInteract>MWP_Interact_MXGuardian</soundInteract>
+	<techLevel>Industrial</techLevel>
+	  <thingCategories>
+    <li>MWP_ThingCategory_SG_SLG</li>
+  </thingCategories>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <Mass>5.3</Mass>
+      <AccuracyTouch>0.6</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.5</AccuracyLong>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+<recipeMaker>
+    <researchPrerequisites>
+<li>GOG_Research_MagShotguns</li>
+<li>GOG_Research_Polymer</li>
+<li>GOG_Research_ACOGs</li>
+</researchPrerequisites>
+  <skillRequirements>
+    <Crafting>8</Crafting>
+  </skillRequirements>
+  <recipeUsers Inherit="False">
+    <li>MWP_CraftingTable</li>
+  </recipeUsers>
+</recipeMaker>
+<smeltable>true</smeltable>
+<costList>
+    <Steel>8</Steel>
+    <MWII_Gun_MXGuardian_SG>1</MWII_Gun_MXGuardian_SG>
+    <ComponentIndustrial>1</ComponentIndustrial>
+  </costList>
+
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+		<hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GOG_Slug_Bullet</defaultProjectile>
+        <warmupTime>0.5</warmupTime>
+        <range>15</range>
+        <burstShotCount>1</burstShotCount>
+        <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+        <soundCast>MWP_Shot_MXGuardian</soundCast>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>6</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.3</cooldownTime>
+      </li>
+    </tools>
+	<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalshThree</def>
+				<drawSize>(0.6,0.6)</drawSize>
+				<offsets>
+					<li>(0.5,0.064)</li>
+				</offsets>
+			</li>
+		</modExtensions>
+        <comps>
+<li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
+<burstsBeforeCooldown>15</burstsBeforeCooldown>
+<ticksBetweenBursts>25</ticksBetweenBursts>
+<cooldownTicks>190</cooldownTicks>
+<cooldownCompleteSound>MWP_Empty_MXGuardian</cooldownCompleteSound>
+</li>
+</comps>
+    <weaponTags>
+      <li>Gun</li>
+      <li>ShortShots</li>
+      <li>IndustrialGunAdvanced</li>
+	  <li>IndustrialGun</li>
+	  <li>MWPSG</li>
+	  <li>MWP</li>
+    <li>MWPISL</li>
+    <li>MWCIV</li>
+    <li>MWPINSURGENT</li>
+    </weaponTags>
+
+  </ThingDef>	         
+	
+
+</Defs>

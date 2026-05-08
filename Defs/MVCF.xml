@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <MVCF.ModDef>
+        <defName>cloakerm8_GOGMWP</defName>
+        <label>Modern Warfare Pack</label>
+        <description>MVCF compatibility</description>
+        <ActivateFeatures>
+            <li>ExtraEquipmentVerbs</li>
+            <li>IntegratedToggle</li>
+        </ActivateFeatures>
+    </MVCF.ModDef>
+	
+</Defs>

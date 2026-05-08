@@ -1,0 +1,6527 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!-- Grenade Launchers -->
+ <SoundDef>
+    <defName>MWP_Shot_M203</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/M203_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+ <SoundDef>
+    <defName>MWP_Shot_EGLM</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/EGLM_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+    <SoundDef>
+    <defName>MWP_Shot_KL40</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/KL40_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+    <SoundDef>
+    <defName>MWP_Shot_TL40</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/TL40_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<!-- Underbarrel Shotgun -->
+
+ <SoundDef>
+    <defName>MWP_Shot_UBS</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/UBS_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+
+
+ <SoundDef>
+    <defName>MWP_Reload_UBS</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Reload/UBS_Empty</clipPath>
+          </li>
+        </grains>
+        <volumeRange>30~30</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+
+
+
+
+  <!-- M4 URGI, M4 -->
+    
+
+<SoundDef>
+  <defName>MWP_Interact_M4URGI</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/M4URGI_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_M4URGI</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/M4URGI_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_M4URGI60Mag</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/M4URGIMag60_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- SCAR-L, TAQ-56 -->
+   
+
+<SoundDef>
+  <defName>MWP_Interact_TAQ56</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/TAQ56_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_TAQ56</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TAQ56_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- AK-103, Kastov 762 -->
+
+    
+
+<SoundDef>
+  <defName>MWP_Interact_Kastov762</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Kastov762_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Kastov762</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Kastov762_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Kastov762Mag20</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Kastov762Mag20_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- HK33, Lachmann 556 -->
+
+   
+
+<SoundDef>
+  <defName>MWP_Interact_Lachmann556</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Lachmann556_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Lachmann556</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Lachmann556_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Lachmann556Drum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Lachmann556Drum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Lachmann556Mag15</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Lachmann556Mag15_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- AUG A3, STB 556 -->
+
+
+<SoundDef>
+  <defName>MWP_Interact_STB556</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/STB556_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_STB556</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/STB556_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_STB556SingleTap</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/STB556SingleTap_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- M16A4, M16 -->
+
+
+<SoundDef>
+  <defName>MWP_Interact_M16</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/M16_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_M16</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/M16_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<SoundDef>
+  <defName>MWP_Empty_M16Mag15</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/M16Mag15_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- AKS-74U, Kastov 74U -->
+ 
+
+<SoundDef>
+  <defName>MWP_Interact_Kastov74U</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Kastov74U_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Kastov74U</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Kastov74U_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Kastov74UMag20</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Kastov74UMag20_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- AK-105, Kastov 545 -->
+ 
+
+<SoundDef>
+  <defName>MWP_Interact_Kastov545</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Kastov545_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Kastov545</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Kastov545_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Kastov545Mag60</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Kastov545Mag60_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Kastov545Mag20</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Kastov545Mag20_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- MCX Virtus, M13B -->
+ 
+
+<SoundDef>
+  <defName>MWP_Interact_M13B</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/M13B_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_M13B</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/M13B_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_M13BMag45</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/M13BMag45_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- Honey Badger, Chimera -->
+
+<SoundDef>
+  <defName>MWP_Interact_Chimera</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Chimera_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Chimera</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Chimera_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_ChimeraMag20</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/ChimeraMag20_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_ChimeraMag45</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/ChimeraMag45_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- APC 556, ISO Hemlock -->
+ 
+<SoundDef>
+  <defName>MWP_Interact_ISOHemlock</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/ISOHemlock_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_ISOHemlock</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/ISOHemlock_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_ISOHemlockMag20</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/ISOHemlockMag20_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_ISOHemlockMag45</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/ISOHemlockMag45_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+
+<!-- Hellion, Tempus Razorback -->
+ 
+
+<SoundDef>
+  <defName>MWP_Interact_Razorback</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/TempusRazorback_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Razorback</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TempusRazorback_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_RazorbackMag60</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TempusRazorbackMag60_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_RazorbackDrum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TempusRazorbackDrum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- Famas Felin, FR Avancer -->
+ 
+
+<SoundDef>
+  <defName>MWP_Interact_FRavancer</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/FRavancer_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_FRavancer</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/FRavancer_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_FRavancerMag60</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/FRavancerMag60_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- MCX Ratter, M13C -->
+
+
+<SoundDef>
+  <defName>MWP_Interact_M13C</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/M13C_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_M13C</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/M13C_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_M13CMag60</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/M13CMag60_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- Malyuk, TR-76 Geist -->
+
+
+<SoundDef>
+  <defName>MWP_Interact_Geist</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Geist_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Geist</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Geist_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_GeistMag45</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/GeistMag45_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_GeistSingleTap</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/GeistSingleTap_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+
+
+<!-- HK 416, Holger 416 -->
+
+
+<SoundDef>
+  <defName>MWP_Interact_Holger416</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Holger416_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- G3A4, Lachmann 762 -->
+ 
+
+<SoundDef>
+  <defName>MWP_Interact_Lachmann762</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Lachmann762_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Lachmann762</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Lachmann762_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Lachmann762Drum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Lachmann762Drum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- M1A, SO-14 -->
+ 
+
+<SoundDef>
+  <defName>MWP_Interact_S014</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/SO14_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SO14</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SO14_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SO14Drum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SO14Drum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- SCAR-H, TAQ-V -->
+
+ 
+
+<SoundDef>
+  <defName>MWP_Interact_TAQV</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/TAQV_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_TAQV</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TAQV_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- .458 AR-15, FTAC Recon -->
+
+
+<SoundDef>
+  <defName>MWP_Interact_FTACRecon</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/FTACRecon_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_FTACRecon</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/FTACRecon_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_FTACReconMag15</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/FTACReconMag15_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- RM277, Cronen Squall -->
+ 
+<SoundDef>
+  <defName>MWP_Interact_CronenSquall</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/CronenSquall_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_CronenSquall</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/CronenSquall_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_CronenSquallDrum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/CronenSquallDrum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- MP7, VEL 46 -->
+<SoundDef>
+    <defName>MWP_Shot_VEL46</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/VEL46_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   
+       <SoundDef>
+    <defName>MWP_Shot_VEL46_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/VEL46_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_VEL46</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/VEL46_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_VEL46</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/VEL46_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_VEL46Drum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/VEL46Drum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- AUG Para, MX9 -->
+<SoundDef>
+    <defName>MWP_Shot_MX9</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/MX9_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   
+       <SoundDef>
+    <defName>MWP_Shot_MX9_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/MX9_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_MX9</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/MX9_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_MX9</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/MX9_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_MX9Mag32</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/MX9Mag32_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- MP5A4, Lachmann Sub -->
+<SoundDef>
+    <defName>MWP_Shot_LachmannSub</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/LachmannSub_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   
+       <SoundDef>
+    <defName>MWP_Shot_LachmannSub_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/LachmannSub_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_LachmannSub</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/LachmannSub_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_LachmannSub</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/LachmannSub_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_LachmannSubDrum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/LachmannSubDrum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- PP-19 Vityaz, Vaznev-9K -->
+<SoundDef>
+    <defName>MWP_Shot_Vaznev9K</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Vaznev9K_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   
+       <SoundDef>
+    <defName>MWP_Shot_Vaznev9K_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Vaznev9K_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_Vaznev9K</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Vaznev9K_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Vaznev9K</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Vaznev9K_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Vaznev9KMag45</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Vaznev9KMag45_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- AR-57, FSS Hurricane -->
+<SoundDef>
+    <defName>MWP_Shot_FSSHurricane</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/FSSHurricane_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   
+       <SoundDef>
+    <defName>MWP_Shot_FSSHurricane_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/FSSHurricane_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_FSSHurricane</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/FSSHurricane_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_FSSHurricane</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/FSSHurricane_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- PP-19 Bizon, Minibak -->
+<SoundDef>
+    <defName>MWP_Shot_Minibak</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Minibak_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   
+       <SoundDef>
+    <defName>MWP_Shot_Minibak_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Minibak_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_Minibak</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Minibak_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Minibak</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Minibak_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- P90 Mod, PDSW 528 -->
+<SoundDef>
+    <defName>MWP_Shot_PDSW528</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/PDSW528_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   
+       <SoundDef>
+    <defName>MWP_Shot_PDSW528_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/PDSW528_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_PDSW528</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/PDSW528_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_PDSW528</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/PDSW528_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- Vector 45ACP, Fennec 45 -->
+<SoundDef>
+    <defName>MWP_Shot_Fennec45</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Fennec45_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   
+       <SoundDef>
+    <defName>MWP_Shot_Fennec45_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Fennec45_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_Fennec45</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Fennec45_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Fennec45</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Fennec45_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Fennec45Drum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Fennec45Drum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- MPX, BAS-P -->
+<SoundDef>
+    <defName>MWP_Shot_BASP</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/BASP_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   
+       <SoundDef>
+    <defName>MWP_Shot_BASP_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/BASP_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_BASP</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/BASP_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_BASP</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/BASP_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_BASPDrum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/BASPDrum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- APC45P, ISO 45 -->
+<SoundDef>
+    <defName>MWP_Shot_ISO45</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/ISO45_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   
+       <SoundDef>
+    <defName>MWP_Shot_ISO45_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/ISO45_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_ISO45</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/ISO45_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_ISO45</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/ISO45_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_ISO45Drum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/ISO45Drum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- MP5SD, Lachmann Shroud -->
+<SoundDef>
+    <defName>MWP_Shot_LachmannShroud</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/LachmannShroud_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_LachmannShroud</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/LachmannShroud_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_LachmannShroud</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/LachmannShroud_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- APC9K, ISO 9MM -->
+<SoundDef>
+    <defName>MWP_Shot_ISO9MM</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/ISO9MM_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   
+       <SoundDef>
+    <defName>MWP_Shot_ISO9MM_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/ISO9MM_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_ISO9MM</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/ISO9MM_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_ISO9MM</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/ISO9MM_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- Negev NG7, Sakin MG38 -->
+<SoundDef>
+    <defName>MWP_Shot_SakinMG38</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/SakinMG38_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+    <defName>MWP_Shot_SakinMG38_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/SakinMG38_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_SakinMG38</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/SakinMG38_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SakinMG38</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SakinMG38_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SakinMG38Box</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SakinMG38Box_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- AUG HBAR, HCR 56 -->
+<SoundDef>
+    <defName>MWP_Shot_HCR56</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/HCR56_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_HCR56_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/HCR56_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_HCR56</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/HCR56_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_HCR56</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/HCR56_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_HCR56Mag100</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/HCR56Mag100_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_HCR56Mag30</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/HCR56Mag30_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_HCR56Mag42</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/HCR56Mag42_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- Fightlite MCR, 556 Icarus -->
+<SoundDef>
+    <defName>MWP_Shot_556Icarus</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/556Icarus_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_556Icarus_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/556Icarus_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_556Icarus</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/556Icarus_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_556Icarus</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/556Icarus_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_556IcarusBox</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/556IcarusBox_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- MG338, RAAL MG -->
+<SoundDef>
+    <defName>MWP_Shot_RAALMG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/RAALMG_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_RAALMG_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/RAALMG_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_RAALMG</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/RAALMG_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_RAALMG</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/RAALMG_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_RAALMGBox</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/RAALMGBox_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<SoundDef>
+  <defName>MWP_Empty_RAALMGBox50</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/RAALMGBox50_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- RPK -->
+<SoundDef>
+    <defName>MWP_Shot_RPK</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/RPK_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_RPK_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/RPK_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_RPK</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/RPK_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_RPK</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/RPK_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_RPKDrum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/RPKDrum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<SoundDef>
+  <defName>MWP_Empty_RPKMag40</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/RPKMag40_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_RPKMag30</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/RPKMag30_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- HK21, RAPP H -->
+<SoundDef>
+    <defName>MWP_Shot_RAPPH</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/RAPPH_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_RAPPH_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/RAPPH_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_RAPPH</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/RAPPH_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_RAPPH</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/RAPPH_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_RAPPHBox</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/RAPPHBox_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- Browning Citori, Lockwood 300 -->
+ <SoundDef>
+    <defName>MWP_Shot_Lockwood300</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Lockwood300_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_Lockwood300_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Lockwood300_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_Lockwood300</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Lockwood300_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Lockwood300</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Lockwood300_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- Benelli M4 Super 90, Expedite 12 -->
+<SoundDef>
+    <defName>MWP_Shot_Expedite12</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Expedite12_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_Expedite12_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Expedite12_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_Expedite12</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Expedite12_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Expedite12</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>8</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Expedite12_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Expedite12WideTube</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>8</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Expedite12WideTube_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- Mossberg 590, Bryson 800 -->
+<SoundDef>
+    <defName>MWP_Shot_Bryson800</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Bryson800_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_Bryson800_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Bryson800_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_Bryson800</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Bryson800_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Bryson800</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Bryson800_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Bryson800WideTube</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Bryson800WideTube_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Bryson800Tube5</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Bryson800Tube5_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Bryson800Serbu</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Bryson800Serbu_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- M870 Mag, Bryson 890 -->
+
+<SoundDef>
+  <defName>MWP_Empty_Bryson890</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Bryson890_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Bryson890Mag5</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Bryson890Mag5_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Bryson890Mag12</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Bryson890Mag12_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- Vepr-12, KV Broadside -->
+<SoundDef>
+    <defName>MWP_Shot_KVBroadside</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/KVBroadside_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_KVBroadside_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/KVBroadside_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_KVBroadside</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/KVBroadside_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_KVBroadside</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/KVBroadside_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_KVBroadsideMag12</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/KVBroadsideMag12_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_KVBroadsideDrum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/KVBroadsideDrum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- MX Guardian, TS12 -->
+<SoundDef>
+    <defName>MWP_Shot_MXGuardian</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/MXGuardian_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_MXGuardian_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/MXGuardian_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_MXGuardian</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/MXGuardian_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_MXGuardian</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/MXGuardian_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_MXGuardianProMag</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/MXGuardianProMag_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- M14 EBR, EBR-14 -->
+<SoundDef>
+    <defName>MWP_Shot_EBR14</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/EBR14_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_EBR14_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/EBR14_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_EBR14</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/EBR14_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_EBR14</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/EBR14_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_EBR14Mag15</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/EBR14Mag15_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- M24 SWS, SP-R 208 -->
+<SoundDef>
+    <defName>MWP_Shot_SPR208</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/SPR208_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_SPR208_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/SPR208_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_SPR208</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/SPR208_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SPR208</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SPR208_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SPR208Mag15</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SPR208Mag15_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- Model 1885, Lockwood MK2 -->
+<SoundDef>
+    <defName>MWP_Shot_LockwoodMK2</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/LockwoodMK2_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_LockwoodMK2_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/LockwoodMK2_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_LockwoodMK2</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/LockwoodMK2_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_LockwoodMK2</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/LockwoodMK2_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- PSG-1, LM-S -->
+<SoundDef>
+    <defName>MWP_Shot_LMS</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/LMS_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_LMS_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/LMS_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_LMS</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/LMS_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_LMS</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/LMS_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_LMSMag15</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/LMSMag15_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<SoundDef>
+  <defName>MWP_Empty_LMSMag20</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/LMSMag20_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- M700, SA-B 50 -->
+<SoundDef>
+    <defName>MWP_Shot_SAB50</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/SAB50_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_SAB50_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/SAB50_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_SAB50</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/SAB50_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SAB50</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SAB50_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_SAB50Mag15</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SAB50Mag15_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<SoundDef>
+  <defName>MWP_Empty_SAB50Mag5</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SAB50Mag5_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- SCAR-20, TAQ-M -->
+<SoundDef>
+    <defName>MWP_Shot_TAQM</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/TAQM_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_TAQM_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/TAQM_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_TAQM</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/TAQM_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_TAQM</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TAQM_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_TAQMMag15</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TAQMMag15_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<SoundDef>
+  <defName>MWP_Empty_TAQMMag20</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TAQMMag20_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- Modern Crossbow -->
+<SoundDef>
+    <defName>MWP_Shot_ModCrossbow</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Crossbow_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+
+<SoundDef>
+  <defName>MWP_Interact_ModCrossbow</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Crossbow_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- SR-25, Tempus Torrent -->
+<SoundDef>
+    <defName>MWP_Shot_TempusTorrent</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/TempusTorrent_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_TempusTorrent_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/TempusTorrent_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_TempusTorrent</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/TempusTorrent_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_TempusTorrent</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TempusTorrent_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_TempusTorrentMag30</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TempusTorrentMag30_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<SoundDef>
+  <defName>MWP_Empty_TempusTorrentDrum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TempusTorrentDrum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- Barrett MRAD, MCPR-300 -->
+<SoundDef>
+    <defName>MWP_Shot_MCPR300</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/MCPR300_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_MCPR300_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/MCPR300_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_MCPR300</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/MCPR300_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_MCPR300</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/MCPR300_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_MCPR300Mag5</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/MCPR300Mag5_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<SoundDef>
+  <defName>MWP_Empty_MCPR300Mag15</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/MCPR300Mag15_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- GM6 Lynx, Siginal 50 -->
+<SoundDef>
+    <defName>MWP_Shot_Siginal50</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Siginal50_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_Siginal50_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Siginal50_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_Siginal50</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Siginal50_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Siginal50</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Siginal50_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_Siginal50Mag7</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Siginal50Mag7_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- McMillian Tac 300, LA-B 300 -->
+<SoundDef>
+    <defName>MWP_Shot_LAB330</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/LAB330_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_LAB330_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/LAB330_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_LAB330</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/LAB330_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_LAB330</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/LAB330_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_LAB330Mag8</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/LAB330Mag8_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- M2010, SP-X 80 -->
+<SoundDef>
+    <defName>MWP_Shot_SPX80</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/SPX80_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_SPX80_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/SPX80_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_SPX80</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/SPX80_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SPX80</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SPX80_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_SPX80Mag8</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SPX80Mag8_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- AW50, Victus XMR -->
+<SoundDef>
+    <defName>MWP_Shot_VictusXMR</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/VictusXMR_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_VictusXMR_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/VictusXMR_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_VictusXMR</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/VictusXMR_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_VictusXMR</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/VictusXMR_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_VictusXMRMag7</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/VictusXMRMag7_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+  <SoundDef>
+  <defName>MWP_Empty_VictusXMRMag9</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/VictusXMRMag9_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- Intervention M200, FJX Imperium -->
+<SoundDef>
+    <defName>MWP_Shot_FJXImperium</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/FJXImperium_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_FJXImperium_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/FJXImperium_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_FJXImperium</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/FJXImperium_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_FJXImperium</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/FJXImperium_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_FJXImperiumMag7</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/FJXImperiumMag7_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- WA2000, Carrack .300 -->
+<SoundDef>
+    <defName>MWP_Shot_Carrack300</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Carrack300_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_Carrack300_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Carrack300_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_Carrack300</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Carrack300_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Carrack300</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Carrack300_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_Carrack300Mag10</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Carrack300Mag10_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+  <SoundDef>
+  <defName>MWP_Empty_Carrack300Mag15</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Carrack300Mag15_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- P220, P890 -->
+ 
+<SoundDef>
+    <defName>MWP_Shot_P890</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/P890_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_P890_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/P890_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_P890</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/P890_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_P890</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/P890_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_P890Mag10</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/P890Mag10_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+  <SoundDef>
+  <defName>MWP_Empty_P890Mag12</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/P890Mag12_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- Desert Eagle, .50 GS -->
+<SoundDef>
+    <defName>MWP_Shot_50GS</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/50GS_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_50GS_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/50GS_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_50GS</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/50GS_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_50GS</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/50GS_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_50GSMag10</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/50GSMag10_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+  <SoundDef>
+  <defName>MWP_Empty_50GSMag13</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/50GSMag13_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- G17, X12 -->
+<SoundDef>
+    <defName>MWP_Shot_X12</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/X12_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_X12_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/X12_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_X12</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/X12_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_X12</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/X12_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_X12Mag24</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/X12Mag24_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+  <SoundDef>
+  <defName>MWP_Empty_X12Mag33</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/X12Mag33_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+ <SoundDef>
+  <defName>MWP_Empty_X12Drum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/X12Drum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- S&W .300 Magnum, Basilisk -->
+<SoundDef>
+    <defName>MWP_Shot_Basilisk</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Basilisk_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_Basilisk</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Basilisk_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Basilisk</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Basilisk_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+<!-- G18, X13 Auto/ G18 Roni, X13 Impact  -->
+<SoundDef>
+    <defName>MWP_Shot_X13Auto</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/X13_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_X13Impact</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/X13Impact_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+
+  
+
+<!-- TEC-9, FTAC Siege -->
+<SoundDef>
+    <defName>MWP_Shot_FTACSiege</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/FTACSiege_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_FTACSiege_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/FTACSiege_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_FTACSiege</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/FTACSiege_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_FTACSiege</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/FTACSiege_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_FTACSiegeMag20</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/FTACSiegeMag20_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+  <SoundDef>
+  <defName>MWP_Empty_FTACSiegeDrum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/FTACSiegeDrum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- Staccato P, 9mm Daemon -->
+<SoundDef>
+    <defName>MWP_Shot_9MMDaemon</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/9MMDaemon_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_9MMDaemon_Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/9MMDaemon_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+  <defName>MWP_Interact_9MMDaemon</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/9MMDaemon_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_9MMDaemon</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/9MMDaemon_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+  
+  <SoundDef>
+  <defName>MWP_Empty_9MMDaemonMag20</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/9MMDaemonMag20_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+  <SoundDef>
+  <defName>MWP_Empty_9MMDaemonMag26</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/9MMDaemonMag26_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- RPG-7 -->
+<SoundDef>
+    <defName>MWP_Shot_RPG7</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/RPG7_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+  
+
+
+
+
+ 
+<!-- SA-25 Verba, PILA -->
+<SoundDef>
+    <defName>MWP_Shot_PILA</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/PILA_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+  
+
+<SoundDef>
+  <defName>MWP_Interact_PILA</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/PILA_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- FGM-148 Javelin, JOKR -->
+<SoundDef>
+    <defName>MWP_Shot_JOKR</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/JOKR_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+  
+
+<SoundDef>
+  <defName>MWP_Interact_JOKR</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/JOKR_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Aim_JOKR</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/JOKR_Aim</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- Strela-P, Gustav M4 -->
+
+<SoundDef>
+    <defName>MWP_Shot_StrelaP</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/StrelaP_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+  
+
+<SoundDef>
+  <defName>MWP_Interact_StrelaP</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/StrelaP_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+
+<!-- MW 2019 -->
+<!-- Kilo 141, HK-443 -->
+
+<SoundDef>
+  <defName>MWP_Interact_Kilo141</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Kilo141_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Kilo141</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Kilo141_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Kilo141Mag60</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Kilo141Mag60_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Kilo141Drum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Kilo141Drum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- M4A1, MK18 -->
+
+<SoundDef>
+  <defName>MWP_Interact_M4A1</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/M4A1_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_M4A1Mag10</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/M4A1Mag10_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>30~30</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- Kastov 47, AKM -->
+
+<SoundDef>
+  <defName>MWP_Interact_Kastov47</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Kastov47_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+
+<!-- Grau 556, SG553 -->
+
+<SoundDef>
+  <defName>MWP_Interact_Grau556</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Grau556_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Grau556</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Grau556_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Grau556Mag60</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Grau556Mag60_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- CR-56, ACE22 -->
+
+<SoundDef>
+  <defName>MWP_Interact_CR56</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/CR56_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_CR56</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/CR56_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_CR56Mag45</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/CR56Mag45_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_CR56Mag10</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/CR56Mag10_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- SVA 939, AS VAL -->
+
+<SoundDef>
+  <defName>MWP_Interact_SVA939</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/SVA939_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SVA939</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SVA939_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SVA939Mag30</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SVA939Mag30_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- SVA 545, AN-94 -->
+
+<SoundDef>
+  <defName>MWP_Interact_SVA545</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/SVA545_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SVA545</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SVA545_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SVA545Mag45</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SVA545Mag45_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SVA545Mag60</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SVA545Mag60_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- Holger 556, G36K -->
+
+
+<SoundDef>
+  <defName>MWP_Empty_Holger556</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Holger556_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- SA80, L85A2 -->
+
+<SoundDef>
+  <defName>MWP_Interact_SA80</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/SA80_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SA80</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SA80_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_SA80Mag60</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/SA80Mag60_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!-- FR556, Famas F1 -->
+
+<SoundDef>
+  <defName>MWP_Interact_FR556</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/FR556_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- RAM-7, CTAR-21 -->
+
+<SoundDef>
+  <defName>MWP_Interact_RAM7</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/RAM7_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_RAM7</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/RAM7_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_RAM7Mag50</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/RAM7Mag50_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_RAM7Drum</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/RAM7Drum_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- Oden, ShAK-12 -->
+
+<SoundDef>
+  <defName>MWP_Interact_Oden</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Oden_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Oden</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Oden_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_OdenMag30</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/OdenMag30_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_OdenMag10</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/OdenMag10_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<!-- TR2, FN FAL -->
+
+<SoundDef>
+  <defName>MWP_Interact_TR2</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Oden_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_TR2</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TR2_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_TR2Mag30</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/TR2Mag30_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+
+<!-- Holger 26, MG36 -->
+<SoundDef>
+  <defName>MWP_Interact_Holger26</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Interact/Holger26_Interact</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Holger26</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Holger26_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+
+<SoundDef>
+  <defName>MWP_Empty_Holger26Mag60</defName>
+  <context>MapOnly</context>
+  <maxSimultaneous>1</maxSimultaneous>
+  <subSounds>
+    <li>
+      <grains>
+        <li Class="AudioGrain_Clip">
+          <clipPath>Things/Weapon/Reload/Holger26Mag60_Empty</clipPath>
+        </li>
+      </grains>
+      <volumeRange>20~20</volumeRange>
+      <pitchRange>1.0~1.1</pitchRange>
+    </li>
+  </subSounds>
+</SoundDef>
+<!--Gun Shots-->
+
+<SoundDef>
+    <defName>MWP_Shot_ARStyle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/ARStyle_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_ARStyleSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/ARStyle_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+    <defName>MWP_Shot_AKStyle</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/AKStyle_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_AKStyleSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/AKStyle_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+
+   <SoundDef>
+    <defName>MWP_Shot_Famas</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Famas_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_FamasSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Famas_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+    <defName>MWP_Shot_Carbine</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Carbine_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_CarbineSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Carbine_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+<SoundDef>
+    <defName>MWP_Shot_AutoBR</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/AutoBR_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_AutoBRSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/AutoBR_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+    <defName>MWP_Shot_SemiBR</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/SemiBR_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_SemiBRSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/SemiBR_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+</Defs>

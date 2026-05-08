@@ -1,0 +1,4153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+                                                                                <!-- MW2 2022 -->
+  <WHands.ClutterHandsTDef MayRequire="cloakerm8.gogmwp">
+     <defName>ClutterHandsSettings_GOGModernWarfarePack</defName>
+      <label>Weapon hand settings</label>
+      <thingClass>Thing</thingClass>
+      <WeaponCompLoader>
+          <li>
+              <MainHand>(-0.125, 0.100, -0.020)</MainHand>
+              <SecHand>(0.280, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_556Icarus_CQC_LMG</li> <!-- 556 Icarus CQC (Fightlite MCR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, -0.020)</MainHand>
+              <SecHand>(0.255, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_556Icarus_EXT_LMG</li> <!-- 556 Icarus EXT (Fightlite MCR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.185, 0.100, -0.020)</MainHand>
+              <SecHand>(0.185, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_556Icarus_SF_LMG</li> <!-- 556 Icarus SF (Fightlite MCR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, -0.020)</MainHand>
+              <SecHand>(0.255, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_556Icarus_INF_LMG</li> <!-- 556 Icarus INF (Fightlite MCR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, -0.020)</MainHand>
+              <SecHand>(0.255, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_556Icarus_SNP_LMG</li> <!-- 556 Icarus SNP (Fightlite MCR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, -0.020)</MainHand>
+              <SecHand>(0.255, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_556Icarus_THM_LMG</li> <!-- 556 Icarus THM (Fightlite MCR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, -0.020)</MainHand>
+              <SecHand>(0.255, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_556Icarus_LMG</li> <!-- 556 Icarus (Fightlite MCR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.070, 0.100, -0.030)</MainHand>
+              <SecHand>(0.335, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_BASP_CQC_SMG</li> <!-- BAS-P CQC (MPX) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.005, 0.100, -0.020)</MainHand>
+              <SecHand>(0.310, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_BASP_IAR_SMG</li> <!-- BAS-P IAR (MPX) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.050, 0.100, -0.025)</MainHand>
+              <SecHand>(0.335, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_BASP_INF_SMG</li> <!-- BAS-P INF (MPX) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.045, 0.100, -0.025)</MainHand>
+              <SecHand>(0.250, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_BASP_SF_SMG</li> <!-- BAS-P SF (MPX) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.045, 0.100, -0.025)</MainHand>
+              <SecHand>(0.350, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_BASP_THM_SMG</li> <!-- BAS-P THM (MPX) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.070, 0.100, -0.030)</MainHand>
+              <SecHand>(0.330, -0.100, 0.050)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_BASP_SMG</li> <!-- BAS-P (MPX) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.190, 0.100, 0.040)</MainHand>
+              <SecHand>(0.200, -0.100, 0.035)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson800_SG</li> <!-- Bryson 800 (Mossberg 590) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.185, 0.100, -0.015)</MainHand>
+              <SecHand>(0.180, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson800_CQC_SG</li> <!-- Bryson 800 CQC (Mossberg 590) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.240, 0.100, -0.010)</MainHand>
+              <SecHand>(0.150, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson800_DBR_SG</li> <!-- Bryson 800 DBR (Mossberg 590) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.210, 0.100, 0.000)</MainHand>
+              <SecHand>(0.215, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson800_INF_SG</li> <!-- Bryson 800 INF (Mossberg 590) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.260, 0.100, -0.010)</MainHand>
+              <SecHand>(0.155, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson800_SF_SG</li> <!-- Bryson 800 SF (Mossberg 590) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.225, 0.100, -0.015)</MainHand>
+              <SecHand>(0.245, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson800_SLG</li> <!-- Bryson 800 SLG (Mossberg 590) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.210, 0.100, -0.020)</MainHand>
+              <SecHand>(0.225, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson800_THM_SG</li> <!-- Bryson 800 THM (Mossberg 590) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.120, 0.100, -0.010)</MainHand>
+              <SecHand>(0.275, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson890_SG</li> <!-- Bryson 890 (Mossberg 590 Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.105, 0.100, -0.005)</MainHand>
+              <SecHand>(0.300, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson890_CQC_SG</li> <!-- Bryson 890 CQC (Mossberg 590 Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.175, 0.100, -0.015)</MainHand>
+              <SecHand>(0.220, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson890_DBR_SG</li> <!-- Bryson 890 DBR (Mossberg 590 Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.105, 0.100, -0.005)</MainHand>
+              <SecHand>(0.305, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson890_INF_SG</li> <!-- Bryson 890 INF (Mossberg 590 Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.205, 0.100, -0.005)</MainHand>
+              <SecHand>(0.165, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson890_SF_SG</li> <!-- Bryson 890 SF (Mossberg 590 Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.120, 0.100, 0.005)</MainHand>
+              <SecHand>(0.320, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson890_SLG_SG</li> <!-- Bryson 890 SLG (Mossberg 590 Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.095, 0.100, -0.010)</MainHand>
+              <SecHand>(0.245, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson890_THM_SG</li> <!-- Bryson 890 THM (Mossberg 590 Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.050, 0.100, -0.080)</MainHand>
+              <SecHand>(0.300, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Chimera_AR</li> <!-- Chimera (Honey Badger) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.035, 0.100, -0.085)</MainHand>
+              <SecHand>(0.345, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Chimera_CQC_AR</li> <!-- Chimera CQC (Honey Badger) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.055, 0.100, -0.095)</MainHand>
+              <SecHand>(0.360, -0.100, -0.055)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Chimera_GL_AR</li> <!-- Chimera GL (Honey Badger) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.035, 0.100, -0.085)</MainHand>
+              <SecHand>(0.365, -0.100, -0.070)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Chimera_INF_AR</li> <!-- Chimera INF (Honey Badger) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.040, 0.100, -0.090)</MainHand>
+              <SecHand>(0.325, -0.100, -0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Chimera_THM_AR</li> <!-- Chimera THM (Honey Badger) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.100, 0.100, -0.085)</MainHand>
+              <SecHand>(0.190, -0.100, -0.065)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Chimera_UBS_AR</li> <!-- Chimera UBS (Honey Badger) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.040, 0.100, -0.090)</MainHand>
+              <SecHand>(0.345, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Chimera_UNSP_AR</li> <!-- Chimera UNSP (Honey Badger) -->
+              </ThingTargets>
+          </li>
+        
+          <li>
+              <MainHand>(-0.280, 0.100, -0.060)</MainHand>
+              <SecHand>(0.135, -0.100, -0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_EBR14_CQC_DMR</li> <!-- EBR-14 CQC (M14 EBR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.295, 0.100, -0.065)</MainHand>
+              <SecHand>(0.120, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_EBR14_INF_DMR</li> <!-- EBR-14 INF (M14 EBR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.305, 0.100, -0.020)</MainHand>
+              <SecHand>(0.000, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_EBR14_RF_DMR</li> <!-- EBR-14 RF (M14 EBR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.235, 0.100, -0.030)</MainHand>
+              <SecHand>(0.145, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_EBR14_SF_DMR</li> <!-- EBR-14 SF (M14 EBR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.245, 0.100, -0.050)</MainHand>
+              <SecHand>(0.165, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_EBR14_THM_DMR</li> <!-- EBR-14 THM (M14 EBR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.005)</MainHand>
+              <SecHand>(0.150, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_EBR14_DMR</li> <!-- EBR-14 (M14 EBR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.180, 0.100, 0.000)</MainHand>
+              <SecHand>(0.155, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Expedite12_CQC_SG</li> <!-- Expedite 12 CQC (Benelli M4 Super 90) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.220, 0.100, -0.025)</MainHand>
+              <SecHand>(0.185, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Expedite12_DBR_SG</li> <!-- Expedite 12 DBR (Benelli M4 Super 90) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.190, 0.100, -0.010)</MainHand>
+              <SecHand>(0.235, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Expedite12_INF_SG</li> <!-- Expedite 12 INF (Benelli M4 Super 90) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.290, 0.100, -0.050)</MainHand>
+              <SecHand>(0.035, -0.100, -0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Expedite12_SF_SG</li> <!-- Expedite 12 SF (Benelli M4 Super 90) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.140, 0.100, -0.020)</MainHand>
+              <SecHand>(0.210, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Expedite12_SLG_SG</li> <!-- Expedite 12 SLG (Benelli M4 Super 90) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.015)</MainHand>
+              <SecHand>(0.145, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Expedite12_SG</li> <!-- Expedite 12 (Benelli M4 Super 90) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.070, 0.100, 0.030)</MainHand>
+              <SecHand>(0.350, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Fennec45_CQC_SMG</li> <!-- Fennec 45 CQC (Vector 45) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.145, 0.100, 0.025)</MainHand>
+              <SecHand>(0.150, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Fennec45_IAR_SMG</li> <!-- Fennec 45 IAR (Vector 45) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.075, 0.100, 0.025)</MainHand>
+              <SecHand>(0.360, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Fennec45_INF_SMG</li> <!-- Fennec 45 INF (Vector 45) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, 0.040)</MainHand>
+              <SecHand>(0.275, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Fennec45_SF_SMG</li> <!-- Fennec 45 SF (Vector 45) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.065, 0.100, 0.035)</MainHand>
+              <SecHand>(0.375, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Fennec45_THM_SMG</li> <!-- Fennec 45 THM (Vector 45) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.080, 0.100, 0.035)</MainHand>
+              <SecHand>(0.330, -0.100, 0.055)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Fennec45_SMG</li> <!-- Fennec 45 (Vector 45) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.040, 0.100, -0.025)</MainHand>
+              <SecHand>(0.235, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FRavancer_AR</li> <!-- FR Avancer (Famas Felin) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.050, 0.100, -0.025)</MainHand>
+              <SecHand>(0.260, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FRavancer_CQC_AR</li> <!-- FR Avancer CQC (Famas Felin) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.030, 0.100, -0.015)</MainHand>
+              <SecHand>(0.265, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FRavancer_GL_AR</li> <!-- FR Avancer GL (Famas Felin) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.015, 0.100, -0.015)</MainHand>
+              <SecHand>(0.185, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FRavancer_IAR_AR</li> <!-- FR Avancer IAR (Famas Felin) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.045, 0.100, -0.030)</MainHand>
+              <SecHand>(0.260, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FRavancer_INF_AR</li> <!-- FR Avancer INF (Famas Felin) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.035, 0.100, -0.025)</MainHand>
+              <SecHand>(0.255, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FRavancer_SF_AR</li> <!-- FR Avancer SF (Famas Felin) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.035, 0.100, -0.020)</MainHand>
+              <SecHand>(0.235, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FRavancer_THM_AR</li> <!-- FR Avancer THM (Famas Felin) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.025, 0.100, -0.010)</MainHand>
+              <SecHand>(0.215, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FRavancer_UBS_AR</li> <!-- FR Avancer UBS (Famas Felin) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.040, 0.100, -0.030)</MainHand>
+              <SecHand>(0.315, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FSSHurricane_CQC_SMG</li> <!-- FSS Hurricane CQC (AR-57) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.025)</MainHand>
+              <SecHand>(0.295, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FSSHurricane_INF_SMG</li> <!-- FSS Hurricane INF (AR-57) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.085, 0.100, -0.025)</MainHand>
+              <SecHand>(0.250, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FSSHurricane_SF_SMG</li> <!-- FSS Hurricane SF (AR-57) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.030, 0.100, -0.025)</MainHand>
+              <SecHand>(0.305, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FSSHurricane_THM_SMG</li> <!-- FSS Hurricane THM (AR-57) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.030, 0.100, -0.030)</MainHand>
+              <SecHand>(0.285, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FSSHurricane_SMG</li> <!-- FSS Hurricane (AR-57) -->
+              </ThingTargets>
+          </li>
+        
+          <li>
+              <MainHand>(0.140, 0.100, -0.025)</MainHand>
+              <SecHand>(0.330, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_GRIMX_CQC_AR</li> <!-- GRIM X CQC (Grot B) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.130, 0.100, -0.040)</MainHand>
+              <SecHand>(0.330, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_GRIMX_GL_AR</li> <!-- GRIM X GL (Grot B) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.095, 0.100, -0.035)</MainHand>
+              <SecHand>(0.290, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_GRIMX_IAR_AR</li> <!-- GRIM X IAR (Grot B) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.130, 0.100, -0.025)</MainHand>
+              <SecHand>(0.330, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_GRIMX_INF_AR</li> <!-- GRIM X INF (Grot B) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.005, 0.100, -0.030)</MainHand>
+              <SecHand>(0.210, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_GRIMX_SF_AR</li> <!-- GRIM X SF (Grot B) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.135, 0.100, -0.025)</MainHand>
+              <SecHand>(0.330, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_GRIMX_THM_AR</li> <!-- GRIM X THM (Grot B) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.025, 0.100, -0.015)</MainHand>
+              <SecHand>(0.205, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_GRIMX_UBS_AR</li> <!-- GRIM X UBS (Grot B) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.105, 0.100, -0.035)</MainHand>
+              <SecHand>(0.305, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_GRIMX_AR</li> <!-- GRIM X (Grot B) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.115, 0.100, -0.020)</MainHand>
+              <SecHand>(0.100, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_HCR56_CQC_LMG</li> <!-- HCR-56 CQC (AUG HBAR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.130, 0.100, -0.020)</MainHand>
+              <SecHand>(0.100, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_HCR56_EXT_LMG</li> <!-- HCR-56 EXT (AUG HBAR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.130, 0.100, -0.025)</MainHand>
+              <SecHand>(0.080, -0.100, -0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_HCR56_INF_LMG</li> <!-- HCR-56 INF (AUG HBAR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.115, 0.100, -0.030)</MainHand>
+              <SecHand>(0.085, -0.100, -0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_HCR56_SF_LMG</li> <!-- HCR-56 SF (AUG HBAR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.130, 0.100, -0.025)</MainHand>
+              <SecHand>(0.090, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_HCR56_SNP_LMG</li> <!-- HCR-56 SNP (AUG HBAR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.120, 0.100, -0.030)</MainHand>
+              <SecHand>(0.090, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_HCR56_THM_LMG</li> <!-- HCR-56 THM (AUG HBAR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.145, 0.100, -0.025)</MainHand>
+              <SecHand>(0.110, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_HCR56_LMG</li> <!-- HCR-56 (AUG HBAR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.030, 0.100, -0.025)</MainHand>
+              <SecHand>(0.285, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Holger416_AR</li> <!-- Holger 416 (HK 416) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.020, 0.100, -0.010)</MainHand>
+              <SecHand>(0.330, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Holger416_CQC_AR</li> <!-- Holger 416 CQC (HK 416) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.030, 0.100, -0.025)</MainHand>
+              <SecHand>(0.300, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Holger416_GL_AR</li> <!-- Holger 416 GL (HK 416) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.015, 0.100, -0.025)</MainHand>
+              <SecHand>(0.305, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Holger416_INF_AR</li> <!-- Holger 416 INF (HK 416) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.100, 0.100, -0.030)</MainHand>
+              <SecHand>(0.240, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Holger416_SF_AR</li> <!-- Holger 416 SF (HK 416) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.020, 0.100, -0.025)</MainHand>
+              <SecHand>(0.385, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Holger416_THM_AR</li> <!-- Holger 416 THM (HK 416) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.015, 0.100, -0.015)</MainHand>
+              <SecHand>(0.260, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Holger416_UBS_AR</li> <!-- Holger 416 UBS (HK 416) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.065, 0.100, 0.045)</MainHand>
+              <SecHand>(0.255, -0.100, 0.080)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_IXOL_AR</li> <!-- IOXL (VHS-D2) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.105, 0.100, 0.025)</MainHand>
+              <SecHand>(0.270, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_IXOL_GL_AR</li> <!-- IOXL GL (VHS-D2) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.015, 0.100, 0.035)</MainHand>
+              <SecHand>(0.215, -0.100, 0.070)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_IXOL_IAR_AR</li> <!-- IOXL IAR (VHS-D2) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.065, 0.100, 0.035)</MainHand>
+              <SecHand>(0.230, -0.100, 0.085)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_IXOL_SF_AR</li> <!-- IOXL SF (VHS-D2) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.025, 0.100, 0.015)</MainHand>
+              <SecHand>(0.205, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_IXOL_UBS_AR</li> <!-- IOXL UBS (VHS-D2) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.155, 0.100, -0.030)</MainHand>
+              <SecHand>(0.410, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISO9MM_CQC_SMG</li> <!-- ISO 9MM CQC (APC9K) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.160, 0.100, -0.030)</MainHand>
+              <SecHand>(0.385, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISO9MM_INF_SMG</li> <!-- ISO 9MM INF (APC9K) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.035, 0.100, -0.040)</MainHand>
+              <SecHand>(0.280, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISO9MM_SF_SMG</li> <!-- ISO 9MM SF (APC9K) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.145, 0.100, -0.025)</MainHand>
+              <SecHand>(0.405, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISO9MM_THM_SMG</li> <!-- ISO 9MM THM (APC9K) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.165, 0.100, -0.030)</MainHand>
+              <SecHand>(0.375, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISO9MM_SMG</li> <!-- ISO 9MM (APC9K) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.025, 0.100, 0.020)</MainHand>
+              <SecHand>(0.250, -0.100, 0.090)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISOHemlock_AR</li> <!-- ISO Hemlock (APC-556) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.025, 0.100, 0.020)</MainHand>
+              <SecHand>(0.275, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISOHemlock_GL_AR</li> <!-- ISO Hemlock GL (APC-556) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.060, 0.100, 0.015)</MainHand>
+              <SecHand>(0.290, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISOHemlock_UBS_AR</li> <!-- ISO Hemlock UBS (APC-556) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.155, 0.100, -0.030)</MainHand>
+              <SecHand>(0.160, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISOHemlock_IAR_AR</li> <!-- ISO Hemlock IAR (APC-556) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, 0.015)</MainHand>
+              <SecHand>(0.295, -0.100, 0.050)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISOHemlock_CQC_AR</li> <!-- ISO Hemlock CQC (APC-556) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, 0.015)</MainHand>
+              <SecHand>(0.285, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISOHemlock_INF_AR</li> <!-- ISO Hemlock INF (APC-556) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.130, 0.100, 0.020)</MainHand>
+              <SecHand>(0.185, -0.100, 0.065)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISOHemlock_SF_AR</li> <!-- ISO Hemlock SF (APC-556) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.040, 0.100, 0.015)</MainHand>
+              <SecHand>(0.325, -0.100, 0.065)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISOHemlock_THM_AR</li> <!-- ISO Hemlock THM (APC-556) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.050, 0.100, -0.015)</MainHand>
+              <SecHand>(0.360, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISO45_CQC_SMG</li> <!-- ISO-45 CQC (APC45P) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.020, 0.100, -0.020)</MainHand>
+              <SecHand>(0.320, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISO45_IAR_SMG</li> <!-- ISO-45 IAR (APC45P) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.050, 0.100, -0.015)</MainHand>
+              <SecHand>(0.345, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISO45_INF_SMG</li> <!-- ISO-45 INF (APC45P) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.080, 0.100, -0.015)</MainHand>
+              <SecHand>(0.205, -0.100, 0.065)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISO45_SF_SMG</li> <!-- ISO-45 SF (APC45P) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.050, 0.100, -0.025)</MainHand>
+              <SecHand>(0.315, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISO45_SMG</li> <!-- ISO-45 (APC45P) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.050, 0.100, -0.015)</MainHand>
+              <SecHand>(0.360, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISO45_THM_SMG</li> <!-- ISO-45 THM (APC45P) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.105, 0.100, 0.000)</MainHand>
+              <SecHand>(0.180, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov545_AR</li> <!-- Kastov 545 (AK-105) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.110, 0.100, -0.010)</MainHand>
+              <SecHand>(0.230, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov545_CQC_AR</li> <!-- Kastov 545 CQC (AK-105) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.105, 0.100, -0.020)</MainHand>
+              <SecHand>(0.230, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov545_GL_AR</li> <!-- Kastov 545 GL (AK-105) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.105, 0.100, -0.015)</MainHand>
+              <SecHand>(0.230, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov545_IAR_AR</li> <!-- Kastov 545 IAR (AK-105) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.130, 0.100, -0.015)</MainHand>
+              <SecHand>(0.225, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov545_INF_AR</li> <!-- Kastov 545 INF (AK-105) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.005)</MainHand>
+              <SecHand>(0.135, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov545_SF_AR</li> <!-- Kastov 545 SF (AK-105) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.120, 0.100, -0.005)</MainHand>
+              <SecHand>(0.205, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov545_THM_AR</li> <!-- Kastov 545 THM (AK-105) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.120, 0.100, -0.010)</MainHand>
+              <SecHand>(0.210, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov545_UBS_AR</li> <!-- Kastov 545 UBS (AK-105) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.120, 0.100, -0.010)</MainHand>
+              <SecHand>(0.245, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov545_Zenitco_AR</li> <!-- Kastov 545 Zenitco (AK-105) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.060, 0.100, -0.005)</MainHand>
+              <SecHand>(0.310, -0.100, 0.055)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov74U_CQC_AR</li> <!-- Kastov 74U CQC (AKS-74U) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.025, 0.100, 0.005)</MainHand>
+              <SecHand>(0.305, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov74U_INF_AR</li> <!-- Kastov 74U INF (AKS-74U) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.030, 0.100, 0.000)</MainHand>
+              <SecHand>(0.215, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov74U_SF_AR</li> <!-- Kastov 74U SF (AKS-74U) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.055, 0.100, -0.005)</MainHand>
+              <SecHand>(0.340, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov74U_Zenitco_AR</li> <!-- Kastov 74U Zenitco (AKS-74U) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.025, 0.100, 0.005)</MainHand>
+              <SecHand>(0.305, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov74U_AR</li> <!-- Kastov 74U (AKS-74U) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.010)</MainHand>
+              <SecHand>(0.115, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov762_AR</li> <!-- Kastov 762 (AK-103) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.170, 0.100, 0.000)</MainHand>
+              <SecHand>(0.165, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov762_CQC_AR</li> <!-- Kastov 762 CQC (AK-103) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.185, 0.100, -0.005)</MainHand>
+              <SecHand>(0.175, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov762_GL_AR</li> <!-- Kastov 762 GL (AK-103) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.185, 0.100, -0.015)</MainHand>
+              <SecHand>(0.175, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov762_INF_AR</li> <!-- Kastov 762 INF (AK-103) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.225, 0.100, -0.010)</MainHand>
+              <SecHand>(0.115, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov762_SF_AR</li> <!-- Kastov 762 SF (AK-103) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.180, 0.100, -0.010)</MainHand>
+              <SecHand>(0.180, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov762_THM_AR</li> <!-- Kastov 762 THM (AK-103) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.010)</MainHand>
+              <SecHand>(0.190, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov762_UBS_AR</li> <!-- Kastov 762 UBS (AK-103) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.095, 0.100, -0.005)</MainHand>
+              <SecHand>(0.240, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov762_Zenitco_AR</li> <!-- Kastov 762 Zenitco (AK-103) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.045, 0.100, -0.020)</MainHand>
+              <SecHand>(0.265, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_KVBroadside_CQC_SG</li> <!-- KV Broadside CQC (Vepr-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.025)</MainHand>
+              <SecHand>(0.275, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_KVBroadside_INF_SG</li> <!-- KV Broadside INF (Vepr-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.105, 0.100, -0.020)</MainHand>
+              <SecHand>(0.295, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_KVBroadside_DBR_SG</li> <!-- KV Broadside DBR (Vepr-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.040, 0.100, -0.020)</MainHand>
+              <SecHand>(0.260, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_KVBroadside_THM_SG</li> <!-- KV Broadside THM (Vepr-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.120, 0.100, -0.020)</MainHand>
+              <SecHand>(0.215, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_KVBroadside_SF_SG</li> <!-- KV Broadside SF (Vepr-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.180, 0.100, -0.015)</MainHand>
+              <SecHand>(0.175, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_KVBroadside_SLG_SG</li> <!-- KV Broadside SLG (Vepr-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.050, 0.100, -0.015)</MainHand>
+              <SecHand>(0.235, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_KVBroadside_SG</li> <!-- KV Broadside (Vepr-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.015, 0.100, -0.035)</MainHand>
+              <SecHand>(0.305, -0.100, 0.050)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Lachmann556_AR</li> <!-- Lachmann 556 (HK33) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.020, 0.100, -0.025)</MainHand>
+              <SecHand>(0.345, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Lachmann556_CQC_AR</li> <!-- Lachmann 556 CQC (HK33) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.005, 0.100, -0.050)</MainHand>
+              <SecHand>(0.330, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Lachmann556_GL_AR</li> <!-- Lachmann 556 GL (HK33) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.010, 0.100, -0.040)</MainHand>
+              <SecHand>(0.330, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Lachmann556_INF_AR</li> <!-- Lachmann 556 INF (HK33) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.065, 0.100, -0.035)</MainHand>
+              <SecHand>(0.275, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Lachmann556_SF_AR</li> <!-- Lachmann 556 SF (HK33) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.005, 0.100, -0.040)</MainHand>
+              <SecHand>(0.355, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Lachmann556_THM_AR</li> <!-- Lachmann 556 THM (HK33) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.015, 0.100, -0.035)</MainHand>
+              <SecHand>(0.295, -0.100, -0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Lachmann556_UBS_AR</li> <!-- Lachmann 556 UBS (HK33) -->
+              </ThingTargets>
+          </li>
+        
+          <li>
+              <MainHand>(-0.025, 0.100, -0.040)</MainHand>
+              <SecHand>(0.280, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LachmannShroud_CQC_SMG</li> <!-- Lachmann Shroud CQC (MP5SD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.010, 0.100, -0.025)</MainHand>
+              <SecHand>(0.260, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LachmannShroud_SF_SMG</li> <!-- Lachmann Shroud SF (MP5SD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.020, 0.100, -0.045)</MainHand>
+              <SecHand>(0.285, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LachmannShroud_THM_SMG</li> <!-- Lachmann Shroud THM (MP5SD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.010, 0.100, -0.025)</MainHand>
+              <SecHand>(0.250, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LachmannShroud_SMG</li> <!-- Lachmann Shroud (MP5SD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.090, 0.100, -0.030)</MainHand>
+              <SecHand>(0.330, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LachmannSub_SMG</li> <!-- Lachmann Sub (MP5A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, 0.065)</MainHand>
+              <SecHand>(0.065, -0.100, 0.060)</SecHand>
+              <ThingTargets>
+                 <li>MW2_Gun_Lockwood300_CQC_SG</li> <!-- Lockwood 300 CQC (Browning Citori) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.265, 0.100, 0.065)</MainHand>
+              <SecHand>(0.030, -0.100, 0.050)</SecHand>
+              <ThingTargets>
+                 <li>MW2_Gun_Lockwood300_DBR_SG</li> <!-- Lockwood 300 DBR (Browning Citori) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.215, 0.100, 0.055)</MainHand>
+              <SecHand>(0.100, -0.100, 0.000)</SecHand>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Lockwood300_INF_SG</li> <!-- Lockwood 300 INF (Browning Citori) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.205, 0.100, 0.065)</MainHand>
+              <SecHand>(0.090, -0.100, 0.050)</SecHand>
+              <ThingTargets>
+                 <li>MW2_Gun_Lockwood300_M_SG</li> <!-- Lockwood 300 M (Browning Citori) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, 0.075)</MainHand>
+              <SecHand>(0.085, -0.100, 0.070)</SecHand>
+              <ThingTargets>
+                 <li>MW2_Gun_Lockwood300_SF_SG</li> <!-- Lockwood 300 SF (Browning Citori) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.210, 0.100, 0.055)</MainHand>
+              <SecHand>(0.080, -0.100, 0.055)</SecHand>
+              <ThingTargets>
+                 <li>MW2_Gun_Lockwood300_SLG_SG</li> <!-- Lockwood 300 SLG (Browning Citori) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, 0.065)</MainHand>
+              <SecHand>(0.050, -0.100, 0.055)</SecHand>
+              <ThingTargets>
+                 <li>MW2_Gun_Lockwood300_THM_SG</li> <!-- Lockwood 300 THM (Browning Citori) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.215, 0.100, 0.070)</MainHand>
+              <SecHand>(0.060, -0.100, 0.050)</SecHand>
+              <ThingTargets>
+                 <li>MW2_Gun_Lockwood300_SG</li> <!-- Lockwood 300 (Browning Citori) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.185, 0.100, 0.000)</MainHand>
+              <SecHand>(0.125, -0.100, 0.035)</SecHand>
+              <MainRotation>-18</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LockwoodMK2_DMR</li> <!-- Lockwood MK2 (Model 1885) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.035)</MainHand>
+              <SecHand>(0.310, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13B_AR</li> <!-- M13B (MCX Virtus) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.030, 0.100, -0.040)</MainHand>
+              <SecHand>(0.315, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13B_GL_AR</li> <!-- M13B GL (MCX Virtus) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.115, 0.100, -0.050)</MainHand>
+              <SecHand>(0.245, -0.100, -0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13B_UBS_AR</li> <!-- M13B UBS (MCX Virtus) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.075, 0.100, -0.025)</MainHand>
+              <SecHand>(0.345, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13C_AR</li> <!-- M13C (MCX Ratter) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.070, 0.100, -0.025)</MainHand>
+              <SecHand>(0.350, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13C_GL_AR</li> <!-- M13C GL (MCX Ratter) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.055, 0.100, -0.030)</MainHand>
+              <SecHand>(0.230, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13C_UBS_AR</li> <!-- M13C UBS (MCX Ratter) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.210, 0.100, -0.015)</MainHand>
+              <SecHand>(0.130, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_AR</li> <!-- M16 (M16A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.210, 0.100, -0.015)</MainHand>
+              <SecHand>(0.100, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_Classic_GL_AR</li> <!-- M16 Classic GL (M16A2) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.210, 0.100, -0.015)</MainHand>
+              <SecHand>(0.130, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_Classic_AR</li> <!-- M16 Classic (M16A2) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.210, 0.100, -0.015)</MainHand>
+              <SecHand>(0.090, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_GL_AR</li> <!-- M16 GL (M16A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.235, 0.100, 0.000)</MainHand>
+              <SecHand>(0.100, -0.100, 0.050)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_IAR_AR</li> <!-- M16 IAR (M16A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.210, 0.100, -0.015)</MainHand>
+              <SecHand>(0.050, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_Iraq_AR</li> <!-- M16 Iraq (M16A2) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.210, 0.100, -0.015)</MainHand>
+              <SecHand>(0.035, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_OldSchool_AR</li> <!-- M16 Old School (M16A1) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.210, 0.100, -0.015)</MainHand>
+              <SecHand>(0.210, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_UBS_AR</li> <!-- M16 UBS (M16A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.030)</MainHand>
+              <SecHand>(0.280, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M4_AR</li> <!-- M4 (M4 URGI) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.030)</MainHand>
+              <SecHand>(0.205, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M4_Classic_AR</li> <!-- M4 Classic (M4A1) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.065, 0.100, -0.030)</MainHand>
+              <SecHand>(0.275, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M4_GL_AR</li> <!-- M4 GL (M4 URGI) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.105, 0.100, -0.030)</MainHand>
+              <SecHand>(0.230, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M4_UBS_AR</li> <!-- M4 UBS (M4 URGI) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.025)</MainHand>
+              <SecHand>(0.250, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Minibak_CQC_SMG</li> <!-- Minibak CQC (PP-19 Bizon) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.030)</MainHand>
+              <SecHand>(0.230, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Minibak_INF_SMG</li> <!-- Minibak INF (PP-19 Bizon) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.155, 0.100, -0.025)</MainHand>
+              <SecHand>(0.130, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Minibak_SF_SMG</li> <!-- Minibak SF (PP-19 Bizon) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.025)</MainHand>
+              <SecHand>(0.250, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Minibak_THM_SMG</li> <!-- Minibak THM (PP-19 Bizon) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.025)</MainHand>
+              <SecHand>(0.250, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Minibak_SMG</li> <!-- Minibak (PP-19 Bizon) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.025)</MainHand>
+              <SecHand>(0.220, -0.100, 0.078)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>179</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MXGuardian_CQC_SG</li> <!-- MX Guardian CQC (TS-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.025)</MainHand>
+              <SecHand>(0.230, -0.100, 0.065)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-154</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MXGuardian_DBR_SG</li> <!-- MX Guardian DBR (TS-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.025)</MainHand>
+              <SecHand>(0.255, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-151</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MXGuardian_INF_SG</li> <!-- MX Guardian INF (TS-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.160, 0.100, -0.055)</MainHand>
+              <SecHand>(0.100, -0.100, 0.085)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-151</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MXGuardian_SF_SG</li> <!-- MX Guardian SF (TS-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.025)</MainHand>
+              <SecHand>(0.255, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-151</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MXGuardian_SLG_SG</li> <!-- MX Guardian SLG (TS-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.025)</MainHand>
+              <SecHand>(0.255, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-151</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MXGuardian_THM_SG</li> <!-- MX Guardian THM (TS-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.035, 0.100, -0.025)</MainHand>
+              <SecHand>(0.210, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MXGuardian_SG</li> <!-- MX Guardian (TS-12) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.140, 0.100, -0.015)</MainHand>
+              <SecHand>(0.300, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_PDSW528_CQC_SMG</li> <!-- PDSW 528 CQC (P90 Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.140, 0.100, -0.015)</MainHand>
+              <SecHand>(0.300, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_PDSW528_INF_SMG</li> <!-- PDSW 528 INF (P90 Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.140, 0.100, -0.015)</MainHand>
+              <SecHand>(0.300, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_PDSW528_SF_SMG</li> <!-- PDSW 528 SF (P90 Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.140, 0.100, -0.015)</MainHand>
+              <SecHand>(0.300, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_PDSW528_THM_SMG</li> <!-- PDSW 528 THM (P90 Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.140, 0.100, -0.015)</MainHand>
+              <SecHand>(0.300, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_PDSW528_SMG</li> <!-- PDSW 528 (P90 Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.010)</MainHand>
+              <SecHand>(0.090, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAALMG_CQC_LMG</li> <!-- RAAL MG CQC (MG338) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.010)</MainHand>
+              <SecHand>(0.090, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAALMG_EXT_LMG</li> <!-- RAAL MG EXT (MG338) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.270, 0.100, -0.010)</MainHand>
+              <SecHand>(0.090, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAALMG_INF_LMG</li> <!-- RAAL MG INF (MG338) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.315, 0.100, -0.015)</MainHand>
+              <SecHand>(0.045, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAALMG_SF_LMG</li> <!-- RAAL MG SF (MG338) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.275, 0.100, -0.020)</MainHand>
+              <SecHand>(0.090, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAALMG_SNP_LMG</li> <!-- RAAL MG SNP (MG338) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.010)</MainHand>
+              <SecHand>(0.090, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAALMG_THM_LMG</li> <!-- RAAL MG THM (MG338) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.010)</MainHand>
+              <SecHand>(0.090, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAALMG_LMG</li> <!-- RAAL MG (MG338) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.025)</MainHand>
+              <SecHand>(0.195, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAPPH_LMG</li> <!-- RAPP-H (HK21) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.025)</MainHand>
+              <SecHand>(0.150, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAPPH_INF_LMG</li> <!-- RAPP-H INF(HK21) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.025)</MainHand>
+              <SecHand>(0.195, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAPPH_SNP_LMG</li> <!-- RAPP-H SNP(HK21) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.025)</MainHand>
+              <SecHand>(0.195, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAPPH_THM_LMG</li> <!-- RAPP-H THM(HK21) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.245, 0.100, -0.015)</MainHand>
+              <SecHand>(0.050, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RPK_LMG</li> <!-- RPK -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.245, 0.100, -0.015)</MainHand>
+              <SecHand>(0.050, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RPK_INF_LMG</li> <!-- RPK INF -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.035)</MainHand>
+              <SecHand>(0.150, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Sakin_EXT_LMG</li> <!-- Sakin MG38 EXT (Negev NG7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.035)</MainHand>
+              <SecHand>(0.150, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Sakin_INF_LMG</li> <!-- Sakin MG38 INF (Negev NG7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.035)</MainHand>
+              <SecHand>(0.150, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Sakin_SNP_LMG</li> <!-- Sakin MG38 SNP (Negev NG7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.035)</MainHand>
+              <SecHand>(0.150, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Sakin_THM_LMG</li> <!-- Sakin MG38 THM (Negev NG7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.035)</MainHand>
+              <SecHand>(0.150, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Sakin_LMG</li> <!-- Sakin MG38 (Negev NG7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.120, 0.100, -0.030)</MainHand>
+              <SecHand>(0.205, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQ56_AR</li> <!-- TAQ 56 (SCAR-L) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, -0.030)</MainHand>
+              <SecHand>(0.160, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQ56_GL_AR</li> <!-- TAQ 56 GL (SCAR-L) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.145, 0.100, -0.030)</MainHand>
+              <SecHand>(0.210, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQ56_UBS_AR</li> <!-- TAQ 56 UBS (SCAR-L) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.035)</MainHand>
+              <SecHand>(0.175, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQV_GL_BR</li> <!-- TAQ V GL (SCAR-H) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, -0.030)</MainHand>
+              <SecHand>(0.195, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQV_UBS_BR</li> <!-- TAQ V UBS (SCAR-H) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.130, 0.100, -0.030)</MainHand>
+              <SecHand>(0.200, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQV_BR</li> <!-- TAQ V (SCAR-H) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.135, 0.100, -0.025)</MainHand>
+              <SecHand>(0.330, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusRazorback_AR</li> <!-- Tempus Razorback (Hellion) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.135, 0.100, -0.025)</MainHand>
+              <SecHand>(0.320, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusRazorback_GL_AR</li> <!-- Tempus Razorback GL (Hellion) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.005, 0.100, -0.005)</MainHand>
+              <SecHand>(0.200, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusRazorback_IAR_AR</li> <!-- Tempus Razorback IAR (Hellion) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.010, 0.100, -0.010)</MainHand>
+              <SecHand>(0.225, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusRazorback_UBS_AR</li> <!-- Tempus Razorback UBS (Hellion) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.070, 0.100, -0.065)</MainHand>
+              <SecHand>(0.240, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TR76Geist_AR</li> <!-- TR-76 Geist (Malyuk) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.020, 0.100, -0.065)</MainHand>
+              <SecHand>(0.215, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TR76Geist_IAR_AR</li> <!-- TR-76 Geist IAR (Malyuk) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.095, 0.100, -0.015)</MainHand>
+              <SecHand>(0.160, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TR76Geist_UBS_AR</li> <!-- TR-76 Geist UBS (Malyuk) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.025, 0.100, -0.010)</MainHand>
+              <SecHand>(0.280, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Vaznev9K_SMG</li> <!-- Vaznev 9K (PP-19 Vityaz) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.185, 0.100, -0.005)</MainHand>
+              <SecHand>(0.345, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VEL46_SMG</li> <!-- VEL 46 (MP7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.090, 0.100, -0.025)</MainHand>
+              <SecHand>(0.370, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LachmannSub_CQC_SMG</li> <!-- Lachmann Sub CQC (MP5A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.035)</MainHand>
+              <SecHand>(0.275, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LachmannSub_IAR_SMG</li> <!-- Lachmann Sub IAR (MP5A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.090, 0.100, -0.025)</MainHand>
+              <SecHand>(0.375, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LachmannSub_INF_SMG</li> <!-- Lachmann Sub INF (MP5A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.090, 0.100, -0.045)</MainHand>
+              <SecHand>(0.210, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LachmannSub_SF_SMG</li> <!-- Lachmann Sub SF (MP5A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.090, 0.100, -0.025)</MainHand>
+              <SecHand>(0.360, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LachmannSub_THM_SMG</li> <!-- Lachmann Sub THM (MP5A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.020, 0.100, -0.030)</MainHand>
+              <SecHand>(0.340, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13B_CQC_AR</li> <!-- M13B CQC (MCX Virtus) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.145, 0.100, -0.035)</MainHand>
+              <SecHand>(0.260, -0.100, -0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13B_IAR_AR</li> <!-- M13B IAR (MCX Virtus) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.030, 0.100, -0.030)</MainHand>
+              <SecHand>(0.335, -0.100, -0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13B_INF_AR</li> <!-- M13B INF (MCX Virtus) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.105, 0.100, -0.040)</MainHand>
+              <SecHand>(0.255, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13B_SF_AR</li> <!-- M13B SF (MCX Virtus) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.090, 0.100, -0.025)</MainHand>
+              <SecHand>(0.370, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13C_CQC_AR</li> <!-- M13C CQC (MCX Ratter) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.070, 0.100, -0.035)</MainHand>
+              <SecHand>(0.395, -0.100, -0.050)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13C_IAR_AR</li> <!-- M13C IAR (MCX Ratter) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.070, 0.100, -0.035)</MainHand>
+              <SecHand>(0.370, -0.100, -0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13C_INF_AR</li> <!-- M13C INF (MCX Ratter) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.080, 0.100, -0.030)</MainHand>
+              <SecHand>(0.215, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13C_SF_AR</li> <!-- M13C SF (MCX Ratter) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.215, 0.100, -0.020)</MainHand>
+              <SecHand>(0.220, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_CQC_AR</li> <!-- M16 CQC (M16A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.025)</MainHand>
+              <SecHand>(0.200, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_INF_AR</li> <!-- M16 INF (M16A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, -0.015)</MainHand>
+              <SecHand>(0.230, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_SF_AR</li> <!-- M16 SF (M16A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.035)</MainHand>
+              <SecHand>(0.305, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M4_CQC_AR</li> <!-- M4 CQC (M4 URGI) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.260, 0.100, -0.055)</MainHand>
+              <SecHand>(0.165, -0.100, -0.085)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M4_IAR_AR</li> <!-- M4 IAR (M4 URGI) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.035)</MainHand>
+              <SecHand>(0.320, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M4_INF_AR</li> <!-- M4 INF (M4 URGI) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.035)</MainHand>
+              <SecHand>(0.215, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M4_Iraq_AR</li> <!-- M4 Iraq (M4A1) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.035)</MainHand>
+              <SecHand>(0.250, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M4_SF_AR</li> <!-- M4 SF (M4 URGI) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.005, 0.100, -0.040)</MainHand>
+              <SecHand>(0.220, -0.100, -0.050)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MX9_IAR_SMG</li> <!-- MX9 IAR (AUG Para) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.110, 0.100, -0.025)</MainHand>
+              <SecHand>(0.330, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MX9_CQC_SMG</li> <!-- MX9 CQC (AUG Para) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.110, 0.100, -0.025)</MainHand>
+              <SecHand>(0.330, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MX9_INF_SMG</li> <!-- MX9 INF (AUG Para) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.000, 0.100, -0.040)</MainHand>
+              <SecHand>(0.215, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MX9_SF_SMG</li> <!-- MX9 SF (AUG Para) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.110, 0.100, -0.025)</MainHand>
+              <SecHand>(0.330, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MX9_THM_SMG</li> <!-- MX9 THM (AUG Para) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.110, 0.100, -0.025)</MainHand>
+              <SecHand>(0.330, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MX9_SMG</li> <!-- MX9 (AUG Para) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.140, 0.100, -0.030)</MainHand>
+              <SecHand>(0.175, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAPPH_CQC_LMG</li> <!-- RAPP-H CQC(HK21) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.140, 0.100, -0.030)</MainHand>
+              <SecHand>(0.250, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAPPH_SF_LMG</li> <!-- RAPP-H SF(HK21) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.265, 0.100, -0.020)</MainHand>
+              <SecHand>(0.060, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RPK_CQC_LMG</li> <!-- RPK CQC -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.265, 0.100, -0.020)</MainHand>
+              <SecHand>(0.095, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RPK_EXT_LMG</li> <!-- RPK EXT -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.180, 0.100, -0.015)</MainHand>
+              <SecHand>(0.145, -0.100, -0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RPK_SF_LMG</li> <!-- RPK SF -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.065, 0.100, -0.030)</MainHand>
+              <SecHand>(0.290, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_STB556_AR</li> <!-- STB 556 (AUG A3) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.005, 0.100, -0.025)</MainHand>
+              <SecHand>(0.245, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_STB556_SF_AR</li> <!-- STB 556 SF (AUG A3) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.090, 0.100, -0.035)</MainHand>
+              <SecHand>(0.310, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_STB556_Classic_AR</li> <!-- STB 556 Classic (AUG A3) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.065, 0.100, -0.030)</MainHand>
+              <SecHand>(0.290, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_STB556_CQC_AR</li> <!-- STB 556 CQC (AUG A3) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.065, 0.100, -0.030)</MainHand>
+              <SecHand>(0.305, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_STB556_GL_AR</li> <!-- STB 556 GL (AUG A3) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.065, 0.100, -0.030)</MainHand>
+              <SecHand>(0.290, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_STB556_INF_AR</li> <!-- STB 556 INF (AUG A3) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.030, 0.100, -0.040)</MainHand>
+              <SecHand>(0.260, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_STB556_THM_AR</li> <!-- STB 556 THM (AUG A3) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.055, 0.100, -0.035)</MainHand>
+              <SecHand>(0.245, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_STB556_UBS_AR</li> <!-- STB 556 UBS (AUG A3) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.105, 0.100, -0.025)</MainHand>
+              <SecHand>(0.230, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQ56_CQC_AR</li> <!-- TAQ 56 CQC (SCAR-L) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.105, 0.100, -0.025)</MainHand>
+              <SecHand>(0.260, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQ56_INF_AR</li> <!-- TAQ 56 INF (SCAR-L) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.140, 0.100, -0.020)</MainHand>
+              <SecHand>(0.215, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQ56_SF_AR</li> <!-- TAQ 56 SF (SCAR-L) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.135, 0.100, -0.035)</MainHand>
+              <SecHand>(0.200, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQV_CQC_BR</li> <!-- TAQ V CQC (SCAR-H) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.130, 0.100, -0.035)</MainHand>
+              <SecHand>(0.215, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQV_INF_BR</li> <!-- TAQ V INF (SCAR-H) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.205, 0.100, -0.030)</MainHand>
+              <SecHand>(0.120, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQV_SF_BR</li> <!-- TAQ V SF (SCAR-H) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.115, 0.100, -0.010)</MainHand>
+              <SecHand>(0.365, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusRazorback_CQC_AR</li> <!-- Tempus Razorback CQC (Hellion) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.115, 0.100, -0.010)</MainHand>
+              <SecHand>(0.360, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusRazorback_INF_AR</li> <!-- Tempus Razorback INF (Hellion) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.095, 0.100, -0.005)</MainHand>
+              <SecHand>(0.345, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusRazorback_SF_AR</li> <!-- Tempus Razorback SF (Hellion) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.115, 0.100, -0.010)</MainHand>
+              <SecHand>(0.365, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-52</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusRazorback_THM_AR</li> <!-- Tempus Razorback THM (Hellion) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.045, 0.100, -0.065)</MainHand>
+              <SecHand>(0.295, -0.100, -0.055)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TR76Geist_CQC_AR</li> <!-- TR-76 Geist CQC (Malyuk) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.045, 0.100, -0.070)</MainHand>
+              <SecHand>(0.295, -0.100, -0.055)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TR76Geist_GL_AR</li> <!-- TR-76 Geist GL (Malyuk) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.040, 0.100, -0.065)</MainHand>
+              <SecHand>(0.275, -0.100, -0.090)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TR76Geist_INF_AR</li> <!-- TR-76 Geist INF (Malyuk) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.050, 0.100, -0.065)</MainHand>
+              <SecHand>(0.325, -0.100, -0.070)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TR76Geist_NATO_AR</li> <!-- TR-76 Geist NATO (Malyuk) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.010, 0.100, -0.055)</MainHand>
+              <SecHand>(0.240, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TR76Geist_SF_AR</li> <!-- TR-76 Geist SF (Malyuk) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.020, 0.100, -0.030)</MainHand>
+              <SecHand>(0.315, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Vaznev9K_CQC_SMG</li> <!-- Vaznev 9K CQC (PP-19 Vityaz) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.020, 0.100, -0.030)</MainHand>
+              <SecHand>(0.315, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Vaznev9K_INF_SMG</li> <!-- Vaznev 9K INF (PP-19 Vityaz) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.160, 0.100, -0.015)</MainHand>
+              <SecHand>(0.185, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Vaznev9K_SF_SMG</li> <!-- Vaznev 9K SF (PP-19 Vityaz) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.020, 0.100, -0.030)</MainHand>
+              <SecHand>(0.335, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Vaznev9K_THM_SMG</li> <!-- Vaznev 9K THM (PP-19 Vityaz) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.185, 0.100, -0.005)</MainHand>
+              <SecHand>(0.390, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VEL46_CQC_SMG</li> <!-- VEL 46 CQC (MP7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.125, 0.100, -0.005)</MainHand>
+              <SecHand>(0.320, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VEL46_IAR_SMG</li> <!-- VEL 46 IAR (MP7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.015, 0.100, -0.015)</MainHand>
+              <SecHand>(0.220, -0.100, -0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VEL46_SF_SMG</li> <!-- VEL 46 SF (MP7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.190, 0.100, -0.010)</MainHand>
+              <SecHand>(0.375, -0.100, -0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VEL46_INF_AR</li> <!-- VEL 46 INF (MP7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.105, 0.100, -0.025)</MainHand>
+              <SecHand>(0.425, -0.100, -0.050)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Bryson800_Serbu_SG</li> <!-- Bryson 800 Serbu (Super Shorty) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.190, 0.100, -0.010)</MainHand>
+              <SecHand>(0.155, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Expedite12_THM_SG</li> <!-- Expedite 12 THM (Benelli M4 Super 90) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.175, 0.100, -0.030)</MainHand>
+              <SecHand>(0.210, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LMS_CQC_DMR</li> <!-- LM-S CQC (PSG-1) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.195, 0.100, -0.065)</MainHand>
+              <SecHand>(0.175, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LMS_SF_DMR</li> <!-- LM-S SF (PSG-1) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.015)</MainHand>
+              <SecHand>(0.070, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RPKM_LMG</li> <!-- RPKM -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.155, 0.100, -0.030)</MainHand>
+              <SecHand>(0.180, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SAB50_CQC_DMR</li> <!-- SA-B 50 CQC (M700 PCR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.115, 0.100, -0.025)</MainHand>
+              <SecHand>(0.315, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQM_CQC_DMR</li> <!-- TAQ-M CQC (SCAR20) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.215, 0.100, -0.020)</MainHand>
+              <SecHand>(0.130, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQM_SF_DMR</li> <!-- TAQ-M SF (SCAR20) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.215, 0.100, -0.050)</MainHand>
+              <SecHand>(0.025, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LMS_RF_DMR</li> <!-- LM-S RF (PSG-1) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.080, 0.100, -0.025)</MainHand>
+              <SecHand>(0.195, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ModCrossbow_CQC_DMR</li> <!-- Modern Crossbow CQC (Reverse Draw) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.080, 0.100, -0.025)</MainHand>
+              <SecHand>(0.195, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ModCrossbow_INF_DMR</li> <!-- Modern Crossbow INF (Reverse Draw) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.080, 0.100, -0.025)</MainHand>
+              <SecHand>(0.195, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ModCrossbow_SF_DMR</li> <!-- Modern Crossbow SF (Reverse Draw) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.080, 0.100, -0.025)</MainHand>
+              <SecHand>(0.195, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ModCrossbow_THM_DMR</li> <!-- Modern Crossbow THM (Reverse Draw) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.080, 0.100, -0.025)</MainHand>
+              <SecHand>(0.195, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ModCrossbow_DMR</li> <!-- Modern Crossbow (Reverse Draw) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.035)</MainHand>
+              <SecHand>(0.200, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RAPPH_EXT_LMG</li> <!-- RAPP-H EXT(HK21) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.030)</MainHand>
+              <SecHand>(0.145, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SAB50_THM_DMR</li> <!-- SA-B 50 THM (M700 PCR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.170, 0.100, -0.015)</MainHand>
+              <SecHand>(0.145, -0.100, 0.065)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQM_DMR</li> <!-- TAQ-M (SCAR20) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.170, 0.100, -0.015)</MainHand>
+              <SecHand>(0.145, -0.100, 0.065)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQM_RF_DMR</li> <!-- TAQ-M RF (SCAR20) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.225, 0.100, -0.050)</MainHand>
+              <SecHand>(0.035, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LMS_SNP_DMR</li> <!-- LM-S SNP (PSG-1) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.225, 0.100, -0.050)</MainHand>
+              <SecHand>(0.035, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LMS_THM_CQC_DMR</li> <!-- LM-S THM (PSG-1) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.225, 0.100, -0.050)</MainHand>
+              <SecHand>(0.035, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LMS_DMR</li> <!-- LM-S (PSG-1) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.210, 0.100, -0.060)</MainHand>
+              <SecHand>(0.145, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LMS_INF_DMR</li> <!-- LM-S INF (PSG-1) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.020, 0.100, -0.040)</MainHand>
+              <SecHand>(0.320, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13B_THM_AR</li> <!-- M13B THM (MCX Virtus) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.080, 0.100, -0.030)</MainHand>
+              <SecHand>(0.360, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13C_THM_AR</li> <!-- M13C THM (MCX Ratter) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.030)</MainHand>
+              <SecHand>(0.230, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_THM_AR</li> <!-- M16 THM (M16A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.070, 0.100, -0.030)</MainHand>
+              <SecHand>(0.370, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M4_THM_AR</li> <!-- M4 THM (M4 URGI) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.235, 0.100, -0.015)</MainHand>
+              <SecHand>(0.100, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RPK_THM_LMG</li> <!-- RPK THM -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, -0.020)</MainHand>
+              <SecHand>(0.225, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQ56_THM_AR</li> <!-- TAQ 56 THM (SCAR-L) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.105, 0.100, -0.015)</MainHand>
+              <SecHand>(0.290, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQM_INF_DMR</li> <!-- TAQ-M INF (SCAR20) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.105, 0.100, -0.015)</MainHand>
+              <SecHand>(0.290, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQM_THM_DMR</li> <!-- TAQ-M THM (SCAR20) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.240, 0.100, -0.020)</MainHand>
+              <SecHand>(0.250, -0.100, 0.050)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusTorrent_DMR</li> <!-- Tempus Torrent (SR-25) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.045, 0.100, -0.065)</MainHand>
+              <SecHand>(0.285, -0.100, -0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TR76Geist_THM_AR</li> <!-- TR-76 Geist THM (Malyuk) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.205, 0.100, -0.010)</MainHand>
+              <SecHand>(0.325, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VEL46_THM_SMG</li> <!-- VEL 46 THM (MP7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.160, 0.100, -0.020)</MainHand>
+              <SecHand>(0.160, -0.100, 0.065)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQM_SNP_DMR</li> <!-- TAQ-M SNP (SCAR20) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.120, 0.100, -0.035)</MainHand>
+              <SecHand>(0.205, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQV_THM_BR</li> <!-- TAQ V THM (SCAR-H) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.160, 0.100, -0.030)</MainHand>
+              <SecHand>(0.160, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SAB50_SF_DMR</li> <!-- SA-B 50 SF (M700 PCR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.155, 0.100, -0.035)</MainHand>
+              <SecHand>(0.175, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SAB50_INF_DMR</li> <!-- SA-B 50 INF (M700 PCR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.305, 0.100, -0.020)</MainHand>
+              <SecHand>(0.000, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_EBR14_SNP_DMR</li> <!-- EBR-14 SNP (M14 EBR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, 0.025)</MainHand>
+              <SecHand>(0.150, -0.100, 0.035)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LockwoodMK2_CQC_DMR</li> <!-- Lockwood MK2 CQC (Model 1885) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, 0.025)</MainHand>
+              <SecHand>(0.250, -0.100, -0.025)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LockwoodMK2_RF_DMR</li> <!-- Lockwood MK2 RF (Model 1885) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, 0.025)</MainHand>
+              <SecHand>(0.150, -0.100, 0.035)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LockwoodMK2_INF_DMR</li> <!-- Lockwood MK2 INF (Model 1885) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, 0.025)</MainHand>
+              <SecHand>(0.075, -0.100, 0.030)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LockwoodMK2_SF_DMR</li> <!-- Lockwood MK2 SF (Model 1885) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, 0.025)</MainHand>
+              <SecHand>(0.150, -0.100, 0.035)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LockwoodMK2_SNP_DMR</li> <!-- Lockwood MK2 SNP (Model 1885) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, 0.025)</MainHand>
+              <SecHand>(0.245, -0.100, 0.005)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LockwoodMK2_THM_DMR</li> <!-- Lockwood MK2 THM (Model 1885) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.030)</MainHand>
+              <SecHand>(0.145, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SAB50_SNP_DMR</li> <!-- SA-B 50 SNP (M700 PCR) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.155, 0.100, -0.035)</MainHand>
+              <SecHand>(0.175, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SAB50_DMR</li> <!-- SA-B 50 (M700 PCR) -->
+              </ThingTargets>
+          </li>
+          
+          <li>
+              <MainHand>(-0.230, 0.100, 0.040)</MainHand>
+              <SecHand>(0.125, -0.100, 0.020)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPR208_SNP_DMR</li> <!-- SP-R 208 SNP (M24 SWS) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, 0.040)</MainHand>
+              <SecHand>(0.125, -0.100, 0.020)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPR208_THM_DMR</li> <!-- SP-R 208 THM (M24 SWS) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, 0.040)</MainHand>
+              <SecHand>(0.125, -0.100, 0.020)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPR208_DMR</li> <!-- SP-R 208 (M24 SWS) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.095, 0.100, -0.025)</MainHand>
+              <SecHand>(0.150, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_50GS_PST</li> <!-- .50 GS (Desert Eagle) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.095, 0.100, -0.025)</MainHand>
+              <SecHand>(0.150, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_50GS_INF_PST</li> <!-- .50 GS INF (Desert Eagle) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.095, 0.100, -0.025)</MainHand>
+              <SecHand>(0.150, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_50GSMagna_PST</li> <!-- .50 GS Magna (Deagle Auto Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.095, 0.100, -0.025)</MainHand>
+              <SecHand>(0.150, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_50GSMagna_INF_PST</li> <!-- .50 GS Magna INF (Deagle Auto Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.010, 0.100, -0.030)</MainHand>
+              <SecHand>(0.050, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_50GSMagna_SF_PST</li> <!-- .50 GS Magna SF (Deagle Auto Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.095, 0.100, -0.025)</MainHand>
+              <SecHand>(0.320, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_50GSMagna_SNP_PST</li> <!-- .50 GS Magna SNP (Deagle Auto Mod) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.010, 0.100, -0.030)</MainHand>
+              <SecHand>(0.050, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_50GS_SF_PST</li> <!-- .50 GS SF (Desert Eagle) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.095, 0.100, -0.025)</MainHand>
+              <SecHand>(0.315, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_50GS_SNP_PST</li> <!-- .50 GS SNP (Desert Eagle) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.145, 0.100, -0.025)</MainHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_9MMDaemon_INF_PST</li> <!-- 9MM Daemon INF (Staccato P) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.145, 0.100, -0.025)</MainHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_9MMDaemon_PST</li> <!-- 9MM Daemon (Staccato P) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.070, 0.100, -0.005)</MainHand>
+              <SecHand>(0.125, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_9MMDaemon_SF_PST</li> <!-- 9MM Daemon SF (Staccato P) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.120, 0.100, -0.005)</MainHand>
+              <SecHand>(0.170, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_9MMDaemon_SNP_PST</li> <!-- 9MM Daemon SNP (Staccato P) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.070, 0.100, -0.005)</MainHand>
+              <SecHand>(0.125, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Basilisk_PST</li> <!-- Basilisk (300 Magnum) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.070, 0.100, -0.005)</MainHand>
+              <SecHand>(0.125, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Basilisk_INF_PST</li> <!-- Basilisk INF (300 Magnum) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.070, 0.100, -0.005)</MainHand>
+              <SecHand>(0.125, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Basilisk_SNP_PST</li> <!-- Basilisk SNP (300 Magnum) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.035, 0.100, -0.085)</MainHand>
+              <SecHand>(0.350, -0.100, -0.095)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Chimera_IAR_AR</li> <!-- Chimera IAR (Honey Badger) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.125, 0.100, -0.015)</MainHand>
+              <SecHand>(0.270, -0.100, -0.055)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FTACSiege_PST</li> <!-- FTAC Siege (TEC-9) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.150, 0.100, -0.015)</MainHand>
+              <SecHand>(0.385, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-51</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FTACSiege_INF_PST</li> <!-- FTAC Siege INF (TEC-9) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.030, 0.100, -0.020)</MainHand>
+              <SecHand>(0.220, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-51</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FTACSiege_SF_PST</li> <!-- FTAC Siege SF (TEC-9) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.085, 0.100, -0.015)</MainHand>
+              <SecHand>(0.330, -0.100, -0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-51</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FTACSiege_SNP_PST</li> <!-- FTAC Siege SNP (TEC-9) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.270, 0.100, -0.030)</MainHand>
+              <SecHand>(0.345, -0.100, -0.075)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_JOKR_LCH</li> <!-- JOKR (FGM-148 Javelin) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.025, 0.100, -0.040)</MainHand>
+              <SecHand>(0.280, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LachmannShroud_INF_SMG</li> <!-- Lachmann Shroud INF (MP5SD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.145, 0.100, -0.020)</MainHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_P890_PST</li> <!-- P890 (P220) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.145, 0.100, -0.020)</MainHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_P890_INF_PST</li> <!-- P890 INF (P220) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.100, 0.100, -0.020)</MainHand>
+              <SecHand>(0.155, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_P890_SF_PST</li> <!-- P890 SF (P220) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.100, 0.100, -0.020)</MainHand>
+              <SecHand>(0.155, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_P890_SNP_PST</li> <!-- P890 SNP (P220) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.205, 0.100, -0.045)</MainHand>
+              <SecHand>(0.260, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_PILA_LCH</li> <!-- PILA (SA-25) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.035, 0.100, 0.000)</MainHand>
+              <SecHand>(0.165, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>3</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_RPG7_LCH</li> <!-- RPG-7 -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.035)</MainHand>
+              <SecHand>(0.225, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-61</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Sakin_CQC_LMG</li> <!-- Sakin MG38 CQC (Negev NG7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.035)</MainHand>
+              <SecHand>(0.225, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-61</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Sakin_SF_LMG</li> <!-- Sakin MG38 SF (Negev NG7) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.205, 0.100, 0.030)</MainHand>
+              <SecHand>(0.140, -0.100, 0.015)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPR208_INF_DMR</li> <!-- SP-R 208 INF (M24 SWS) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.205, 0.100, 0.020)</MainHand>
+              <SecHand>(0.190, -0.100, 0.050)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPR208_RF_DMR</li> <!-- SP-R 208 RF (M24 SWS) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.195, 0.100, -0.025)</MainHand>
+              <SecHand>(0.395, -0.100, -0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_StrelaP_LCH</li> <!-- Strela-P (M3E1) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.030)</MainHand>
+              <SecHand>(0.100, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusTorrent_CQC_DMR</li> <!-- Tempus Torrent CQC (SR-25) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.030)</MainHand>
+              <SecHand>(0.095, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusTorrent_SF_DMR</li> <!-- Tempus Torrent SF (SR-25) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.245, 0.100, -0.035)</MainHand>
+              <SecHand>(0.065, -0.100, 0.065)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusTorrent_SNP_DMR</li> <!-- Tempus Torrent SNP (SR-25) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.245, 0.100, -0.035)</MainHand>
+              <SecHand>(0.065, -0.100, 0.065)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusTorrent_THM_DMR</li> <!-- Tempus Torrent THM (SR-25) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.240, 0.100, -0.025)</MainHand>
+              <SecHand>(0.240, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusTorrent_INF_DMR</li> <!-- Tempus Torrent INF (SR-25) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.245, 0.100, -0.035)</MainHand>
+              <SecHand>(0.065, -0.100, 0.065)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusTorrent_RF_DMR</li> <!-- Tempus Torrent RF (SR-25) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.160, 0.100, -0.030)</MainHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_X12_PST</li> <!-- X12 (Glock 17) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.100, 0.100, -0.020)</MainHand>
+              <SecHand>(0.155, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_X12_SF_PST</li> <!-- X12 SF (Glock 17) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.160, 0.100, -0.030)</MainHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_X12_INF_PST</li> <!-- X12 INF (Glock 17) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.125, 0.100, -0.035)</MainHand>
+              <SecHand>(0.170, -0.100, -0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_X12_SNP_PST</li> <!-- X12 SNP (Glock 17) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.150, 0.100, -0.005)</MainHand>
+              <SecHand>(0.200, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_X13Auto_PST</li> <!-- X13 Auto (Glock 18) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.150, 0.100, -0.005)</MainHand>
+              <SecHand>(0.200, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_X13Auto_INF_PST</li> <!-- X13 Auto INF (Glock 18) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.085, 0.100, -0.015)</MainHand>
+              <SecHand>(0.140, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_X13Auto_SF_PST</li> <!-- X13 Auto SF (Glock 18) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.150, 0.100, -0.005)</MainHand>
+              <SecHand>(0.200, -0.100, -0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_X13Auto_SNP_PST</li> <!-- X13 Auto SNP (Glock 18) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.205, 0.100, -0.025)</MainHand>
+              <SecHand>(0.330, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_X13Impact_PST</li> <!-- X13 Impact (Glock 18 Roni) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.110, 0.100, -0.015)</MainHand>
+              <SecHand>(0.265, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_X13Impact_SF_PST</li> <!-- X13 Impact SF (Glock 18 Roni) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.185, 0.100, -0.015)</MainHand>
+              <SecHand>(0.385, -0.100, -0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_X13Impact_SNP_PST</li> <!-- X13 Impact SNP (Glock 18 Roni) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.030)</MainHand>
+              <SecHand>(0.230, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Carrack300_SR</li> <!-- Carrack 300 (WA2000) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.030)</MainHand>
+              <SecHand>(0.230, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Carrack300_CQC_SR</li> <!-- Carrack 300 CQC (WA2000) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.030)</MainHand>
+              <SecHand>(0.230, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Carrack300_EXT_SR</li> <!-- Carrack 300 EXT (WA2000) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.030)</MainHand>
+              <SecHand>(0.230, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Carrack300_INF_SR</li> <!-- Carrack 300 INF (WA2000) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.030)</MainHand>
+              <SecHand>(0.230, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Carrack300_Polymer_SR</li> <!-- Carrack 300 Polymer (WA2000) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.030)</MainHand>
+              <SecHand>(0.230, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Carrack300_RF_SR</li> <!-- Carrack 300 RF (WA2000) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, -0.025)</MainHand>
+              <SecHand>(0.045, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Carrack300_SF_SR</li> <!-- Carrack 300 SF(WA2000) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.030)</MainHand>
+              <SecHand>(0.230, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Carrack300_SNP_SR</li> <!-- Carrack 300 SNP (WA2000) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, -0.030)</MainHand>
+              <SecHand>(0.230, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Carrack300_THM_SR</li> <!-- Carrack 300 THM (WA2000) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.025)</MainHand>
+              <SecHand>(0.075, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FJXImperium_SR</li> <!-- FJX Imperium (M200 Intervention) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.025)</MainHand>
+              <SecHand>(0.075, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FJXImperium_CQC_SR</li> <!-- FJX Imperium CQC (M200 Intervention) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.025)</MainHand>
+              <SecHand>(0.075, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FJXImperium_EXT_SR</li> <!-- FJX Imperium EXT (M200 Intervention) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.025)</MainHand>
+              <SecHand>(0.075, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FJXImperium_INF_SR</li> <!-- FJX Imperium INF (M200 Intervention) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.025)</MainHand>
+              <SecHand>(0.075, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FJXImperium_RF_SR</li> <!-- FJX Imperium RF (M200 Intervention) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.025)</MainHand>
+              <SecHand>(0.025, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FJXImperium_SF_SR</li> <!-- FJX Imperium SF (M200 Intervention) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.025)</MainHand>
+              <SecHand>(0.075, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FJXImperium_SNP_SR</li> <!-- FJX Imperium SNP (M200 Intervention) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.250, 0.100, -0.025)</MainHand>
+              <SecHand>(0.075, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FJXImperium_THM_SR</li> <!-- FJX Imperium THM (M200 Intervention) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, 0.015)</MainHand>
+              <SecHand>(0.110, -0.100, 0.015)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LAB330_SR</li> <!-- LA-B 330 (MK13 MOD 0) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, 0.015)</MainHand>
+              <SecHand>(0.160, -0.100, 0.030)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LAB330_CQC_SR</li> <!-- LA-B 330 CQC (MK13 MOD 0) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, 0.015)</MainHand>
+              <SecHand>(0.160, -0.100, 0.030)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LAB330_EXT_SR</li> <!-- LA-B 330 EXT (MK13 MOD 0) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, 0.015)</MainHand>
+              <SecHand>(0.160, -0.100, 0.030)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LAB330_INF_SR</li> <!-- LA-B 330 INF (MK13 MOD 0) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, 0.015)</MainHand>
+              <SecHand>(0.160, -0.100, 0.030)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LAB330_RF_SR</li> <!-- LA-B 330 RF (MK13 MOD 0) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, 0.015)</MainHand>
+              <SecHand>(0.095, -0.100, 0.025)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LAB330_SF_SR</li> <!-- LA-B 330 SF (MK13 MOD 0) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, 0.015)</MainHand>
+              <SecHand>(0.160, -0.100, 0.030)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LAB330_SNP_SR</li> <!-- LA-B 330 SNP (MK13 MOD 0) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, 0.015)</MainHand>
+              <SecHand>(0.160, -0.100, 0.030)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LAB330_THM_SR</li> <!-- LA-B 330 THM (MK13 MOD 0) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.150, 0.100, 0.025)</MainHand>
+              <SecHand>(0.295, -0.100, 0.005)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_LockwoodMK2_Polymer_DMR</li> <!-- Lockwood MK2 Polymer (Model 1885) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.245, 0.100, -0.060)</MainHand>
+              <SecHand>(0.270, -0.100, 0.000)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MCPR300_SR</li> <!-- MCPR-300 (Barrett MRAD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.240, 0.100, -0.070)</MainHand>
+              <SecHand>(0.065, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MCPR300_CQC_SR</li> <!-- MCPR-300 CQC (Barrett MRAD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.240, 0.100, -0.070)</MainHand>
+              <SecHand>(0.065, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MCPR300_EXT_SR</li> <!-- MCPR-300 EXT (Barrett MRAD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.240, 0.100, -0.070)</MainHand>
+              <SecHand>(0.065, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MCPR300_INF_SR</li> <!-- MCPR-300 INF (Barrett MRAD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.240, 0.100, -0.070)</MainHand>
+              <SecHand>(0.065, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MCPR300_RF_SR</li> <!-- MCPR-300 RF (Barrett MRAD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.265, 0.100, -0.065)</MainHand>
+              <SecHand>(0.180, -0.100, -0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MCPR300_SF_SR</li> <!-- MCPR-300 SF (Barrett MRAD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.240, 0.100, -0.070)</MainHand>
+              <SecHand>(0.065, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MCPR300_SNP_SR</li> <!-- MCPR-300 SNP (Barrett MRAD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.240, 0.100, -0.070)</MainHand>
+              <SecHand>(0.065, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_MCPR300_THM_SR</li> <!-- MCPR-300 THM (Barrett MRAD) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.180, 0.100, -0.025)</MainHand>
+              <SecHand>(0.085, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Siginal50_SR</li> <!-- Siginal 50 (GM6 Lynx) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.160, 0.100, -0.020)</MainHand>
+              <SecHand>(0.065, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Siginal50_CQC_SR</li> <!-- Siginal 50 CQC (GM6 Lynx) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.160, 0.100, -0.020)</MainHand>
+              <SecHand>(0.065, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Siginal50_EXT_SR</li> <!-- Siginal 50 EXT (GM6 Lynx) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.160, 0.100, -0.020)</MainHand>
+              <SecHand>(0.065, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Siginal50_INF_SR</li> <!-- Siginal 50 INF (GM6 Lynx) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.160, 0.100, -0.020)</MainHand>
+              <SecHand>(0.065, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Siginal50_RF_SR</li> <!-- Siginal 50 RF (GM6 Lynx) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.175, 0.100, -0.010)</MainHand>
+              <SecHand>(0.060, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Siginal50_SF_SR</li> <!-- Siginal 50 SF (GM6 Lynx) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.160, 0.100, -0.020)</MainHand>
+              <SecHand>(0.065, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Siginal50_SNP_SR</li> <!-- Siginal 50 SNP (GM6 Lynx) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.160, 0.100, -0.020)</MainHand>
+              <SecHand>(0.065, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Siginal50_THM_SR</li> <!-- Siginal 50 THM (GM6 Lynx) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.280, 0.100, -0.025)</MainHand>
+              <SecHand>(0.215, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPX80_SR</li> <!-- SP-X 80 (M2010) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.275, 0.100, -0.005)</MainHand>
+              <SecHand>(-0.020, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPX80_CQC_SR</li> <!-- SP-X 80 CQC (M2010) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.275, 0.100, -0.005)</MainHand>
+              <SecHand>(-0.020, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPX80_EXT_SR</li> <!-- SP-X 80 EXT (M2010) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.275, 0.100, -0.005)</MainHand>
+              <SecHand>(-0.020, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPX80_INF_SR</li> <!-- SP-X 80 INF (M2010) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.275, 0.100, -0.005)</MainHand>
+              <SecHand>(-0.020, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPX80_RF_SR</li> <!-- SP-X 80 RF (M2010) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.275, 0.100, -0.005)</MainHand>
+              <SecHand>(-0.020, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPX80_SNP_SR</li> <!-- SP-X 80 SNP (M2010) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.275, 0.100, -0.005)</MainHand>
+              <SecHand>(-0.020, -0.100, 0.060)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPX80_THM_SR</li> <!-- SP-X 80 THM (M2010) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.310, 0.100, -0.055)</MainHand>
+              <SecHand>(0.130, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SPX80_SF_SR</li> <!-- SP-X 80 SF (M2010) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.290, 0.100, -0.005)</MainHand>
+              <SecHand>(0.115, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VictusXMR_SR</li> <!-- Victus XMR (AW50) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.005)</MainHand>
+              <SecHand>(-0.005, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VictusXMR_CQC_SR</li> <!-- Victus XMR CQC (AW50) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.005)</MainHand>
+              <SecHand>(-0.005, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VictusXMR_EXT_SR</li> <!-- Victus XMR EXT (AW50) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.005)</MainHand>
+              <SecHand>(-0.005, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VictusXMR_INF_SR</li> <!-- Victus XMR INF (AW50) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.005)</MainHand>
+              <SecHand>(-0.005, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VictusXMR_RF_SR</li> <!-- Victus XMR RF (AW50) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.005)</MainHand>
+              <SecHand>(-0.005, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VictusXMR_SNP_SR</li> <!-- Victus XMR SNP (AW50) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.300, 0.100, -0.005)</MainHand>
+              <SecHand>(-0.005, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VictusXMR_THM_SR</li> <!-- Victus XMR THM (AW50) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.305, 0.100, -0.015)</MainHand>
+              <SecHand>(0.080, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_VictusXMR_SF_SR</li> <!-- Victus XMR SF (AW50) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.190, 0.100, -0.025)</MainHand>
+              <SecHand>(0.325, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_X13Impact_INF_PST</li> <!-- X13 Impact INF (Glock 18 Roni) -->
+              </ThingTargets>
+          </li>
+
+          <li>
+              <MainHand>(0.050, 0.100, -0.080)</MainHand>
+              <SecHand>(0.315, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Chimera_SNP_AR</li> <!-- Chimera SNP (Honey Badger) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.073, 0.100, -0.015)</MainHand>
+              <SecHand>(0.111, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FRavancer_SNP_AR</li> <!-- FR Avancer SNP (Famas Felin) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.110, 0.100, -0.010)</MainHand>
+              <SecHand>(0.165, -0.100, 0.045)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FTACRecon_SNP_BR</li> <!-- FTAC Recon SNP (458 AR-15) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.111, 0.100, -0.035)</MainHand>
+              <SecHand>(0.290, -0.100, 0.028)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_GRIMX_SNP_AR</li> <!-- GRIM X SNP (Grot B) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.030, 0.100, -0.025)</MainHand>
+              <SecHand>(0.211, -0.100, 0.046)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Holger416_SNP_AR</li> <!-- Holger 416 SNP (HK 416) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.137, 0.100, 0.028)</MainHand>
+              <SecHand>(0.143, -0.100, 0.101)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_ISOHemlock_SNP_AR</li> <!-- ISO Hemlock SNP (APC-556) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.120, 0.100, -0.004)</MainHand>
+              <SecHand>(0.175, -0.100, 0.023)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Kastov74U_SNP_AR</li> <!-- Kastov 74U SNP (AKS-74U) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.165, 0.100, -0.040)</MainHand>
+              <SecHand>(0.257, -0.100, 0.019)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_Lachmann556_SNP_AR</li> <!-- Lachmann 556 SNP(HK33) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.146, 0.100, -0.035)</MainHand>
+              <SecHand>(0.152, -0.100, 0.035)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13B_SNP_AR</li> <!-- M13B SNP (MCX Virtus) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, -0.015)</MainHand>
+              <SecHand>(0.170, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M16_SNP_AR</li> <!-- M16 SNP (M16A4) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.174, 0.100, -0.030)</MainHand>
+              <SecHand>(0.179, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M4_SNP_AR</li> <!-- M4 SNP(M4 URGI) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.160, 0.100, 0.033)</MainHand>
+              <SecHand>(0.198, -0.100, 0.042)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SO14_SNP_BR</li> <!-- SO-14 SNP (M1A) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.080, 0.100, -0.020)</MainHand>
+              <SecHand>(0.150, -0.100, 0.005)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_STB556_SNP_AR</li> <!-- STB 556 SNP (AUG A3) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.125, 0.100, -0.040)</MainHand>
+              <SecHand>(0.175, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TAQ56_SNP_AR</li> <!-- TAQ 56 SNP (SCAR-L) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(0.042, 0.100, -0.025)</MainHand>
+              <SecHand>(0.225, -0.100, 0.046)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_TempusRazorback_SNP_AR</li> <!-- Tempus Razorback SNP (Hellion) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.075, 0.100, -0.025)</MainHand>
+              <SecHand>(0.205, -0.100, 0.050)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_CronenSquall_BR</li> <!-- Cronen Squall (RM227) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.085, 0.100, -0.025)</MainHand>
+              <SecHand>(0.265, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_CronenSquall_CQC_BR</li> <!-- Cronen Squall CQC (RM227) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.090, 0.100, -0.020)</MainHand>
+              <SecHand>(0.150, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_CronenSquall_GL_BR</li> <!-- Cronen Squall GL (RM227) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.140, 0.100, -0.025)</MainHand>
+              <SecHand>(0.085, -0.100, 0.040)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_CronenSquall_IAR_BR</li> <!-- Cronen Squall IAR (RM227) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.085, 0.100, -0.020)</MainHand>
+              <SecHand>(0.285, -0.100, 0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_CronenSquall_INF_BR</li> <!-- Cronen Squall INF (RM227) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.175, 0.100, -0.005)</MainHand>
+              <SecHand>(0.130, -0.100, 0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_CronenSquall_SF_BR</li> <!-- Cronen Squall SF (RM227) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.170, 0.100, -0.005)</MainHand>
+              <SecHand>(0.040, -0.100, 0.075)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_CronenSquall_SNP_BR</li> <!-- Cronen Squall SNP (RM227) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.090, 0.100, -0.015)</MainHand>
+              <SecHand>(0.270, -0.100, 0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_CronenSquall_THM_BR</li> <!-- Cronen Squall THM (RM227) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.090, 0.100, -0.020)</MainHand>
+              <SecHand>(0.150, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_CronenSquall_UBS_BR</li> <!-- Cronen Squall UBS (RM227) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.100, 0.100, -0.030)</MainHand>
+              <SecHand>(0.285, -0.100, 0.055)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FTACRecon_BR</li> <!-- FTAC Recon (458 AR-15) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.100, 0.100, -0.035)</MainHand>
+              <SecHand>(0.310, -0.100, -0.020)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FTACRecon_CQC_BR</li> <!-- FTAC Recon CQC (458 AR-15) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.110, 0.100, -0.030)</MainHand>
+              <SecHand>(0.185, -0.100, -0.010)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FTACRecon_GL_BR</li> <!-- FTAC Recon GL (458 AR-15) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.020)</MainHand>
+              <SecHand>(0.160, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FTACRecon_IAR_BR</li> <!-- FTAC Recon IAR (458 AR-15) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.045, 0.100, 0.000)</MainHand>
+              <SecHand>(0.350, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FTACRecon_INF_BR</li> <!-- FTAC Recon INF (458 AR-15) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.200, 0.100, -0.010)</MainHand>
+              <SecHand>(0.240, -0.100, 0.015)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FTACRecon_SF_BR</li> <!-- FTAC Recon SF (458 AR-15) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.115, 0.100, -0.040)</MainHand>
+              <SecHand>(0.350, -0.100, 0.030)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_FTACRecon_THM_BR</li> <!-- FTAC Recon THM (458 AR-15) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.130, 0.100, -0.025)</MainHand>
+              <SecHand>(0.310, -0.100, -0.025)</SecHand>
+              <MainRotation>-46</MainRotation>
+              <SecRotation>-77</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_M13C_SNP_AR</li> <!-- M13C SNP (MCX Ratter) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.215, 0.100, 0.020)</MainHand>
+              <SecHand>(0.200, -0.100, 0.050)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SO14_BR</li> <!-- SO-14 (M1A) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.230, 0.100, 0.030)</MainHand>
+              <SecHand>(0.065, -0.100, 0.025)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SO14_IAR_BR</li> <!-- SO-14 IAR (M1A) -->
+              </ThingTargets>
+          </li>
+          <li>
+              <MainHand>(-0.220, 0.100, 0.030)</MainHand>
+              <SecHand>(0.205, -0.100, 0.025)</SecHand>
+              <MainRotation>-11</MainRotation>
+              <SecRotation>-16</SecRotation>
+              <ThingTargets>
+                 <li>MW2_Gun_SO14_INF_BR</li> <!-- SO-14 INF (M1A) -->
+              </ThingTargets>
+
+</li>
+      </WeaponCompLoader>
+  </WHands.ClutterHandsTDef>
+</Defs>
