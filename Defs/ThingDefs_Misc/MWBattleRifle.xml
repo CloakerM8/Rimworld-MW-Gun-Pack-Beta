@@ -4488,7 +4488,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>7</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>200</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_Oden</cooldownCompleteSound>
 </li>
 </comps>
@@ -4596,7 +4596,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>7</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>200</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_Oden</cooldownCompleteSound>
 </li>
 </comps>
@@ -4702,7 +4702,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>7</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>200</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_Oden</cooldownCompleteSound>
 </li>
 </comps>
@@ -4809,7 +4809,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>7</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>200</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_Oden</cooldownCompleteSound>
 </li>
 </comps>
@@ -4955,7 +4955,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>7</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>200</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_Oden</cooldownCompleteSound>
 </li>
 </comps>
@@ -5062,7 +5062,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>7</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>200</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_Oden</cooldownCompleteSound>
 </li>
 </comps>
@@ -5170,7 +5170,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>8</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>250</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_OdenMag30</cooldownCompleteSound>
 </li>
 </comps>
@@ -5189,7 +5189,7 @@
   <!-- Oden SNP -->
 <ThingDef ParentName="GOGWeaponGun">
     <defName>MW19_Gun_Oden_SNP_BR</defName>
-    <label>Oden (ASh-12)</label>
+    <label>Oden SNP (ASh-12)</label>
     <description>A heavy bullpup rifle chambered for massive subsonic rounds, built to deliver devastating stopping power at close range. Its compact layout keeps it manageable despite its size, though the powerful ammunition produces heavy recoil and limited effective range.</description>
     <graphicData>
       <texPath>Things/Weapons/Variants/SNP/Oden SNP</texPath>
@@ -5278,7 +5278,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>5</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>150</cooldownTicks>
+<cooldownTicks>180</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_Oden</cooldownCompleteSound>
 </li>
 </comps>
@@ -6410,7 +6410,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>10</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>190</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_TR2</cooldownCompleteSound>
 </li>
 </comps>
@@ -6519,7 +6519,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>10</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>190</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_TR2</cooldownCompleteSound>
 </li>
 </comps>
@@ -6626,7 +6626,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>10</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>190</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_TR2</cooldownCompleteSound>
 </li>
 </comps>
@@ -6733,7 +6733,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>10</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>190</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_TR2</cooldownCompleteSound>
 </li>
 </comps>
@@ -6878,7 +6878,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>10</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>190</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_TR2</cooldownCompleteSound>
 </li>
 </comps>
@@ -6985,7 +6985,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>10</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>190</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_TR2</cooldownCompleteSound>
 </li>
 </comps>
@@ -7093,7 +7093,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>6</burstsBeforeCooldown>
 <ticksBetweenBursts>60</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>250</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_TR2Mag30</cooldownCompleteSound>
 </li>
 </comps>
@@ -7200,7 +7200,7 @@
 <li Class="GameOfGuns.CompProperties_GameOfGuns_BurstFire">
 <burstsBeforeCooldown>5</burstsBeforeCooldown>
 <ticksBetweenBursts>70</ticksBetweenBursts>
-<cooldownTicks>140</cooldownTicks>
+<cooldownTicks>180</cooldownTicks>
 <cooldownCompleteSound>MWP_Empty_TR2</cooldownCompleteSound>
 </li>
 </comps>

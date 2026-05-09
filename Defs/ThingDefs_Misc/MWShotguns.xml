@@ -53,7 +53,7 @@
         <range>20</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -159,7 +159,7 @@
         <range>25</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -263,7 +263,7 @@
         <range>22</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -367,7 +367,7 @@
         <range>22</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Lockwood300_Sup</soundCast>
+        <soundCast>MWP_Shot_SemiSGSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -471,7 +471,7 @@
         <range>23</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -576,7 +576,7 @@
         <range>22</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -679,7 +679,7 @@
         <range>25</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -784,7 +784,7 @@
         <range>20</range>
         <burstShotCount>4</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Lockwood300</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -889,7 +889,7 @@
         <range>10</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Expedite12</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -996,7 +996,7 @@
         <range>15</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Expedite12</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1102,7 +1102,7 @@
         <range>12</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Expedite12</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1209,7 +1209,7 @@
         <range>12</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Expedite12_Sup</soundCast>
+        <soundCast>MWP_Shot_SemiSGSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1316,7 +1316,7 @@
         <range>10</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Expedite12</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1424,7 +1424,7 @@
         <range>10</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Expedite12</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1533,7 +1533,7 @@
         <range>15</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Expedite12</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1638,7 +1638,7 @@
         <range>15</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1745,7 +1745,7 @@
         <range>15</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1852,7 +1852,7 @@
         <range>17</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1958,7 +1958,7 @@
         <range>17</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800_Sup</soundCast>
+        <soundCast>MWP_Shot_PumpSGSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2056,7 +2056,7 @@
         <range>18</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2164,7 +2164,7 @@
         <range>17</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2272,7 +2272,7 @@
         <range>18</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2378,7 +2378,7 @@
         <range>10</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2485,7 +2485,7 @@
         <range>15</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2593,7 +2593,7 @@
         <range>20</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2699,7 +2699,7 @@
         <range>17</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2805,7 +2805,7 @@
         <range>17</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800_Sup</soundCast>
+        <soundCast>MWP_Shot_PumpSGSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2911,7 +2911,7 @@
         <range>18</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3019,7 +3019,7 @@
         <range>17</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3127,7 +3127,7 @@
         <range>20</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Bryson800</soundCast>
+        <soundCast>MWP_Shot_PumpSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3235,7 +3235,7 @@
         <range>10</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_KVBroadside</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3344,7 +3344,7 @@
         <range>15</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_KVBroadside</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3450,7 +3450,7 @@
         <range>12</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_KVBroadside</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3556,7 +3556,7 @@
         <range>12</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_KVBroadside_Sup</soundCast>
+        <soundCast>MWP_Shot_SemiSGSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3662,7 +3662,7 @@
         <range>13</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_KVBroadside</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3769,7 +3769,7 @@
         <range>12</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_KVBroadside</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3876,7 +3876,7 @@
         <range>15</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_KVBroadside</soundCast>
+        <soundCast>MWP_Shot_SemiSG</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3982,7 +3982,7 @@
         <range>10</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_MXGuardian</soundCast>
+        <soundCast>MWP_Shot_TS12</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -4091,7 +4091,7 @@
         <range>15</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_MXGuardian</soundCast>
+        <soundCast>MWP_Shot_TS12</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -4197,7 +4197,7 @@
         <range>12</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_MXGuardian</soundCast>
+        <soundCast>MWP_Shot_TS12</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -4303,7 +4303,7 @@
         <range>12</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_MXGuardian_Sup</soundCast>
+        <soundCast>MWP_Shot_TS12Sup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -4409,7 +4409,7 @@
         <range>13</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_MXGuardian</soundCast>
+        <soundCast>MWP_Shot_TS12</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -4516,7 +4516,7 @@
         <range>12</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_MXGuardian</soundCast>
+        <soundCast>MWP_Shot_TS12</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -4622,7 +4622,7 @@
         <range>15</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>1</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_MXGuardian</soundCast>
+        <soundCast>MWP_Shot_TS12</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>

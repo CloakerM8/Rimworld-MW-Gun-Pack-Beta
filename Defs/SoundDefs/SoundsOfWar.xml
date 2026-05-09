@@ -1304,43 +1304,6 @@
 
 
 <!-- MP7, VEL 46 -->
-<SoundDef>
-    <defName>MWP_Shot_VEL46</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/VEL46_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-   
-       <SoundDef>
-    <defName>MWP_Shot_VEL46_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/VEL46_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_VEL46</defName>
@@ -1394,43 +1357,6 @@
 </SoundDef>
 
 <!-- AUG Para, MX9 -->
-<SoundDef>
-    <defName>MWP_Shot_MX9</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/MX9_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-   
-       <SoundDef>
-    <defName>MWP_Shot_MX9_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/MX9_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_MX9</defName>
@@ -1484,43 +1410,7 @@
 </SoundDef>
 
 <!-- MP5A4, Lachmann Sub -->
-<SoundDef>
-    <defName>MWP_Shot_LachmannSub</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/LachmannSub_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-   
-       <SoundDef>
-    <defName>MWP_Shot_LachmannSub_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/LachmannSub_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_LachmannSub</defName>
@@ -1573,43 +1463,7 @@
   </subSounds>
 </SoundDef>
 <!-- PP-19 Vityaz, Vaznev-9K -->
-<SoundDef>
-    <defName>MWP_Shot_Vaznev9K</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/Vaznev9K_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-   
-       <SoundDef>
-    <defName>MWP_Shot_Vaznev9K_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/Vaznev9K_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_Vaznev9K</defName>
@@ -1663,43 +1517,6 @@
 </SoundDef>
 
 <!-- AR-57, FSS Hurricane -->
-<SoundDef>
-    <defName>MWP_Shot_FSSHurricane</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/FSSHurricane_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-   
-       <SoundDef>
-    <defName>MWP_Shot_FSSHurricane_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/FSSHurricane_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_FSSHurricane</defName>
@@ -1735,43 +1552,6 @@
   </subSounds>
 </SoundDef>
 <!-- PP-19 Bizon, Minibak -->
-<SoundDef>
-    <defName>MWP_Shot_Minibak</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/Minibak_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-   
-       <SoundDef>
-    <defName>MWP_Shot_Minibak_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/Minibak_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_Minibak</defName>
@@ -1808,43 +1588,7 @@
 </SoundDef>
 
 <!-- P90 Mod, PDSW 528 -->
-<SoundDef>
-    <defName>MWP_Shot_PDSW528</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/PDSW528_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-   
-       <SoundDef>
-    <defName>MWP_Shot_PDSW528_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/PDSW528_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_PDSW528</defName>
@@ -1880,43 +1624,7 @@
   </subSounds>
 </SoundDef>
 <!-- Vector 45ACP, Fennec 45 -->
-<SoundDef>
-    <defName>MWP_Shot_Fennec45</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/Fennec45_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-   
-       <SoundDef>
-    <defName>MWP_Shot_Fennec45_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/Fennec45_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_Fennec45</defName>
@@ -1969,43 +1677,7 @@
   </subSounds>
 </SoundDef>
 <!-- MPX, BAS-P -->
-<SoundDef>
-    <defName>MWP_Shot_BASP</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/BASP_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-   
-       <SoundDef>
-    <defName>MWP_Shot_BASP_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/BASP_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_BASP</defName>
@@ -2058,43 +1730,6 @@
   </subSounds>
 </SoundDef>
 <!-- APC45P, ISO 45 -->
-<SoundDef>
-    <defName>MWP_Shot_ISO45</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/ISO45_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-   
-       <SoundDef>
-    <defName>MWP_Shot_ISO45_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/ISO45_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_ISO45</defName>
@@ -2148,25 +1783,6 @@
 </SoundDef>
 <!-- MP5SD, Lachmann Shroud -->
 <SoundDef>
-    <defName>MWP_Shot_LachmannShroud</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/LachmannShroud_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-
-<SoundDef>
   <defName>MWP_Interact_LachmannShroud</defName>
   <context>MapOnly</context>
   <maxSimultaneous>1</maxSimultaneous>
@@ -2200,43 +1816,6 @@
   </subSounds>
 </SoundDef>
 <!-- APC9K, ISO 9MM -->
-<SoundDef>
-    <defName>MWP_Shot_ISO9MM</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/ISO9MM_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-   
-       <SoundDef>
-    <defName>MWP_Shot_ISO9MM_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/ISO9MM_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_ISO9MM</defName>
@@ -2272,43 +1851,6 @@
   </subSounds>
 </SoundDef>
 <!-- Negev NG7, Sakin MG38 -->
-<SoundDef>
-    <defName>MWP_Shot_SakinMG38</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/SakinMG38_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-
-<SoundDef>
-    <defName>MWP_Shot_SakinMG38_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/SakinMG38_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_SakinMG38</defName>
@@ -2363,42 +1905,7 @@
 
 
 <!-- AUG HBAR, HCR 56 -->
-<SoundDef>
-    <defName>MWP_Shot_HCR56</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/HCR56_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_HCR56_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/HCR56_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_HCR56</defName>
@@ -2486,42 +1993,6 @@
 </SoundDef>
 
 <!-- Fightlite MCR, 556 Icarus -->
-<SoundDef>
-    <defName>MWP_Shot_556Icarus</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/556Icarus_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_556Icarus_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/556Icarus_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_556Icarus</defName>
@@ -2574,42 +2045,7 @@
   </subSounds>
 </SoundDef>
 <!-- MG338, RAAL MG -->
-<SoundDef>
-    <defName>MWP_Shot_RAALMG</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/RAALMG_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_RAALMG_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/RAALMG_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_RAALMG</defName>
@@ -2678,42 +2114,7 @@
   </subSounds>
 </SoundDef>
 <!-- RPK -->
-<SoundDef>
-    <defName>MWP_Shot_RPK</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/RPK_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_RPK_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/RPK_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_RPK</defName>
@@ -2801,42 +2202,7 @@
 
 
 <!-- HK21, RAPP H -->
-<SoundDef>
-    <defName>MWP_Shot_RAPPH</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/RAPPH_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_RAPPH_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/RAPPH_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_RAPPH</defName>
@@ -2891,42 +2257,7 @@
 
 
 <!-- Browning Citori, Lockwood 300 -->
- <SoundDef>
-    <defName>MWP_Shot_Lockwood300</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/Lockwood300_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_Lockwood300_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/Lockwood300_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+ 
 
 <SoundDef>
   <defName>MWP_Interact_Lockwood300</defName>
@@ -2964,42 +2295,7 @@
 
 
 <!-- Benelli M4 Super 90, Expedite 12 -->
-<SoundDef>
-    <defName>MWP_Shot_Expedite12</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/Expedite12_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_Expedite12_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/Expedite12_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_Expedite12</defName>
@@ -3052,42 +2348,7 @@
   </subSounds>
 </SoundDef>
 <!-- Mossberg 590, Bryson 800 -->
-<SoundDef>
-    <defName>MWP_Shot_Bryson800</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/Bryson800_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_Bryson800_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/Bryson800_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_Bryson800</defName>
@@ -3228,42 +2489,7 @@
   </subSounds>
 </SoundDef>
 <!-- Vepr-12, KV Broadside -->
-<SoundDef>
-    <defName>MWP_Shot_KVBroadside</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/KVBroadside_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_KVBroadside_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/KVBroadside_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_KVBroadside</defName>
@@ -3333,42 +2559,6 @@
   </subSounds>
 </SoundDef>
 <!-- MX Guardian, TS12 -->
-<SoundDef>
-    <defName>MWP_Shot_MXGuardian</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/MXGuardian_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_MXGuardian_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/MXGuardian_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_MXGuardian</defName>
@@ -3421,42 +2611,7 @@
   </subSounds>
 </SoundDef>
 <!-- M14 EBR, EBR-14 -->
-<SoundDef>
-    <defName>MWP_Shot_EBR14</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/EBR14_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_EBR14_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/EBR14_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_EBR14</defName>
@@ -3510,42 +2665,7 @@
 </SoundDef>
 
 <!-- M24 SWS, SP-R 208 -->
-<SoundDef>
-    <defName>MWP_Shot_SPR208</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/SPR208_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_SPR208_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/SPR208_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_SPR208</defName>
@@ -3598,42 +2718,7 @@
   </subSounds>
 </SoundDef>
 <!-- Model 1885, Lockwood MK2 -->
-<SoundDef>
-    <defName>MWP_Shot_LockwoodMK2</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/LockwoodMK2_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_LockwoodMK2_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/LockwoodMK2_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_LockwoodMK2</defName>
@@ -3670,42 +2755,7 @@
 </SoundDef>
 
 <!-- PSG-1, LM-S -->
-<SoundDef>
-    <defName>MWP_Shot_LMS</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/LMS_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_LMS_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/LMS_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_LMS</defName>
@@ -3774,42 +2824,7 @@
   </subSounds>
 </SoundDef>
 <!-- M700, SA-B 50 -->
-<SoundDef>
-    <defName>MWP_Shot_SAB50</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/SAB50_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_SAB50_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/SAB50_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_SAB50</defName>
@@ -3878,42 +2893,7 @@
   </subSounds>
 </SoundDef>
 <!-- SCAR-20, TAQ-M -->
-<SoundDef>
-    <defName>MWP_Shot_TAQM</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/TAQM_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_TAQM_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/TAQM_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_TAQM</defName>
@@ -3982,24 +2962,7 @@
   </subSounds>
 </SoundDef>
 <!-- Modern Crossbow -->
-<SoundDef>
-    <defName>MWP_Shot_ModCrossbow</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/Crossbow_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 
 <SoundDef>
@@ -4019,42 +2982,6 @@
   </subSounds>
 </SoundDef>
 <!-- SR-25, Tempus Torrent -->
-<SoundDef>
-    <defName>MWP_Shot_TempusTorrent</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/TempusTorrent_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_TempusTorrent_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/TempusTorrent_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_TempusTorrent</defName>
@@ -4123,42 +3050,7 @@
   </subSounds>
 </SoundDef>
 <!-- Barrett MRAD, MCPR-300 -->
-<SoundDef>
-    <defName>MWP_Shot_MCPR300</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/MCPR300_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_MCPR300_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/MCPR300_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_MCPR300</defName>
@@ -4227,42 +3119,7 @@
   </subSounds>
 </SoundDef>
 <!-- GM6 Lynx, Siginal 50 -->
-<SoundDef>
-    <defName>MWP_Shot_Siginal50</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/Siginal50_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_Siginal50_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/Siginal50_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_Siginal50</defName>
@@ -4316,42 +3173,7 @@
 </SoundDef>
 
 <!-- McMillian Tac 300, LA-B 300 -->
-<SoundDef>
-    <defName>MWP_Shot_LAB330</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/LAB330_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_LAB330_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/LAB330_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_LAB330</defName>
@@ -4404,42 +3226,7 @@
   </subSounds>
 </SoundDef>
 <!-- M2010, SP-X 80 -->
-<SoundDef>
-    <defName>MWP_Shot_SPX80</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/SPX80_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_SPX80_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/SPX80_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_SPX80</defName>
@@ -4492,42 +3279,7 @@
   </subSounds>
 </SoundDef>
 <!-- AW50, Victus XMR -->
-<SoundDef>
-    <defName>MWP_Shot_VictusXMR</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/VictusXMR_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_VictusXMR_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/VictusXMR_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_VictusXMR</defName>
@@ -4597,42 +3349,7 @@
   </subSounds>
 </SoundDef>
 <!-- Intervention M200, FJX Imperium -->
-<SoundDef>
-    <defName>MWP_Shot_FJXImperium</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/FJXImperium_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_FJXImperium_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/FJXImperium_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_FJXImperium</defName>
@@ -4685,42 +3402,7 @@
   </subSounds>
 </SoundDef>
 <!-- WA2000, Carrack .300 -->
-<SoundDef>
-    <defName>MWP_Shot_Carrack300</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/Carrack300_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_Carrack300_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/Carrack300_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_Carrack300</defName>
@@ -4791,42 +3473,6 @@
 </SoundDef>
 <!-- P220, P890 -->
  
-<SoundDef>
-    <defName>MWP_Shot_P890</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/P890_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_P890_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/P890_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_P890</defName>
@@ -4896,42 +3542,6 @@
   </subSounds>
 </SoundDef>
 <!-- Desert Eagle, .50 GS -->
-<SoundDef>
-    <defName>MWP_Shot_50GS</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/50GS_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_50GS_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/50GS_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_50GS</defName>
@@ -5001,42 +3611,7 @@
   </subSounds>
 </SoundDef>
 <!-- G17, X12 -->
-<SoundDef>
-    <defName>MWP_Shot_X12</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/X12_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_X12_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/X12_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_X12</defName>
@@ -5123,24 +3698,6 @@
   </subSounds>
 </SoundDef>
 <!-- S&W .300 Magnum, Basilisk -->
-<SoundDef>
-    <defName>MWP_Shot_Basilisk</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/Basilisk_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
 
 <SoundDef>
   <defName>MWP_Interact_Basilisk</defName>
@@ -5177,24 +3734,7 @@
 </SoundDef>
   
 <!-- G18, X13 Auto/ G18 Roni, X13 Impact  -->
-<SoundDef>
-    <defName>MWP_Shot_X13Auto</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/X13_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_X13Impact</defName>
@@ -5218,42 +3758,7 @@
   
 
 <!-- TEC-9, FTAC Siege -->
-<SoundDef>
-    <defName>MWP_Shot_FTACSiege</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/FTACSiege_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_FTACSiege_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/FTACSiege_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_FTACSiege</defName>
@@ -5325,42 +3830,7 @@
 
 
 <!-- Staccato P, 9mm Daemon -->
-<SoundDef>
-    <defName>MWP_Shot_9MMDaemon</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Shot/9MMDaemon_Shot</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
-          <SoundDef>
-    <defName>MWP_Shot_9MMDaemon_Sup</defName>  
-    <context>MapOnly</context>
-    <eventNames />  
-    <maxSimultaneous>20</maxSimultaneous> 
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Things/Weapon/Suppressed/9MMDaemon_Sup</clipPath>
-          </li>
-        </grains>
-        <volumeRange>45~45</volumeRange>
-        <pitchRange>1.09735~1</pitchRange>
-        <sustainLoop>True</sustainLoop>
-      </li>
-    </subSounds>
-   </SoundDef>
+
 
 <SoundDef>
   <defName>MWP_Interact_9MMDaemon</defName>
@@ -6519,6 +4989,925 @@
           </li>
         </grains>
         <volumeRange>45~45</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_AutoPistol</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/AutoPistol_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_AutoPistolSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/AutoPistol_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_Bolt</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Bolt_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_BoltSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Bolt_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_ClipFedBolt</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/ClipFedBolt_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_ClipFedBoltSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/ClipFedBolt_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_DoubleTapSG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/DoubleTapSG_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_DoubleTapSGSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/DoubleTapSG_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_HandCannon</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/HandCannon_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_HandCannonSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/HandCannon_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_HeavyBolt</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/HeavyBolt_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_HeavyBoltSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/HeavyBolt_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_HMG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/HMG_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_HMGSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/HMG_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_LeverAction</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/LeverAction_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_LeverActionSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/LeverAction_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_LightBolt</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/LightBolt_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_LightBoltSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/LightBolt_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_LightSMG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/LightSMG_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_LightSMGSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/LightSMG_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+
+   <SoundDef>
+    <defName>MWP_Shot_LMG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/LMG_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_LMGSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/LMG_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_Lynx</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Lynx_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_LynxSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Lynx_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_MachinePistol</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/MachinePistol_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_MachinePistolSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/MachinePistol_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_MCR</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/MCR_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_ModCrossbow</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/ModCrossbow_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+     <SoundDef>
+    <defName>MWP_Shot_OldDMR</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/OldDMR_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_OldDMRSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/OldDMR_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_PP19</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/PP19_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_PP19Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/PP19_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_PumpSG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/PumpSG_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_PumpSGSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/PumpSG_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_Railgun</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Railgun_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_Revolver</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/Revolver_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_RevolverSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/Revolver_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_SemiBarrett</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/SemiBarrett_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_SemiBarrettSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/SemiBarrett_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_SemiDMR</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/SemiDMR_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_SemiDMRSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/SemiDMR_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_SemiSG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/SemiSG_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_SemiSGSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/SemiSG_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_SemiSR</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/SemiSR_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_SemiSRSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>1</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/SemiSR_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_SMG</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/SMG_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_SMGSup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/SMG_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_SPAS12</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/SPAS12_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_SPAS12Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/SPAS12_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+   <SoundDef>
+    <defName>MWP_Shot_TS12</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Shot/TS12_Shot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <pitchRange>1.09735~1</pitchRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+   </SoundDef>
+          <SoundDef>
+    <defName>MWP_Shot_TS12Sup</defName>  
+    <context>MapOnly</context>
+    <eventNames />  
+    <maxSimultaneous>20</maxSimultaneous> 
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Things/Weapon/Suppressed/TS12_Sup</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
         <pitchRange>1.09735~1</pitchRange>
         <sustainLoop>True</sustainLoop>
       </li>

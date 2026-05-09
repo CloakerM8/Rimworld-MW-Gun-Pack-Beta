@@ -53,7 +53,7 @@
         <range>28</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_P890</soundCast>
+        <soundCast>MWP_Shot_AutoPistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -158,7 +158,7 @@
         <range>30</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_P890</soundCast>
+        <soundCast>MWP_Shot_AutoPistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -263,7 +263,7 @@
         <range>30</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_P890_Sup</soundCast>
+        <soundCast>MWP_Shot_AutoPistolSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -359,7 +359,7 @@
         <range>36</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_P890</soundCast>
+        <soundCast>MWP_Shot_AutoPistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -467,7 +467,7 @@
         <range>30</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_50GS</soundCast>
+        <soundCast>MWP_Shot_HandCannon</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -575,7 +575,7 @@
         <range>35</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_50GS</soundCast>
+        <soundCast>MWP_Shot_HandCannon</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -684,7 +684,7 @@
         <range>32</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_50GS_Sup</soundCast>
+        <soundCast>MWP_Shot_HandCannonSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -781,7 +781,7 @@
         <range>38</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_50GS</soundCast>
+        <soundCast>MWP_Shot_HandCannon</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -890,7 +890,7 @@
         <range>28</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_X12</soundCast>
+        <soundCast>MWP_Shot_AutoPistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1001,7 +1001,7 @@
         <range>33</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_X12</soundCast>
+        <soundCast>MWP_Shot_AutoPistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1110,7 +1110,7 @@
         <range>30</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_X12_Sup</soundCast>
+        <soundCast>MWP_Shot_AutoPistolSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1207,7 +1207,7 @@
         <range>36</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_X12</soundCast>
+        <soundCast>MWP_Shot_AutoPistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1314,7 +1314,7 @@
         <range>30</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Basilisk</soundCast>
+        <soundCast>MWP_Shot_Revolver</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1420,7 +1420,7 @@
         <range>35</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Basilisk</soundCast>
+        <soundCast>MWP_Shot_Revolver</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1524,7 +1524,7 @@
         <range>38</range>
         <burstShotCount>1</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_Basilisk</soundCast>
+        <soundCast>MWP_Shot_Revolver</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1630,7 +1630,7 @@
         <range>25</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_X12</soundCast>
+        <soundCast>MWP_Shot_MachinePistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1740,7 +1740,7 @@
         <range>30</range>
         <burstShotCount>6</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_X12</soundCast>
+        <soundCast>MWP_Shot_MachinePistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1846,7 +1846,7 @@
         <range>28</range>
         <burstShotCount>6</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_X12_Sup</soundCast>
+        <soundCast>MWP_Shot_MachinePistolSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -1942,7 +1942,7 @@
         <range>33</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_X12</soundCast>
+        <soundCast>MWP_Shot_MachinePistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2051,7 +2051,7 @@
         <range>29</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_X12</soundCast>
+        <soundCast>MWP_Shot_MachinePistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2158,7 +2158,7 @@
         <range>34</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_X12</soundCast>
+        <soundCast>MWP_Shot_MachinePistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2267,7 +2267,7 @@
         <range>31</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_X12_Sup</soundCast>
+        <soundCast>MWP_Shot_MachinePistolSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2363,7 +2363,7 @@
         <range>37</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_X12</soundCast>
+        <soundCast>MWP_Shot_MachinePistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2471,7 +2471,7 @@
         <range>30</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_50GS</soundCast>
+        <soundCast>MWP_Shot_HandCannon</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2577,7 +2577,7 @@
         <range>35</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_50GS</soundCast>
+        <soundCast>MWP_Shot_HandCannon</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2682,7 +2682,7 @@
         <range>32</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_50GS_Sup</soundCast>
+        <soundCast>MWP_Shot_HandCannonSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2778,7 +2778,7 @@
         <range>38</range>
         <burstShotCount>2</burstShotCount>
         <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_50GS</soundCast>
+        <soundCast>MWP_Shot_HandCannon</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2881,7 +2881,7 @@
         <range>25</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_FTACSiege</soundCast>
+        <soundCast>MWP_Shot_MachinePistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -2987,7 +2987,7 @@
         <range>30</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_FTACSiege</soundCast>
+        <soundCast>MWP_Shot_MachinePistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3092,7 +3092,7 @@
         <range>27</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_FTACSiege_Sup</soundCast>
+        <soundCast>MWP_Shot_MachinePistolSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3187,7 +3187,7 @@
         <range>25</range>
         <burstShotCount>5</burstShotCount>
         <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_FTACSiege</soundCast>
+        <soundCast>MWP_Shot_MachinePistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3292,7 +3292,7 @@
         <range>28</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_9MMDaemon</soundCast>
+        <soundCast>MWP_Shot_AutoPistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3398,7 +3398,7 @@
         <range>43</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_9MMDaemon</soundCast>
+        <soundCast>MWP_Shot_AutoPistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3502,7 +3502,7 @@
         <range>30</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_9MMDaemon</soundCast>
+        <soundCast>MWP_Shot_AutoPistolSup</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
@@ -3598,7 +3598,7 @@
         <range>36</range>
         <burstShotCount>3</burstShotCount>
         <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-        <soundCast>MWP_Shot_9MMDaemon</soundCast>
+        <soundCast>MWP_Shot_AutoPistol</soundCast>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
